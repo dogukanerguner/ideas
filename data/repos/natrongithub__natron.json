@@ -1,0 +1,29 @@
+{
+  "id": "natrongithub/natron",
+  "owner": "NatronGitHub",
+  "name": "Natron",
+  "fullName": "NatronGitHub/Natron",
+  "url": "https://github.com/NatronGitHub/Natron",
+  "description": "Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.",
+  "homepage": "http://NatronGitHub.github.io",
+  "stars": 5695,
+  "forks": 442,
+  "openIssues": 289,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "topics": [],
+  "createdAt": "2018-01-10T10:15:28Z",
+  "pushedAt": "2026-07-24T09:49:49Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/34493846?v=4",
+  "readme": "Natron is a free, open-source (GPLv2 license) video compositor, similar in functionality to Adobe After Effects, Foundry's Nuke, or Blackmagic Fusion. It is portable and cross-platform (GNU/Linux, macOS, and Microsoft Windows). Website: https://natrongithub.github.io Source code: https://github.com/NatronGitHub/Natron Forum: https://discuss.pixls.us/c/software/natron Discord: https://discord.gg/cpMj5p3Fv5 User documentation: https://natron.readthedocs.io/",
+  "category": "genmedia",
+  "categories": [
+    "genmedia"
+  ],
+  "tags": [
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T19:03:15.925Z",
+  "updatedAt": "2026-11-11T19:03:15.925Z"
+}
