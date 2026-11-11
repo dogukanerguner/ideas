@@ -1,0 +1,50 @@
+{
+  "id": "zhuyansen/awesome-claude-video-skills",
+  "owner": "zhuyansen",
+  "name": "awesome-claude-video-skills",
+  "fullName": "zhuyansen/awesome-claude-video-skills",
+  "url": "https://github.com/zhuyansen/awesome-claude-video-skills",
+  "description": "Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, each security-graded. English / 中文.",
+  "homepage": "https://agentskillshub.top/best/claude-video-skills/",
+  "stars": 1916,
+  "forks": 190,
+  "openIssues": 14,
+  "language": null,
+  "license": "Other",
+  "topics": [
+    "agent-skills",
+    "awesome-list",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "hyperframes",
+    "motion-graphics",
+    "opus-5-5",
+    "remotion",
+    "video"
+  ],
+  "createdAt": "2026-09-27T04:06:05Z",
+  "pushedAt": "2026-11-10T16:08:10Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/24306647?v=4",
+  "readme": "Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video: HyperFrames, Remotion, motion graphics, editing, explainers, avatars. 469 repos, each one read and security-graded by Agent Skills Hub (agentskillshub.top). Live page with filters: https://agentskillshub.top/best/claude-video-skills/ · refreshed every 8 hours",
+  "category": "learning",
+  "categories": [
+    "learning"
+  ],
+  "tags": [
+    "agent-skills",
+    "awesome-list",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "hyperframes",
+    "motion-graphics",
+    "opus-5-5",
+    "remotion",
+    "video",
+    "claude"
+  ],
+  "addedAt": "2026-11-11T19:14:38.463Z",
+  "updatedAt": "2026-11-11T19:14:38.463Z"
+}
