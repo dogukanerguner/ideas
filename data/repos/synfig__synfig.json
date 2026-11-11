@@ -1,0 +1,45 @@
+{
+  "id": "synfig/synfig",
+  "owner": "synfig",
+  "name": "synfig",
+  "fullName": "synfig/synfig",
+  "url": "https://github.com/synfig/synfig",
+  "description": "This is the Official source code repository of Synfig Studio animation software",
+  "homepage": "https://synfig.org",
+  "stars": 2403,
+  "forks": 462,
+  "openIssues": 739,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "topics": [
+    "2d",
+    "animation",
+    "c-plus-plus",
+    "gtkmm",
+    "hacktoberfest",
+    "synfig",
+    "vector",
+    "vector-graphics"
+  ],
+  "createdAt": "2011-05-02T16:04:01Z",
+  "pushedAt": "2026-11-08T04:10:59Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/750922?v=4",
+  "readme": "Synfig Studio is a free and open-source 2D animation software, designed as powerful industrial-strength solution for creating film-quality animation using a vector and bitmap artwork. It eliminates the need to create animation frame-by frame, allowing you to produce 2D animation of a higher quality with fewer people and resources. Synfig Studio is available for Windows, Linux and MacOS.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "2d",
+    "animation",
+    "c-plus-plus",
+    "gtkmm",
+    "synfig",
+    "vector",
+    "vector-graphics",
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T19:04:45.934Z",
+  "updatedAt": "2026-11-11T19:04:45.934Z"
+}
