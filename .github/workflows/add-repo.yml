@@ -1,0 +1,50 @@
+name: Add repo from issue
+on:
+  issues:
+    types: [opened, labeled]
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: catalog-write, cancel-in-progress: false }
+jobs:
+  add:
+    # Owner/maintainer issues are added immediately; others after a maintainer applies the "approved" label.
+    if: >-
+      contains(github.event.issue.labels.*.name, 'add-repo') && (
+        (github.event.action == 'opened' && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)) ||
+        (github.event.action == 'labeled' && github.event.label.name == 'approved')
+      )
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24 }
+      - id: add
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/add.ts --from-issue
+      - name: Commit
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "ideas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/repos
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "add: repos from #${ISSUE_NUMBER}"
+          git push
+      - name: Reply
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ADDED: ${{ steps.add.outputs.added }}
+          FAILED: ${{ steps.add.outputs.failed }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          {
+            echo "Thanks! Here's what the classifier did:"; echo; echo '```'; echo "${ADDED:-nothing added}"; echo '```'
+            if [ -n "$FAILED" ]; then echo; echo "Failed:"; echo '```'; echo "$FAILED"; echo '```'; fi
+            echo; echo "It will be live on https://ideas.asveas.com in about a minute."
+          } > reply.md
+          gh issue comment "$ISSUE_NUMBER" --body-file reply.md
+          if [ -n "$ADDED" ]; then gh issue close "$ISSUE_NUMBER"; fi
