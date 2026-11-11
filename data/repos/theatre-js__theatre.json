@@ -1,0 +1,43 @@
+{
+  "id": "theatre-js/theatre",
+  "owner": "theatre-js",
+  "name": "theatre",
+  "fullName": "theatre-js/theatre",
+  "url": "https://github.com/theatre-js/theatre",
+  "description": "Motion design editor for the web",
+  "homepage": "https://www.theatrejs.com",
+  "stars": 12975,
+  "forks": 504,
+  "openIssues": 141,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "animation",
+    "devtools",
+    "generative-art",
+    "motion-design",
+    "r3f",
+    "threejs"
+  ],
+  "createdAt": "2013-12-23T11:02:52Z",
+  "pushedAt": "2024-08-14T13:20:18Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/43993577?v=4",
+  "readme": "✨ Update: Theatre.js 1.0 is around the corner. We have temporarily moved development to a private repo so we can iterate faster. We'll push our work back to this public repo soon. Terms and license will remain OSS, as before. (Also, we're hiring – join the core team!).",
+  "category": "ui",
+  "categories": [
+    "ui",
+    "devtools"
+  ],
+  "tags": [
+    "animation",
+    "devtools",
+    "generative-art",
+    "motion-design",
+    "r3f",
+    "threejs",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T19:02:19.872Z",
+  "updatedAt": "2026-11-11T19:02:19.872Z"
+}
