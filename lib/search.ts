@@ -101,11 +101,11 @@ function termScore(p: Prepared, t: string, isLast: boolean): number {
   else if (p._name.startsWith(t)) sc += 7;
   else if (p._name.includes(t) && t.length > 2) sc += 4;
   else if (p._full.includes(t) && t.length > 2) sc += 2;
-  if (p._tags.has(t) || p._tags.has(s)) sc += 5;
+  if (p._tags.has(t) || p._tags.has(s) || p._tags.has(`${t}s`)) sc += 5;
   else if (isLast && t.length > 1 && p._tagStr.includes(` ${t}`)) sc += 2.5;
   if (p.category === t || p.category === s) sc += 4;
   else if (p.categories.includes(t)) sc += 2;
-  if (p._desc.includes(` ${t} `) || p._desc.includes(` ${s} `)) sc += 3;
+  if (p._desc.includes(` ${t} `) || p._desc.includes(` ${s} `) || p._desc.includes(` ${t}s `) || p._desc.includes(` ${t}es `)) sc += 3;
   else if (t.length > 3 && p._desc.includes(s)) sc += 1.2;
   else if (isLast && t.length > 1 && p._desc.includes(` ${t}`)) sc += 1;
   if (p.language && p.language.toLowerCase() === t) sc += 3;
