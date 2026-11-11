@@ -69,6 +69,9 @@ const SYN: Record<string, string[]> = {
   design: ["tasarim"], tasarim: ["design"], catalog: ["katalog"], katalog: ["catalog"], style: ["stil"], stil: ["style"], styles: ["stil"],
   music: ["muzik"], muzik: ["music"], game: ["oyun"], oyun: ["game"], sound: ["ses"], ses: ["audio", "voice"], arayuz: ["ui", "interface"],
   giris: ["login", "auth"], odeme: ["payment", "payments"], veritabani: ["database"], yapay: ["ai"], zeka: ["ai"], ajan: ["agent"],
+  fotograf: ["photo", "image"], foto: ["photo", "image"], resim: ["image"], gorsel: ["image", "visual"], videolar: ["video"],
+  kisa: ["short", "shorts"], short: ["shorts", "shortform", "reels"], shorts: ["short", "shortform", "reels"], reels: ["shorts", "reel", "shortform"], reel: ["reels", "shorts"],
+  animasyon: ["animation"], sunum: ["slides", "presentation"], slides: ["sunum", "presentation"], diyagram: ["diagram"], kod: ["code"],
   ornek: ["examples"], examples: ["ornek"], prompt: ["prompts"], sablon: ["template"], template: ["sablon"],
 };
 
@@ -79,6 +82,14 @@ export function tokenize(q: string): string[] {
     .split(/[^\p{L}\p{N}+#-]+/u)
     .map((t) => t.replace(/^-+|-+$/g, ""))
     .filter((t) => t.length > 1 && !STOP.has(t));
+}
+
+const TR_SUFFIX = ["lardan", "lerden", "larda", "lerde", "ndan", "nden", "dan", "den", "tan", "ten", "lar", "ler", "nin", "nın", "nun", "nün", "da", "de", "ta", "te", "yi", "yı", "yu", "yü", "ya", "ye", "a", "e", "i", "ı", "u", "ü"].map((x) => fold(x));
+/** synonyms for a token, also trying it with common Turkish suffixes removed (fotograftan → fotograf) */
+function synOf(t: string): string[] {
+  if (SYN[t]) return SYN[t];
+  for (const suf of TR_SUFFIX) if (t.length - suf.length >= 3 && t.endsWith(suf) && SYN[t.slice(0, -suf.length)]) return SYN[t.slice(0, -suf.length)];
+  return [];
 }
 
 function stem(t: string): string {
@@ -119,7 +130,7 @@ function termScore(p: Prepared, t: string, isLast: boolean): number {
   else if (t.length > 3 && p._desc.includes(s)) sc += 1.2;
   else if (isLast && t.length > 1 && p._desc.includes(` ${t}`)) sc += 1;
   else if (t.length >= 6 && p._desc.includes(` ${t.slice(0, t.length - 2)}`)) sc += 1.5;
-  if (t.length >= 5 && !p._name.includes(t) && p._name.includes(t.slice(0, t.length - 2))) sc += 2;
+  if (t.length >= 7 && !p._name.includes(t) && p._name.includes(t.slice(0, t.length - 2))) sc += 2;
   if (p.language && p.language.toLowerCase() === t) sc += 3;
   return sc;
 }
@@ -155,7 +166,7 @@ export function searchDocs(docs: Doc[], query: string, opts: { limit?: number; c
     tokens.forEach((t, i) => {
       const s = termScore(p, t, i === tokens.length - 1);
       let sy = 0;
-      for (const syn of SYN[t] ?? []) sy = Math.max(sy, termScore(p, syn, false));
+      for (const syn of synOf(t)) sy = Math.max(sy, termScore(p, syn, false));
       if (s > 0 || sy > 0) matched++;
       score += s + sy * (s > 0 ? 0.45 : 0.8);
     });
