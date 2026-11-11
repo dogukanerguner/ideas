@@ -1,0 +1,51 @@
+{
+  "id": "edenfunf/reelmimic",
+  "owner": "edenfunf",
+  "name": "reelmimic",
+  "fullName": "edenfunf/reelmimic",
+  "url": "https://github.com/edenfunf/reelmimic",
+  "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+  "homepage": null,
+  "stars": 1917,
+  "forks": 87,
+  "openIssues": 42,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "2d-animation",
+    "ai-agents",
+    "ai-video",
+    "animation",
+    "claude-code",
+    "codex",
+    "multi-agent",
+    "style-transfer",
+    "video-generation"
+  ],
+  "createdAt": "2026-09-28T19:14:59Z",
+  "pushedAt": "2026-11-11T15:47:51Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/146086744?v=4",
+  "readme": "[!NOTE] ⭐ Star and fork counts were reset to zero on October 20, 2026 because the repository was accidentally made private for a short time. The project is still actively maintained. Details in #115. Each one made with ReelMimic from a reference video and a one-line brief. Previews are silent, with the lyrics cropped out.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "genmedia",
+    "ai-coding"
+  ],
+  "tags": [
+    "2d-animation",
+    "ai-agents",
+    "ai-video",
+    "animation",
+    "claude-code",
+    "codex",
+    "multi-agent",
+    "style-transfer",
+    "video-generation",
+    "claude",
+    "javascript"
+  ],
+  "addedAt": "2026-11-11T19:15:40.178Z",
+  "updatedAt": "2026-11-11T19:15:40.178Z"
+}
