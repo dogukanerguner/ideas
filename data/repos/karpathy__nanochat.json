@@ -1,0 +1,30 @@
+{
+  "id": "karpathy/nanochat",
+  "owner": "karpathy",
+  "name": "nanochat",
+  "fullName": "karpathy/nanochat",
+  "url": "https://github.com/karpathy/nanochat",
+  "description": "The best ChatGPT that $100 can buy.",
+  "homepage": null,
+  "stars": 60458,
+  "forks": 8477,
+  "openIssues": 137,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2025-10-13T13:46:35Z",
+  "pushedAt": "2026-09-07T20:06:43Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
+  "readme": "nanochat is the simplest experimental harness for training LLMs. It is designed to run on a single GPU node, the code is minimal/hackable, and it covers all major LLM stages including tokenization, pretraining, finetuning, evaluation, and inference. For example, you can train your own GPT-2 capability LLM (which cost $43,000 to train in 2019) for only $48 (2 hours of 8XH100 GPU node) and then talk to it over a simple CLI. On a spot instance, the total cost can be closer to ~$15. More generally, nanochat is configured out of the box to train an entire miniseries of compute-optimal models by setting one single complexity dial: --depth, the number of layers in the GPT transformer model (GPT-2…",
+  "category": "llm",
+  "categories": [
+    "llm"
+  ],
+  "tags": [
+    "openai",
+    "python"
+  ],
+  "addedAt": "2026-11-11T19:12:20.139Z",
+  "updatedAt": "2026-11-11T19:12:20.139Z"
+}
