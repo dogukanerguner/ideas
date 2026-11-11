@@ -1,0 +1,48 @@
+{
+  "id": "cathrynlavery/diagram-design",
+  "owner": "cathrynlavery",
+  "name": "diagram-design",
+  "fullName": "cathrynlavery/diagram-design",
+  "url": "https://github.com/cathrynlavery/diagram-design",
+  "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+  "homepage": "https://diagramdesign.dev",
+  "stars": 66493,
+  "forks": 4420,
+  "openIssues": 49,
+  "language": "HTML",
+  "license": "MIT",
+  "topics": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "data-visualization",
+    "diagrams",
+    "drawio",
+    "mermaid",
+    "svg"
+  ],
+  "createdAt": "2026-04-16T18:01:16Z",
+  "pushedAt": "2026-11-10T22:44:09Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/50469282?v=4",
+  "readme": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 45 diagram types. No shadows. No Mermaid slop. Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" \"I need a quadrant showing Q2 projects by impact vs effort.\" \"Give me a sequence of a bearer call with token refresh on 401.\" \"Onboard diagram-design to https://yoursite.com\" (pulls your palette and fonts so every diagram after this one matches your site)",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding"
+  ],
+  "tags": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "data-visualization",
+    "diagrams",
+    "drawio",
+    "mermaid",
+    "svg",
+    "claude",
+    "charts",
+    "html"
+  ],
+  "addedAt": "2026-11-11T18:41:01.296Z",
+  "updatedAt": "2026-11-11T18:41:01.296Z"
+}
