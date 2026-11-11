@@ -1,5 +1,11 @@
 /* Pure, isomorphic search — runs on the server (API, MCP, /stack) and in the browser (⌘K palette). */
+import { CATEGORIES } from "./taxonomy.ts";
 import type { Doc } from "./types.ts";
+
+/** lowercase + fold Turkish letters, so "tasarım", "tasarim" and "TASARIM" all match */
+export function fold(s: string): string {
+  return s.replace(/İ/g, "i").toLowerCase().replace(/ı/g, "i").replace(/ş/g, "s").replace(/ğ/g, "g").replace(/ü/g, "u").replace(/ö/g, "o").replace(/ç/g, "c");
+}
 
 const STOP = new Set(
   "a an and are as at be build building by can for from get have how i im i'm in into is it its like make me my need of on or our project some something that the this to tool tools use using want we what which with without you your app apps repo repos library libraries best good simple open source want needs".split(" "),
@@ -59,11 +65,15 @@ const SYN: Record<string, string[]> = {
   editor: ["rich-text-editor", "code-editor"],
   mcp: ["model-context-protocol", "mcp-server"],
   rag: ["retrieval", "vector-db", "embeddings"],
+  // English ↔ Turkish (folded), so either language finds repos described in the other
+  design: ["tasarim"], tasarim: ["design"], catalog: ["katalog"], katalog: ["catalog"], style: ["stil"], stil: ["style"], styles: ["stil"],
+  music: ["muzik"], muzik: ["music"], game: ["oyun"], oyun: ["game"], sound: ["ses"], ses: ["audio", "voice"], arayuz: ["ui", "interface"],
+  giris: ["login", "auth"], odeme: ["payment", "payments"], veritabani: ["database"], yapay: ["ai"], zeka: ["ai"], ajan: ["agent"],
+  terminal: ["cli", "tui", "shell"], ornek: ["examples"], examples: ["ornek"], prompt: ["prompts"], sablon: ["template"], template: ["sablon"],
 };
 
 export function tokenize(q: string): string[] {
-  return q
-    .toLowerCase()
+  return fold(q)
     .replace(/next\.js/g, "nextjs")
     .replace(/node\.js/g, "node")
     .split(/[^\p{L}\p{N}+#-]+/u)
@@ -80,12 +90,12 @@ const prepCache = new WeakMap<Doc, Prepared>();
 function prep(d: Doc): Prepared {
   let p = prepCache.get(d);
   if (!p) {
-    const tags = new Set([...d.tags, ...d.topics].map((t) => t.toLowerCase()));
+    const tags = new Set([...d.tags, ...d.topics].map((t) => fold(t)));
     p = {
       ...d,
-      _name: d.name.toLowerCase(),
-      _full: d.fullName.toLowerCase(),
-      _desc: ` ${d.description.toLowerCase().replace(/[^\p{L}\p{N}+#.-]+/gu, " ")} `,
+      _name: fold(d.name),
+      _full: fold(d.fullName),
+      _desc: ` ${fold(d.description).replace(/[^\p{L}\p{N}+#.-]+/gu, " ")} `,
       _tags: tags,
       _tagStr: ` ${[...tags].join(" ")} `,
     };
@@ -108,11 +118,22 @@ function termScore(p: Prepared, t: string, isLast: boolean): number {
   if (p._desc.includes(` ${t} `) || p._desc.includes(` ${s} `) || p._desc.includes(` ${t}s `) || p._desc.includes(` ${t}es `)) sc += 3;
   else if (t.length > 3 && p._desc.includes(s)) sc += 1.2;
   else if (isLast && t.length > 1 && p._desc.includes(` ${t}`)) sc += 1;
+  else if (t.length >= 6 && p._desc.includes(` ${t.slice(0, t.length - 2)}`)) sc += 1.5;
+  if (t.length >= 5 && !p._name.includes(t) && p._name.includes(t.slice(0, t.length - 2))) sc += 2;
   if (p.language && p.language.toLowerCase() === t) sc += 3;
   return sc;
 }
 
 export type Hit = { doc: Doc; score: number };
+
+/** Phrases like "image generation" or "vector database" name a category outright: weight them. */
+const INTENT_KW = CATEGORIES.flatMap((c) => Object.entries(c.keywords).filter(([k, w]) => k.includes(" ") && w >= 4).map(([k, w]) => ({ slug: c.slug, k: fold(k), w })));
+function categoryIntent(tokens: string[]): Record<string, number> {
+  const q = ` ${tokens.join(" ")} `;
+  const out: Record<string, number> = {};
+  for (const { slug, k, w } of INTENT_KW) if (q.includes(` ${k} `) && w > (out[slug] ?? 0)) out[slug] = w;
+  return out;
+}
 
 export function searchDocs(docs: Doc[], query: string, opts: { limit?: number; category?: string; boost?: string[] } = {}): Hit[] {
   const tokens = tokenize(query);
@@ -124,6 +145,7 @@ export function searchDocs(docs: Doc[], query: string, opts: { limit?: number; c
       .slice(0, opts.limit ?? 20)
       .map((doc) => ({ doc, score: doc.vibe / 100 }));
   }
+  const intent = categoryIntent(tokens);
   const hits: Hit[] = [];
   for (const d of docs) {
     if (opts.category && !d.categories.includes(opts.category)) continue;
@@ -132,9 +154,10 @@ export function searchDocs(docs: Doc[], query: string, opts: { limit?: number; c
     let matched = 0;
     tokens.forEach((t, i) => {
       const s = termScore(p, t, i === tokens.length - 1);
-      if (s > 0) matched++;
-      score += s;
-      for (const syn of SYN[t] ?? []) score += termScore(p, syn, false) * 0.45;
+      let sy = 0;
+      for (const syn of SYN[t] ?? []) sy = Math.max(sy, termScore(p, syn, false));
+      if (s > 0 || sy > 0) matched++;
+      score += s + sy * (s > 0 ? 0.45 : 0.8);
     });
     for (const b of boost) score += termScore(p, b, false) * 0.8;
     if (score <= 0) continue;
@@ -147,6 +170,9 @@ export function searchDocs(docs: Doc[], query: string, opts: { limit?: number; c
     }
     score *= 0.7 + (d.vibe / 100) * 0.6;
     if (opts.category && d.category === opts.category) score *= 1.3;
+    const iw = intent[d.category];
+    if (iw) score *= 1 + 0.7 * Math.min(1, iw / 6);
+    else if (d.categories.some((c) => intent[c])) score *= 1.2;
     hits.push({ doc: d, score });
   }
   return hits.sort((a, b) => b.score - a.score).slice(0, opts.limit ?? 20);
