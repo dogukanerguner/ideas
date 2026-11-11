@@ -1,0 +1,50 @@
+{
+  "id": "academysoftwarefoundation/openvdb",
+  "owner": "AcademySoftwareFoundation",
+  "name": "openvdb",
+  "fullName": "AcademySoftwareFoundation/openvdb",
+  "url": "https://github.com/AcademySoftwareFoundation/openvdb",
+  "description": "OpenVDB - Sparse volume data structure and tools",
+  "homepage": "http://www.openvdb.org/",
+  "stars": 3501,
+  "forks": 794,
+  "openIssues": 252,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "topics": [
+    "c-plus-plus",
+    "dreamworks",
+    "fx",
+    "openvdb",
+    "openvdb-development",
+    "vfx",
+    "volume-rendering",
+    "voxel",
+    "voxelizer",
+    "voxels"
+  ],
+  "createdAt": "2013-04-12T18:39:57Z",
+  "pushedAt": "2026-11-09T22:25:50Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/40807682?v=4",
+  "readme": "OpenVDB is an open source C++ library comprising a novel hierarchical data structure and a large suite of tools for the efficient storage and manipulation of sparse volumetric data discretized on three-dimensional grids. It was developed by DreamWorks Animation for use in volumetric applications typically encountered in feature film production.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "c-plus-plus",
+    "dreamworks",
+    "fx",
+    "openvdb",
+    "openvdb-development",
+    "vfx",
+    "volume-rendering",
+    "voxel",
+    "voxelizer",
+    "voxels",
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T19:02:54.469Z",
+  "updatedAt": "2026-11-11T19:02:54.469Z"
+}
