@@ -1,0 +1,39 @@
+{
+  "id": "zed-industries/zed",
+  "owner": "zed-industries",
+  "name": "zed",
+  "fullName": "zed-industries/zed",
+  "url": "https://github.com/zed-industries/zed",
+  "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+  "homepage": "https://zed.dev",
+  "stars": 94683,
+  "forks": 11627,
+  "openIssues": 3088,
+  "language": "Rust",
+  "license": "Other",
+  "topics": [
+    "gpui",
+    "rust-lang",
+    "text-editor",
+    "zed"
+  ],
+  "createdAt": "2021-02-20T03:01:06Z",
+  "pushedAt": "2026-11-11T17:38:11Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/79345384?v=4",
+  "readme": "Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. On macOS, Linux, and Windows you can download Zed directly or install Zed via your local package manager (macOS/Linux/Windows). Building Zed for macOS Building Zed for Linux Building Zed for Windows",
+  "category": "devtools",
+  "categories": [
+    "devtools"
+  ],
+  "tags": [
+    "gpui",
+    "rust-lang",
+    "text-editor",
+    "zed",
+    "rust",
+    "code-editor"
+  ],
+  "addedAt": "2026-11-11T17:41:52.551Z",
+  "updatedAt": "2026-11-11T17:41:52.551Z"
+}

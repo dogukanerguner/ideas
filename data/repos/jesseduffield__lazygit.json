@@ -1,0 +1,37 @@
+{
+  "id": "jesseduffield/lazygit",
+  "owner": "jesseduffield",
+  "name": "lazygit",
+  "fullName": "jesseduffield/lazygit",
+  "url": "https://github.com/jesseduffield/lazygit",
+  "description": "simple terminal UI for git commands",
+  "homepage": null,
+  "stars": 83839,
+  "forks": 3255,
+  "openIssues": 1074,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "cli",
+    "git",
+    "terminal"
+  ],
+  "createdAt": "2018-05-19T00:53:06Z",
+  "pushedAt": "2026-11-11T00:06:06Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/8456633?v=4",
+  "readme": "Tuple, the premier screen sharing app for developers on macOS and Windows. I (Jesse) co-founded Subble to save your company time and money by finding unused and over-provisioned SaaS licences. Check it out! Maintenance of this project is made possible by all the contributors and sponsors . If you'd like to sponsor this project and have your avatar or company logo appear below click here . 💙",
+  "category": "cli",
+  "categories": [
+    "cli"
+  ],
+  "tags": [
+    "cli",
+    "git",
+    "terminal",
+    "tui",
+    "go"
+  ],
+  "addedAt": "2026-11-11T17:41:51.623Z",
+  "updatedAt": "2026-11-11T17:41:51.623Z"
+}

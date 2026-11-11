@@ -1,0 +1,36 @@
+{
+  "id": "modelcontextprotocol/typescript-sdk",
+  "owner": "modelcontextprotocol",
+  "name": "typescript-sdk",
+  "fullName": "modelcontextprotocol/typescript-sdk",
+  "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+  "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+  "homepage": "https://ts.sdk.modelcontextprotocol.io/v2",
+  "stars": 13748,
+  "forks": 2379,
+  "openIssues": 663,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [
+    "mcp",
+    "mcp-client",
+    "mcp-server",
+    "typescript"
+  ],
+  "createdAt": "2024-09-24T20:45:31Z",
+  "pushedAt": "2026-11-10T14:38:41Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/182288589?v=4",
+  "readme": "[!IMPORTANT] This is the main branch: v2 of the SDK (@modelcontextprotocol/server, @modelcontextprotocol/client), the stable release line, implementing the 2026-07-28 MCP spec. Start with the v2 documentation; coming from v1, see the migration guide. v1.x (@modelcontextprotocol/sdk) lives on the v1.x branch and continues to receive bug fixes and security updates for at least six months after the v2 release (2026-07-27). Its documentation is at ts.sdk.modelcontextprotocol.io. Found a problem in v2? Open an issue.",
+  "category": "mcp",
+  "categories": [
+    "mcp"
+  ],
+  "tags": [
+    "mcp",
+    "mcp-client",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:24.998Z",
+  "updatedAt": "2026-11-11T17:41:24.998Z"
+}

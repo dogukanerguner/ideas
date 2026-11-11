@@ -1,0 +1,30 @@
+{
+  "name": "ideas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ideas — the repo launcher for vibecoders. A curated, auto-categorized, AI-readable directory of GitHub repositories.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/build-index.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/build-index.mjs",
+    "build": "next build",
+    "start": "next start",
+    "add": "node scripts/add.ts",
+    "refresh": "node scripts/add.ts --refresh",
+    "index": "node scripts/build-index.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": { "node": ">=22.18" }
+}

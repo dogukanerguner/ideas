@@ -1,0 +1,45 @@
+{
+  "id": "prefecthq/fastmcp",
+  "owner": "PrefectHQ",
+  "name": "fastmcp",
+  "fullName": "PrefectHQ/fastmcp",
+  "url": "https://github.com/PrefectHQ/fastmcp",
+  "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+  "homepage": "https://gofastmcp.com",
+  "stars": 28388,
+  "forks": 2579,
+  "openIssues": 238,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agents",
+    "fastmcp",
+    "llms",
+    "mcp",
+    "mcp-clients",
+    "mcp-servers",
+    "mcp-tools",
+    "model-context-protocol",
+    "python"
+  ],
+  "createdAt": "2024-11-30T01:47:40Z",
+  "pushedAt": "2026-11-11T17:40:53Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/39270919?v=4",
+  "readme": "The Model Context Protocol (MCP) connects LLMs to tools and data. FastMCP is a full MCP application framework for servers, clients, and interactive apps. A server starts with ordinary Python: Building an effective MCP application is harder than it looks. FastMCP handles all of it. Declare a tool with a Python function, and the schema, validation, and documentation are generated automatically. Connect to a server with a URL, and transport negotiation, authentication, and protocol lifecycle are managed for you. You focus on your logic, and the MCP part just works: with FastMCP, best practices are built in.",
+  "category": "mcp",
+  "categories": [
+    "mcp"
+  ],
+  "tags": [
+    "ai-agents",
+    "fastmcp",
+    "llm",
+    "mcp",
+    "mcp-clients",
+    "mcp-tools",
+    "python"
+  ],
+  "addedAt": "2026-11-11T17:41:26.240Z",
+  "updatedAt": "2026-11-11T17:41:26.240Z"
+}

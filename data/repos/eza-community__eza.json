@@ -1,0 +1,50 @@
+{
+  "id": "eza-community/eza",
+  "owner": "eza-community",
+  "name": "eza",
+  "fullName": "eza-community/eza",
+  "url": "https://github.com/eza-community/eza",
+  "description": "A modern alternative to ls",
+  "homepage": "https://eza.rocks",
+  "stars": 23876,
+  "forks": 552,
+  "openIssues": 481,
+  "language": "Rust",
+  "license": "EUPL-1.2",
+  "topics": [
+    "color",
+    "command-line",
+    "files",
+    "hacktoberfest",
+    "icons",
+    "ls",
+    "nerd-fonts",
+    "rust",
+    "terminal",
+    "tools"
+  ],
+  "createdAt": "2023-07-28T08:35:55Z",
+  "pushedAt": "2026-08-06T19:53:22Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/141388427?v=4",
+  "readme": "eza is a modern alternative for the venerable file-listing command-line program ls that ships with Unix and Linux operating systems, giving it more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.",
+  "category": "cli",
+  "categories": [
+    "cli",
+    "ui"
+  ],
+  "tags": [
+    "color",
+    "cli",
+    "files",
+    "icons",
+    "ls",
+    "nerd-fonts",
+    "rust",
+    "terminal",
+    "tools",
+    "open-source-alternative"
+  ],
+  "addedAt": "2026-11-11T17:41:53.211Z",
+  "updatedAt": "2026-11-11T17:41:53.211Z"
+}

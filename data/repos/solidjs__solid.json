@@ -1,0 +1,47 @@
+{
+  "id": "solidjs/solid",
+  "owner": "solidjs",
+  "name": "solid",
+  "fullName": "solidjs/solid",
+  "url": "https://github.com/solidjs/solid",
+  "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+  "homepage": "https://solidjs.com",
+  "stars": 36259,
+  "forks": 1143,
+  "openIssues": 26,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "declarative",
+    "fine-grained",
+    "javascript",
+    "jsx",
+    "performance",
+    "proxies",
+    "reactive",
+    "solid"
+  ],
+  "createdAt": "2018-04-24T16:36:27Z",
+  "pushedAt": "2026-11-11T17:41:04Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/79226042?v=4",
+  "readme": "Solid is a declarative JavaScript library for creating user interfaces. Instead of using a Virtual DOM, it compiles its templates to real DOM nodes and updates them with fine-grained reactions. Declare your state and use it throughout your app, and when a piece of state changes, only the code that depends on it will rerun.",
+  "category": "frontend",
+  "categories": [
+    "frontend"
+  ],
+  "tags": [
+    "declarative",
+    "fine-grained",
+    "javascript",
+    "jsx",
+    "performance",
+    "proxies",
+    "reactive",
+    "solid",
+    "react",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:37.891Z",
+  "updatedAt": "2026-11-11T17:41:37.891Z"
+}

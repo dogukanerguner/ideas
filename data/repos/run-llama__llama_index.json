@@ -1,0 +1,52 @@
+{
+  "id": "run-llama/llama_index",
+  "owner": "run-llama",
+  "name": "llama_index",
+  "fullName": "run-llama/llama_index",
+  "url": "https://github.com/run-llama/llama_index",
+  "description": "LlamaIndex is the document processing platform for AI",
+  "homepage": "https://developers.llamaindex.ai",
+  "stars": 52874,
+  "forks": 8541,
+  "openIssues": 1357,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agents",
+    "application",
+    "data",
+    "fine-tuning",
+    "framework",
+    "llamaindex",
+    "llm",
+    "multi-agents",
+    "rag",
+    "vector-database"
+  ],
+  "createdAt": "2022-11-02T04:24:54Z",
+  "pushedAt": "2026-11-11T14:37:15Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/130722866?v=4",
+  "readme": "[!NOTE] The current focus of LlamaIndex is to build the best AI-powered engine for document parsing and extraction. LlamaParse is our enterprise platform for agentic OCR, parsing, extraction, indexing and more. LiteParse represents our efforts to build the best free, fast, cheap text parser in the market. ParseBench and ExtractBench represent our commitment towards open benchmarking for parsing and extraction. The company itself has undergone an evolution since when this OSS framework first launched 3 years ago in 2023. Since the early days, the framework has consisted of a broad set of orchestration tools enabling developers to build various RAG and agent applications. While we still have…",
+  "category": "rag",
+  "categories": [
+    "rag",
+    "llm",
+    "ai-agents"
+  ],
+  "tags": [
+    "ai-agents",
+    "application",
+    "data",
+    "fine-tuning",
+    "framework",
+    "llamaindex",
+    "llm",
+    "multi-agents",
+    "rag",
+    "vector-db",
+    "python"
+  ],
+  "addedAt": "2026-11-11T17:41:21.538Z",
+  "updatedAt": "2026-11-11T17:41:21.538Z"
+}

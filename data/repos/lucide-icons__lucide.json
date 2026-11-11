@@ -1,0 +1,50 @@
+{
+  "id": "lucide-icons/lucide",
+  "owner": "lucide-icons",
+  "name": "lucide",
+  "fullName": "lucide-icons/lucide",
+  "url": "https://github.com/lucide-icons/lucide",
+  "description": "Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects.",
+  "homepage": "https://lucide.dev",
+  "stars": 25707,
+  "forks": 1677,
+  "openIssues": 352,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [
+    "feather-icons",
+    "figma",
+    "icons",
+    "react",
+    "svg",
+    "svg-icons",
+    "svgs",
+    "ui-components",
+    "ui-design",
+    "vue"
+  ],
+  "createdAt": "2020-06-08T15:36:21Z",
+  "pushedAt": "2026-11-11T14:01:13Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/66879934?v=4",
+  "readme": "Lucide is an open-source icon library that provides 1600+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. The library aims to make it easier for designers and developers to incorporate icons into their projects by providing several official packages to make it easier to use these icons in your project.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "feather-icons",
+    "figma",
+    "icons",
+    "react",
+    "svg",
+    "svg-icons",
+    "svgs",
+    "ui-components",
+    "ui-design",
+    "vue",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:33.843Z",
+  "updatedAt": "2026-11-11T17:41:33.843Z"
+}

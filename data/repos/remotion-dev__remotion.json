@@ -1,0 +1,36 @@
+{
+  "id": "remotion-dev/remotion",
+  "owner": "remotion-dev",
+  "name": "remotion",
+  "fullName": "remotion-dev/remotion",
+  "url": "https://github.com/remotion-dev/remotion",
+  "description": "🎥      Make videos programmatically with React",
+  "homepage": "https://remotion.dev",
+  "stars": 72462,
+  "forks": 6049,
+  "openIssues": 190,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [
+    "javascript",
+    "react",
+    "video"
+  ],
+  "createdAt": "2020-06-23T19:49:10Z",
+  "pushedAt": "2026-11-11T17:12:23Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/85344006?v=4",
+  "readme": "Make videos agentically: Turn your idea into a video using your agent. Make videos interactively: Edit and animate like in a regular video editor. Make videos programmatically: Leverage web technology and own your video as code. Design systems: Create a library of animated assets for your organization. Batch rendering: Render millions of videos on your own infrastructure. Applications: Publish a simple tool or a complex video editor.",
+  "category": "genmedia",
+  "categories": [
+    "genmedia"
+  ],
+  "tags": [
+    "javascript",
+    "react",
+    "video",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:59.031Z",
+  "updatedAt": "2026-11-11T17:41:59.031Z"
+}

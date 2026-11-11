@@ -1,0 +1,53 @@
+{
+  "id": "louislam/uptime-kuma",
+  "owner": "louislam",
+  "name": "uptime-kuma",
+  "fullName": "louislam/uptime-kuma",
+  "url": "https://github.com/louislam/uptime-kuma",
+  "description": "A fancy self-hosted monitoring tool",
+  "homepage": "https://uptime.kuma.pet",
+  "stars": 93515,
+  "forks": 8693,
+  "openIssues": 850,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "docker",
+    "monitor",
+    "monitoring",
+    "responsive",
+    "self-hosted",
+    "selfhosted",
+    "single-page-app",
+    "socket-io",
+    "uptime",
+    "uptime-monitoring",
+    "webapp",
+    "websocket"
+  ],
+  "createdAt": "2021-07-03T01:02:42Z",
+  "pushedAt": "2026-11-11T10:51:12Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
+  "readme": "It is a temporary live demo, all data will be deleted after 10 minutes. Sponsored by Uptime Kuma Sponsors. [!WARNING] Be careful - the top result in Google, uptimekuma.co, is not our official website, we don't control the website. I recommend following the installation guide in this GitHub repo.",
+  "category": "selfhost",
+  "categories": [
+    "selfhost"
+  ],
+  "tags": [
+    "docker",
+    "monitor",
+    "monitoring",
+    "responsive",
+    "self-hosted",
+    "single-page-app",
+    "socket-io",
+    "uptime",
+    "uptime-monitoring",
+    "webapp",
+    "websocket",
+    "javascript"
+  ],
+  "addedAt": "2026-11-11T17:41:45.856Z",
+  "updatedAt": "2026-11-11T17:41:45.856Z"
+}

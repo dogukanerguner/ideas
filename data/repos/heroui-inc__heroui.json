@@ -1,0 +1,38 @@
+{
+  "id": "heroui-inc/heroui",
+  "owner": "heroui-inc",
+  "name": "heroui",
+  "fullName": "heroui-inc/heroui",
+  "url": "https://github.com/heroui-inc/heroui",
+  "description": "🚀 Beautiful, fast and modern React UI library. (Previously NextUI)",
+  "homepage": "https://heroui.com",
+  "stars": 31185,
+  "forks": 2239,
+  "openIssues": 9,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "component-library",
+    "components",
+    "library",
+    "reactjs"
+  ],
+  "createdAt": "2021-04-22T13:06:23Z",
+  "pushedAt": "2026-11-10T02:19:52Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/86160567?v=4",
+  "readme": "HeroUI (previously NextUI) is a production-ready React component library that combines the accessibility rigor of React Aria with the utility-first styling of Tailwind CSS v4. It ships a clean compound component API (Card.Header, Card.Content, Select.Item, …), requires no wrapper, and works out of the box with React 19 and Next.js.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "component-library",
+    "components",
+    "library",
+    "react",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:33.808Z",
+  "updatedAt": "2026-11-11T17:41:33.808Z"
+}

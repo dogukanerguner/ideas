@@ -1,0 +1,31 @@
+{
+  "id": "anthropics/anthropic-sdk-typescript",
+  "owner": "anthropics",
+  "name": "anthropic-sdk-typescript",
+  "fullName": "anthropics/anthropic-sdk-typescript",
+  "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+  "description": "Access to Anthropic's safety-first language model APIs in TypeScript",
+  "homepage": "https://www.npmjs.com/package/@anthropic-ai/sdk",
+  "stars": 2175,
+  "forks": 433,
+  "openIssues": 113,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [],
+  "createdAt": "2023-01-30T14:58:08Z",
+  "pushedAt": "2026-11-10T16:33:39Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+  "readme": "The Anthropic SDK for TypeScript provides access to the Claude API from server-side TypeScript or JavaScript applications. Full documentation is available at platform.claude.com/docs/en/api/sdks/typescript. Node.js 20 LTS or later (non-EOL) versions. Deno v1.28.0 or higher. Bun 1.0 or later. Cloudflare Workers. Vercel Edge Runtime. Jest 28 or greater with the \"node\" environment (\"jsdom\" is not supported at this time). Nitro v2.6 or greater. Web browsers: disabled by default to avoid exposing your secret API credentials (see API key best practices). Enable browser support by explicitly setting dangerouslyAllowBrowser to true.",
+  "category": "llm",
+  "categories": [
+    "llm"
+  ],
+  "tags": [
+    "typescript",
+    "claude",
+    "llm"
+  ],
+  "addedAt": "2026-11-11T17:41:24.169Z",
+  "updatedAt": "2026-11-11T17:41:24.169Z"
+}

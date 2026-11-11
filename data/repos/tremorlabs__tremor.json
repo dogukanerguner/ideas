@@ -1,0 +1,43 @@
+{
+  "id": "tremorlabs/tremor",
+  "owner": "tremorlabs",
+  "name": "tremor",
+  "fullName": "tremorlabs/tremor",
+  "url": "https://github.com/tremorlabs/tremor",
+  "description": "Copy & Paste React components to build modern web applications.",
+  "homepage": "https://tremor.so",
+  "stars": 3699,
+  "forks": 201,
+  "openIssues": 27,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "components",
+    "dashboard",
+    "radix-ui",
+    "react",
+    "tailwindcss",
+    "typescript",
+    "ui"
+  ],
+  "createdAt": "2024-03-26T02:38:57Z",
+  "pushedAt": "2025-10-10T13:08:24Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/97241560?v=4",
+  "readme": "Tremor offers 35+ customizable, accessible React components to build dashboards and modern web applications. Built on top of Tailwind CSS and Radix UI. We are always looking for new ideas or other ways to improve Tremor Raw. If you have developed anything cool or found a bug, send us a pull request. Check out our Contributor License Agreement here.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "components",
+    "dashboard",
+    "radix-ui",
+    "react",
+    "tailwind",
+    "typescript",
+    "ui"
+  ],
+  "addedAt": "2026-11-11T17:41:34.557Z",
+  "updatedAt": "2026-11-11T17:41:34.557Z"
+}

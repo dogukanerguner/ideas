@@ -1,0 +1,50 @@
+{
+  "id": "biomejs/biome",
+  "owner": "biomejs",
+  "name": "biome",
+  "fullName": "biomejs/biome",
+  "url": "https://github.com/biomejs/biome",
+  "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+  "homepage": "https://biomejs.dev",
+  "stars": 26093,
+  "forks": 1338,
+  "openIssues": 533,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "css",
+    "formatter",
+    "javascript",
+    "json",
+    "jsx",
+    "linter",
+    "static-code-analysis",
+    "typescript",
+    "web"
+  ],
+  "createdAt": "2023-07-27T20:30:22Z",
+  "pushedAt": "2026-11-11T16:25:51Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/140182603?v=4",
+  "readme": "![CI on main][ci-url] ![Discord chat][discord-url] ![npm version][npm-url] ![VSCode version][vscode-url] ![Open VSX version][open-vsx-url] Biome is a performant toolchain for web projects, it aims to provide developer tools to maintain the health of said projects.",
+  "category": "testing",
+  "categories": [
+    "testing"
+  ],
+  "tags": [
+    "css",
+    "formatter",
+    "javascript",
+    "json",
+    "jsx",
+    "linter",
+    "static-code-analysis",
+    "typescript",
+    "web",
+    "react",
+    "cli",
+    "rust"
+  ],
+  "addedAt": "2026-11-11T17:41:54.614Z",
+  "updatedAt": "2026-11-11T17:41:54.614Z"
+}

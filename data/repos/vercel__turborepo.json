@@ -1,0 +1,43 @@
+{
+  "id": "vercel/turborepo",
+  "owner": "vercel",
+  "name": "turborepo",
+  "fullName": "vercel/turborepo",
+  "url": "https://github.com/vercel/turborepo",
+  "description": "The build system for coding agents.",
+  "homepage": "https://turborepo.dev",
+  "stars": 31329,
+  "forks": 2490,
+  "openIssues": 26,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "build-system",
+    "build-tool",
+    "javascript",
+    "monorepo",
+    "typescript"
+  ],
+  "createdAt": "2021-10-05T17:37:11Z",
+  "pushedAt": "2026-11-11T16:21:39Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/14985020?v=4",
+  "readme": "The Turborepo community can be found on GitHub Discussions, where you can ask questions, voice ideas, and share your projects. To chat with other community members, you can join Vercel Community's #turborepo tag. Turborepo is used by the world's leading companies. Check out the Turborepo Showcase to learn more.",
+  "category": "devtools",
+  "categories": [
+    "devtools",
+    "frontend",
+    "ai-agents"
+  ],
+  "tags": [
+    "build-system",
+    "build-tool",
+    "javascript",
+    "monorepo",
+    "typescript",
+    "rust"
+  ],
+  "addedAt": "2026-11-11T17:41:59.517Z",
+  "updatedAt": "2026-11-11T17:41:59.517Z",
+  "manualCategory": true
+}

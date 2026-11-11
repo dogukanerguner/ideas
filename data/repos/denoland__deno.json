@@ -1,0 +1,37 @@
+{
+  "id": "denoland/deno",
+  "owner": "denoland",
+  "name": "deno",
+  "fullName": "denoland/deno",
+  "url": "https://github.com/denoland/deno",
+  "description": "A modern runtime for JavaScript and TypeScript.",
+  "homepage": "https://deno.com",
+  "stars": 108860,
+  "forks": 7107,
+  "openIssues": 1723,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "deno",
+    "javascript",
+    "rust",
+    "typescript"
+  ],
+  "createdAt": "2018-05-15T01:34:26Z",
+  "pushedAt": "2026-10-29T08:03:10Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/42048915?v=4",
+  "readme": "![Twitter badge][Twitter link] ![Bluesky badge][Bluesky link] ![Discord badge][Discord link] ![YouTube badge][YouTube link] Deno (/ˈdiːnoʊ/, pronounced dee-no) is a JavaScript, TypeScript, and WebAssembly runtime with secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.",
+  "category": "backend",
+  "categories": [
+    "backend"
+  ],
+  "tags": [
+    "deno",
+    "javascript",
+    "rust",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:39.650Z",
+  "updatedAt": "2026-11-11T17:41:39.650Z"
+}

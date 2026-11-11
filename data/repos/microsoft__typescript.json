@@ -1,0 +1,38 @@
+{
+  "id": "microsoft/typescript",
+  "owner": "microsoft",
+  "name": "TypeScript",
+  "fullName": "microsoft/TypeScript",
+  "url": "https://github.com/microsoft/TypeScript",
+  "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+  "homepage": "https://www.typescriptlang.org",
+  "stars": 111777,
+  "forks": 14690,
+  "openIssues": 5270,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "topics": [
+    "javascript",
+    "language",
+    "typechecker",
+    "typescript"
+  ],
+  "createdAt": "2014-06-17T15:28:39Z",
+  "pushedAt": "2026-11-11T17:27:13Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "readme": "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript. Try it out at the playground, and stay up to date via our blog and Bluesky.",
+  "category": "devtools",
+  "categories": [
+    "devtools"
+  ],
+  "tags": [
+    "javascript",
+    "language",
+    "typechecker",
+    "typescript",
+    "go"
+  ],
+  "addedAt": "2026-11-11T17:42:00.183Z",
+  "updatedAt": "2026-11-11T17:42:00.183Z"
+}

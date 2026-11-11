@@ -1,0 +1,51 @@
+{
+  "id": "ueberdosis/tiptap",
+  "owner": "ueberdosis",
+  "name": "tiptap",
+  "fullName": "ueberdosis/tiptap",
+  "url": "https://github.com/ueberdosis/tiptap",
+  "description": "The headless rich text editor framework for web artisans.",
+  "homepage": "https://tiptap.dev",
+  "stars": 39023,
+  "forks": 3202,
+  "openIssues": 934,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "editor",
+    "javascript",
+    "js",
+    "prosemirror",
+    "react",
+    "renderless-components",
+    "rich-text",
+    "tiptap",
+    "vue",
+    "wysiwyg",
+    "wysiwyg-editor"
+  ],
+  "createdAt": "2018-08-20T19:58:58Z",
+  "pushedAt": "2026-11-11T12:50:30Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/16939337?v=4",
+  "readme": "The Tiptap Editor is a headless, framework-agnostic rich text editor that's customizable and extendable through extensions. Its headless nature means it comes without a set user interface, offering full design freedom (for a jumpstart, see linked UI templates below). Tiptap is based on the highly reliable ProseMirror library.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "editor",
+    "javascript",
+    "prosemirror",
+    "react",
+    "renderless-components",
+    "rich-text",
+    "tiptap",
+    "vue",
+    "wysiwyg",
+    "wysiwyg-editor",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:36.055Z",
+  "updatedAt": "2026-11-11T17:41:36.055Z"
+}

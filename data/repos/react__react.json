@@ -1,0 +1,41 @@
+{
+  "id": "react/react",
+  "owner": "react",
+  "name": "react",
+  "fullName": "react/react",
+  "url": "https://github.com/react/react",
+  "description": "The library for web and native user interfaces.",
+  "homepage": "https://react.dev",
+  "stars": 252472,
+  "forks": 52328,
+  "openIssues": 1557,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "declarative",
+    "frontend",
+    "javascript",
+    "library",
+    "react",
+    "ui"
+  ],
+  "createdAt": "2013-05-24T16:15:54Z",
+  "pushedAt": "2026-11-11T17:31:16Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/102812?v=4",
+  "readme": "Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug. Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM. Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new…",
+  "category": "frontend",
+  "categories": [
+    "frontend"
+  ],
+  "tags": [
+    "declarative",
+    "frontend",
+    "javascript",
+    "library",
+    "react",
+    "ui"
+  ],
+  "addedAt": "2026-11-11T17:41:37.556Z",
+  "updatedAt": "2026-11-11T17:41:37.556Z"
+}

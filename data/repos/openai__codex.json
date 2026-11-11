@@ -1,0 +1,29 @@
+{
+  "id": "openai/codex",
+  "owner": "openai",
+  "name": "codex",
+  "fullName": "openai/codex",
+  "url": "https://github.com/openai/codex",
+  "description": "Lightweight coding agent that runs in your terminal",
+  "homepage": null,
+  "stars": 134902,
+  "forks": 21365,
+  "openIssues": 27184,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [],
+  "createdAt": "2025-04-13T05:37:54Z",
+  "pushedAt": "2026-11-11T16:21:34Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+  "readme": "Codex CLI is a coding agent from OpenAI that runs locally on your computer. If you want Codex in your code editor (VS Code, Cursor, Windsurf), install in your IDE. If you want the desktop app experience, run codex app or visit the Codex App page . If you are looking for the cloud-based agent from OpenAI, Codex Web , go to chatgpt.com/codex .",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding"
+  ],
+  "tags": [
+    "rust"
+  ],
+  "addedAt": "2026-11-11T17:41:27.273Z",
+  "updatedAt": "2026-11-11T17:41:27.273Z"
+}

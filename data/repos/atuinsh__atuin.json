@@ -1,0 +1,41 @@
+{
+  "id": "atuinsh/atuin",
+  "owner": "atuinsh",
+  "name": "atuin",
+  "fullName": "atuinsh/atuin",
+  "url": "https://github.com/atuinsh/atuin",
+  "description": "✨ Making your shell magical",
+  "homepage": "https://atuin.sh",
+  "stars": 32287,
+  "forks": 1029,
+  "openIssues": 462,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "bash",
+    "fish",
+    "history",
+    "rust",
+    "shell",
+    "zsh"
+  ],
+  "createdAt": "2020-10-04T23:01:58Z",
+  "pushedAt": "2026-11-11T02:41:53Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/122059230?v=4",
+  "readme": "Atuin replaces your existing shell history with a SQLite database, and records additional context for your commands. Additionally, it provides optional and fully encrypted synchronisation of your history between machines, via an Atuin server. You may use either the server I host, or host your own! Or just don't use sync at all. As all history sync is encrypted, I couldn't access your data even if I wanted to. And I really don't want to.",
+  "category": "cli",
+  "categories": [
+    "cli"
+  ],
+  "tags": [
+    "bash",
+    "fish",
+    "history",
+    "rust",
+    "shell",
+    "zsh"
+  ],
+  "addedAt": "2026-11-11T17:41:52.745Z",
+  "updatedAt": "2026-11-11T17:41:52.745Z"
+}

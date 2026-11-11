@@ -1,0 +1,30 @@
+{
+  "id": "remix-run/react-router",
+  "owner": "remix-run",
+  "name": "react-router",
+  "fullName": "remix-run/react-router",
+  "url": "https://github.com/remix-run/react-router",
+  "description": "Declarative routing for React",
+  "homepage": "https://reactrouter.com",
+  "stars": 56637,
+  "forks": 10966,
+  "openIssues": 222,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2014-05-16T22:22:51Z",
+  "pushedAt": "2026-11-11T16:15:16Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/64235328?v=4",
+  "readme": "React Router is a multi-strategy router for React. You can use it maximally as a Framework or minimally as a library with your own architecture. Check out the Getting Started docs and choose the mode that works best for your app.",
+  "category": "frontend",
+  "categories": [
+    "frontend"
+  ],
+  "tags": [
+    "react",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:37.984Z",
+  "updatedAt": "2026-11-11T17:41:37.984Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "pmndrs/react-three-fiber",
+  "owner": "pmndrs",
+  "name": "react-three-fiber",
+  "fullName": "pmndrs/react-three-fiber",
+  "url": "https://github.com/pmndrs/react-three-fiber",
+  "description": "🇨🇭 A React renderer for Three.js",
+  "homepage": "https://docs.pmnd.rs/react-three-fiber",
+  "stars": 33652,
+  "forks": 2097,
+  "openIssues": 37,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "3d",
+    "animation",
+    "fiber",
+    "react",
+    "renderer",
+    "threejs"
+  ],
+  "createdAt": "2019-02-25T14:31:51Z",
+  "pushedAt": "2026-10-21T15:24:39Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/45790596?v=4",
+  "readme": "Build your scene declaratively with re-usable, self-contained components that react to state, are readily interactive and can participate in React's ecosystem. [!WARNING] Three-fiber is a React renderer, it must pair with a major version of React, just like react-dom, react-native, etc. @react-three/fiber@8 pairs with react@18, @react-three/fiber@9 pairs with react@19.",
+  "category": "ui",
+  "categories": [
+    "ui",
+    "frontend"
+  ],
+  "tags": [
+    "3d",
+    "animation",
+    "fiber",
+    "react",
+    "renderer",
+    "threejs",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:34.620Z",
+  "updatedAt": "2026-11-11T17:41:34.620Z"
+}

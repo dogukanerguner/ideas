@@ -1,0 +1,40 @@
+{
+  "id": "dip/cmdk",
+  "owner": "dip",
+  "name": "cmdk",
+  "fullName": "dip/cmdk",
+  "url": "https://github.com/dip/cmdk",
+  "description": "Fast, unstyled command menu React component.",
+  "homepage": null,
+  "stars": 13117,
+  "forks": 382,
+  "openIssues": 81,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "combobox",
+    "command-menu",
+    "command-palette",
+    "radix-ui",
+    "react"
+  ],
+  "createdAt": "2022-07-15T20:22:47Z",
+  "pushedAt": "2025-10-29T04:13:58Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/32819896?v=4",
+  "readme": "⌘K is a command menu React component that can also be used as an accessible combobox. You render items, it filters and sorts them automatically. ⌘K supports a fully composable API How? , so you can wrap items in other components or even as static JSX. All parts forward props, including ref, to an appropriate element. Each part has a specific data-attribute (starting with cmdk-) that can be used for styling.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "combobox",
+    "command-menu",
+    "command-palette",
+    "radix-ui",
+    "react",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:36.129Z",
+  "updatedAt": "2026-11-11T17:41:36.129Z"
+}

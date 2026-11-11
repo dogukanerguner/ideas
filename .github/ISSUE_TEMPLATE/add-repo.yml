@@ -1,0 +1,23 @@
+name: "➕ Add a repo"
+description: Propose a GitHub repository for the ideas catalog. It's auto-categorized and tagged.
+title: "Add "
+labels: ["add-repo"]
+body:
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category (optional — leave as auto to let the classifier decide)
+      options: [auto, ai-agents, llm, mcp, ai-coding, rag, genmedia, ui, frontend, backend, database, auth-payments, starters, selfhost, devops, automation, cli, mobile-desktop, testing, learning, devtools]
+      default: 0
+  - type: textarea
+    id: note
+    attributes:
+      label: Why is it useful?
+      description: One or two sentences shown as the curator's note.

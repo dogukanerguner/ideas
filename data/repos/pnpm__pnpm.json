@@ -1,0 +1,45 @@
+{
+  "id": "pnpm/pnpm",
+  "owner": "pnpm",
+  "name": "pnpm",
+  "fullName": "pnpm/pnpm",
+  "url": "https://github.com/pnpm/pnpm",
+  "description": "Fast, disk space efficient package manager",
+  "homepage": "https://pnpm.io",
+  "stars": 37063,
+  "forks": 1987,
+  "openIssues": 208,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "createdAt": "2016-01-28T07:40:43Z",
+  "pushedAt": "2026-11-11T17:38:21Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/21320719?v=4",
+  "readme": "Fast.** Up to 2x faster than the alternatives (see benchmark). Efficient. Files inside nodemodules are linked from a single content-addressable storage. Great for monorepos.** Strict.** A package can access only dependencies that are specified in its package.json. Deterministic.** Has a lockfile called pnpm-lock.yaml. Works as a Node.js version manager.** See pnpm runtime. Works everywhere.** Supports Windows, Linux, and macOS. Battle-tested.** Used in production by teams of all sizes since 2016. Experimental Rust port.** Includes pacquet, an experimental port of the CLI written in Rust. See the full feature comparison with npm and Yarn.",
+  "category": "devtools",
+  "categories": [
+    "devtools"
+  ],
+  "tags": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "npm",
+    "package-manager",
+    "rust"
+  ],
+  "addedAt": "2026-11-11T17:41:59.484Z",
+  "updatedAt": "2026-11-11T17:41:59.484Z"
+}

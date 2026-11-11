@@ -1,0 +1,43 @@
+{
+  "id": "charmbracelet/bubbletea",
+  "owner": "charmbracelet",
+  "name": "bubbletea",
+  "fullName": "charmbracelet/bubbletea",
+  "url": "https://github.com/charmbracelet/bubbletea",
+  "description": "A powerful little TUI framework 🏗",
+  "homepage": null,
+  "stars": 45694,
+  "forks": 1832,
+  "openIssues": 273,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "cli",
+    "elm-architecture",
+    "framework",
+    "functional",
+    "go",
+    "golang",
+    "hacktoberfest",
+    "tui"
+  ],
+  "createdAt": "2020-01-10T21:04:03Z",
+  "pushedAt": "2026-11-09T10:55:23Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/57376114?v=4",
+  "readme": "The fun, functional and stateful way to build terminal apps. A Go framework based on The Elm Architecture. Bubble Tea is well-suited for simple and complex terminal applications, either inline, full-window, or a mix of both. Bubble Tea is in use in production and includes a number of features and performance optimizations we’ve added along the way. Among those is a high-performance cell-based renderer, built-in color downsampling, declarative views, high-fidelity keyboard and mouse handling, native clipboard support, and more.",
+  "category": "cli",
+  "categories": [
+    "cli"
+  ],
+  "tags": [
+    "cli",
+    "elm-architecture",
+    "framework",
+    "functional",
+    "go",
+    "tui"
+  ],
+  "addedAt": "2026-11-11T17:41:52.158Z",
+  "updatedAt": "2026-11-11T17:41:52.158Z"
+}

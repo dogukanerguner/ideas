@@ -1,0 +1,31 @@
+{
+  "id": "vuejs/core",
+  "owner": "vuejs",
+  "name": "core",
+  "fullName": "vuejs/core",
+  "url": "https://github.com/vuejs/core",
+  "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+  "homepage": "https://vuejs.org/",
+  "stars": 54957,
+  "forks": 9309,
+  "openIssues": 960,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2018-06-12T13:49:36Z",
+  "pushedAt": "2026-11-11T08:27:15Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/6128107?v=4",
+  "readme": "Vue.js is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome backers. If you'd like to join them, please consider sponsoring Vue's development. For questions and support please use the official forum or community chat. The issue list of this repo is exclusively for bug reports and feature requests.",
+  "category": "frontend",
+  "categories": [
+    "frontend",
+    "learning"
+  ],
+  "tags": [
+    "vue",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:37.460Z",
+  "updatedAt": "2026-11-11T17:41:37.460Z"
+}

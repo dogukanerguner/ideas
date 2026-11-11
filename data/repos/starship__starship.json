@@ -1,0 +1,53 @@
+{
+  "id": "starship/starship",
+  "owner": "starship",
+  "name": "starship",
+  "fullName": "starship/starship",
+  "url": "https://github.com/starship/starship",
+  "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+  "homepage": "https://starship.rs",
+  "stars": 60700,
+  "forks": 2844,
+  "openIssues": 1066,
+  "language": "Rust",
+  "license": "ISC",
+  "topics": [
+    "bash",
+    "fish",
+    "fish-prompt",
+    "fish-theme",
+    "oh-my-zsh",
+    "powershell",
+    "rust",
+    "shell-prompt",
+    "starship",
+    "zsh",
+    "zsh-prompt",
+    "zsh-theme"
+  ],
+  "createdAt": "2019-04-02T03:23:12Z",
+  "pushedAt": "2026-11-10T23:40:50Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/49654870?v=4",
+  "readme": "The minimal, blazing-fast, and infinitely customizable prompt for any shell! Fast: it's fast – really really fast! 🚀 Customizable: configure every aspect of your prompt. Universal: works on any shell, on any operating system. Intelligent: shows relevant information at a glance. Feature rich: support for all your favorite tools. Easy: quick to install – start using it in minutes.",
+  "category": "cli",
+  "categories": [
+    "cli"
+  ],
+  "tags": [
+    "bash",
+    "fish",
+    "fish-prompt",
+    "fish-theme",
+    "oh-my-zsh",
+    "powershell",
+    "rust",
+    "shell-prompt",
+    "starship",
+    "zsh",
+    "zsh-prompt",
+    "zsh-theme"
+  ],
+  "addedAt": "2026-11-11T17:41:51.816Z",
+  "updatedAt": "2026-11-11T17:41:51.816Z"
+}

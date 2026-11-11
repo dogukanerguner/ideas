@@ -1,0 +1,53 @@
+{
+  "id": "lobehub/lobehub",
+  "owner": "lobehub",
+  "name": "lobehub",
+  "fullName": "lobehub/lobehub",
+  "url": "https://github.com/lobehub/lobehub",
+  "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+  "homepage": "https://lobehub.com",
+  "stars": 85009,
+  "forks": 16232,
+  "openIssues": 1320,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [
+    "agent",
+    "agent-collaboration",
+    "agent-harness",
+    "loop-engineering",
+    "mcp",
+    "personal-assistant",
+    "proactive-agent",
+    "skills",
+    "super-agent",
+    "task-management"
+  ],
+  "createdAt": "2023-05-21T07:19:12Z",
+  "pushedAt": "2026-11-11T17:39:35Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/131470832?v=4",
+  "readme": "Add super-agents to the chats your team already uses. They take on work by themselves and get better every week. English · 简体中文 · Official Site · Changelog · Documents · Blog · Feedback ![][github-release-link] ![][docker-release-link] ![][vercel-link] ![][discord-link] ![][codecov-link] ![][github-action-test-link] ![][github-action-release-link] ![][github-releasedate-link] ![][github-contributors-link] ![][github-forks-link] ![][github-stars-link] ![][github-issues-link] ![][github-license-link]",
+  "category": "llm",
+  "categories": [
+    "llm",
+    "mcp",
+    "ai-agents"
+  ],
+  "tags": [
+    "ai-agents",
+    "agent-collaboration",
+    "agent-harness",
+    "loop-engineering",
+    "mcp",
+    "personal-assistant",
+    "proactive-agent",
+    "skills",
+    "super-agent",
+    "task-management",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:29.321Z",
+  "updatedAt": "2026-11-11T17:41:29.321Z",
+  "manualCategory": true
+}

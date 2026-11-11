@@ -1,0 +1,32 @@
+{
+  "id": "anthropics/claude-cookbooks",
+  "owner": "anthropics",
+  "name": "claude-cookbooks",
+  "fullName": "anthropics/claude-cookbooks",
+  "url": "https://github.com/anthropics/claude-cookbooks",
+  "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+  "homepage": null,
+  "stars": 54538,
+  "forks": 6616,
+  "openIssues": 376,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2023-08-15T20:23:51Z",
+  "pushedAt": "2026-11-04T19:23:29Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+  "readme": "The Claude Cookbooks provide code and guides designed to help developers build with Claude, offering copy-able code snippets that you can easily integrate into your own projects. To make the most of the examples in this cookbook, you'll need a Claude API key (sign up for free here).",
+  "category": "learning",
+  "categories": [
+    "learning",
+    "llm",
+    "rag"
+  ],
+  "tags": [
+    "claude",
+    "jupyter-notebook"
+  ],
+  "addedAt": "2026-11-11T17:41:57.921Z",
+  "updatedAt": "2026-11-11T17:41:57.921Z"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "tailwindlabs/tailwindcss",
+  "owner": "tailwindlabs",
+  "name": "tailwindcss",
+  "fullName": "tailwindlabs/tailwindcss",
+  "url": "https://github.com/tailwindlabs/tailwindcss",
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "homepage": "https://tailwindcss.com/",
+  "stars": 98580,
+  "forks": 6385,
+  "openIssues": 118,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwindcss",
+    "utility-classes"
+  ],
+  "createdAt": "2017-10-06T14:59:14Z",
+  "pushedAt": "2026-11-11T00:08:59Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/67109815?v=4",
+  "readme": "A utility-first CSS framework for rapidly building custom user interfaces. If you're interested in contributing to Tailwind CSS, please read our contributing docs before submitting a pull request.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwind",
+    "utility-classes",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:32.895Z",
+  "updatedAt": "2026-11-11T17:41:32.895Z"
+}

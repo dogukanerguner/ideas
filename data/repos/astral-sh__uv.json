@@ -1,0 +1,40 @@
+{
+  "id": "astral-sh/uv",
+  "owner": "astral-sh",
+  "name": "uv",
+  "fullName": "astral-sh/uv",
+  "url": "https://github.com/astral-sh/uv",
+  "description": "An extremely fast Python package and project manager, written in Rust.",
+  "homepage": "https://docs.astral.sh/uv",
+  "stars": 91855,
+  "forks": 3793,
+  "openIssues": 3082,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "packaging",
+    "python",
+    "resolver",
+    "uv"
+  ],
+  "createdAt": "2023-10-02T20:24:11Z",
+  "pushedAt": "2026-11-11T15:49:58Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/115962839?v=4",
+  "readme": "An extremely fast Python package and project manager, written in Rust. A single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more. 10-100x faster than pip. Provides comprehensive project management, with a universal lockfile. Runs scripts, with support for inline dependency metadata. Installs and manages Python versions. Runs and installs tools published as Python packages. Includes a pip-compatible interface for a performance boost with a familiar CLI. Supports Cargo-style workspaces for scalable projects. Disk-space efficient, with a global cache for dependency deduplication. Installable without Rust or Python via curl or pip. Supports macOS, Linux, and Windows.",
+  "category": "devtools",
+  "categories": [
+    "devtools",
+    "cli"
+  ],
+  "tags": [
+    "packaging",
+    "python",
+    "resolver",
+    "uv",
+    "rust"
+  ],
+  "addedAt": "2026-11-11T17:41:59.872Z",
+  "updatedAt": "2026-11-11T17:41:59.872Z",
+  "manualCategory": true
+}

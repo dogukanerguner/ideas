@@ -1,0 +1,46 @@
+{
+  "id": "google-gemini/gemini-cli",
+  "owner": "google-gemini",
+  "name": "gemini-cli",
+  "fullName": "google-gemini/gemini-cli",
+  "url": "https://github.com/google-gemini/gemini-cli",
+  "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+  "homepage": "https://geminicli.com",
+  "stars": 108774,
+  "forks": 14934,
+  "openIssues": 733,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "ai",
+    "ai-agents",
+    "cli",
+    "gemini",
+    "gemini-api",
+    "mcp-client",
+    "mcp-server"
+  ],
+  "createdAt": "2025-04-17T17:04:31Z",
+  "pushedAt": "2026-11-11T17:36:42Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/161781182?v=4",
+  "readme": "Gemini CLI (gemini) is an open-source terminal agent maintained for enterprise Gemini Code Assist workflows on Google Cloud. Learn more in the Gemini CLI documentation. See Gemini CLI installation, execution, and releases for recommended system specifications and a detailed installation guide.",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding",
+    "mcp"
+  ],
+  "tags": [
+    "ai",
+    "ai-agents",
+    "cli",
+    "gemini",
+    "gemini-api",
+    "mcp-client",
+    "mcp",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:27.265Z",
+  "updatedAt": "2026-11-11T17:41:27.265Z",
+  "manualCategory": true
+}

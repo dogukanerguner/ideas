@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Add instantly from the website
+    url: https://ideas.asveas.com/add
+    about: Paste a URL and preview the auto-classification.

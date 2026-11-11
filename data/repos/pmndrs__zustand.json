@@ -1,0 +1,42 @@
+{
+  "id": "pmndrs/zustand",
+  "owner": "pmndrs",
+  "name": "zustand",
+  "fullName": "pmndrs/zustand",
+  "url": "https://github.com/pmndrs/zustand",
+  "description": "🐻 Bear necessities for state management in React",
+  "homepage": "https://zustand-demo.pmnd.rs/",
+  "stars": 58920,
+  "forks": 2188,
+  "openIssues": 2,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "hacktoberfest",
+    "hooks",
+    "react",
+    "react-context",
+    "reactjs",
+    "redux",
+    "state-management"
+  ],
+  "createdAt": "2019-04-09T09:10:06Z",
+  "pushedAt": "2026-11-06T13:35:06Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/45790596?v=4",
+  "readme": "A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy API based on hooks, isn't boilerplatey or opinionated. Don't disregard it because it's cute. It has quite the claws, lots of time was spent dealing with common pitfalls, like the dreaded zombie child problem, react concurrency, and context loss between mixed renderers. It may be the one state-manager in the React space that gets all of these right.",
+  "category": "frontend",
+  "categories": [
+    "frontend"
+  ],
+  "tags": [
+    "hooks",
+    "react",
+    "react-context",
+    "redux",
+    "state-management",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:38.525Z",
+  "updatedAt": "2026-11-11T17:41:38.525Z"
+}

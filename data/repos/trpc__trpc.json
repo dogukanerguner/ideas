@@ -1,0 +1,41 @@
+{
+  "id": "trpc/trpc",
+  "owner": "trpc",
+  "name": "trpc",
+  "fullName": "trpc/trpc",
+  "url": "https://github.com/trpc/trpc",
+  "description": "🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+  "homepage": "https://tRPC.io",
+  "stars": 40802,
+  "forks": 1727,
+  "openIssues": 110,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "api",
+    "next",
+    "nextjs",
+    "prisma",
+    "react",
+    "typescript"
+  ],
+  "createdAt": "2020-07-18T01:17:11Z",
+  "pushedAt": "2026-11-11T15:51:20Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/78011399?v=4",
+  "readme": "The client above is not importing any code from the server, only its type declarations. tRPC allows you to easily build & consume fully typesafe APIs without schemas or code generation. ✅ Well-tested and production ready. 🧙‍♂️ Full static typesafety & autocompletion on the client, for inputs, outputs, and errors. 🐎 Snappy DX - No code generation, run-time bloat, or build pipeline. 🍃 Light - tRPC has zero deps and a tiny client-side footprint. 🐻 Easy to add to your existing brownfield project. 🔋 Batteries included - React.js/Next.js/Express.js/Fastify adapters. (But tRPC is not tied to React, and there are many community adapters for other libraries) 🥃 Subscriptions support. ⚡️ Request…",
+  "category": "backend",
+  "categories": [
+    "backend",
+    "frontend"
+  ],
+  "tags": [
+    "api",
+    "nextjs",
+    "prisma",
+    "react",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:39.564Z",
+  "updatedAt": "2026-11-11T17:41:39.564Z"
+}

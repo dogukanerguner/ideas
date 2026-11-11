@@ -1,0 +1,41 @@
+{
+  "id": "pocketbase/pocketbase",
+  "owner": "pocketbase",
+  "name": "pocketbase",
+  "fullName": "pocketbase/pocketbase",
+  "url": "https://github.com/pocketbase/pocketbase",
+  "description": "Open Source realtime backend in 1 file",
+  "homepage": "https://pocketbase.io",
+  "stars": 61597,
+  "forks": 3773,
+  "openIssues": 1,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "authentication",
+    "backend",
+    "golang",
+    "realtime"
+  ],
+  "createdAt": "2022-07-05T06:06:21Z",
+  "pushedAt": "2026-10-26T18:07:11Z",
+  "archived": true,
+  "avatar": "https://avatars.githubusercontent.com/u/101000011?v=4",
+  "readme": "⚠️ The repo has moved to https://ganigeorgiev.com/pocketbase/pocketbase. embedded database (SQLite) with realtime subscriptions built-in files and users management convenient Admin dashboard UI and simple REST-ish API For documentation and examples, please visit https://pocketbase.io/docs.",
+  "category": "database",
+  "categories": [
+    "database",
+    "backend",
+    "auth-payments"
+  ],
+  "tags": [
+    "authentication",
+    "backend",
+    "go",
+    "realtime",
+    "auth"
+  ],
+  "addedAt": "2026-11-11T17:41:40.635Z",
+  "updatedAt": "2026-11-11T17:41:40.635Z",
+  "manualCategory": true
+}

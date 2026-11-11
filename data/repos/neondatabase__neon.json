@@ -1,0 +1,38 @@
+{
+  "id": "neondatabase/neon",
+  "owner": "neondatabase",
+  "name": "neon",
+  "fullName": "neondatabase/neon",
+  "url": "https://github.com/neondatabase/neon",
+  "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.",
+  "homepage": "https://neon.tech",
+  "stars": 23322,
+  "forks": 1134,
+  "openIssues": 589,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "database",
+    "postgres",
+    "postgresql",
+    "rust",
+    "serverless"
+  ],
+  "createdAt": "2021-03-26T14:20:47Z",
+  "pushedAt": "2026-08-31T11:03:14Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/77690634?v=4",
+  "readme": "Neon is an open-source serverless Postgres database platform. It separates storage and compute and substitutes the PostgreSQL storage layer by redistributing data across a cluster of nodes. Try the Neon Free Tier to create a serverless Postgres instance. Then connect to it with your preferred Postgres client (psql, dbeaver, etc) or use the online SQL Editor. See Connect from any application for connection instructions.",
+  "category": "database",
+  "categories": [
+    "database"
+  ],
+  "tags": [
+    "database",
+    "postgres",
+    "rust",
+    "serverless"
+  ],
+  "addedAt": "2026-11-11T17:41:41.162Z",
+  "updatedAt": "2026-11-11T17:41:41.162Z"
+}

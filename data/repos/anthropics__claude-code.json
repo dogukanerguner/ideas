@@ -1,0 +1,32 @@
+{
+  "id": "anthropics/claude-code",
+  "owner": "anthropics",
+  "name": "claude-code",
+  "fullName": "anthropics/claude-code",
+  "url": "https://github.com/anthropics/claude-code",
+  "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+  "homepage": "https://code.claude.com/docs/en/overview",
+  "stars": 155286,
+  "forks": 24910,
+  "openIssues": 16954,
+  "language": "TypeScript",
+  "license": null,
+  "topics": [],
+  "createdAt": "2025-02-22T17:41:21Z",
+  "pushedAt": "2026-11-11T08:38:12Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+  "readme": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding"
+  ],
+  "tags": [
+    "claude",
+    "ai-agents",
+    "workflow",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:40:58.940Z",
+  "updatedAt": "2026-11-11T17:40:58.940Z"
+}

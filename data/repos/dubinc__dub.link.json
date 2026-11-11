@@ -1,0 +1,53 @@
+{
+  "id": "dubinc/dub.link",
+  "owner": "dubinc",
+  "name": "dub.link",
+  "fullName": "dubinc/dub.link",
+  "url": "https://github.com/dubinc/dub.link",
+  "description": "The modern link attribution platform. Loved by world-class engineering teams at Twilio, Zillow, Jobber, Vercel, Raycast, and more.",
+  "homepage": "https://dub.link",
+  "stars": 25155,
+  "forks": 3403,
+  "openIssues": 74,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [
+    "clickhouse",
+    "mysql",
+    "nextjs",
+    "open-source",
+    "planetscale",
+    "prisma",
+    "tailwindcss",
+    "tinybird",
+    "typescript",
+    "upstash",
+    "vercel"
+  ],
+  "createdAt": "2022-08-27T22:15:11Z",
+  "pushedAt": "2026-10-27T02:24:37Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/153106492?v=4",
+  "readme": "Dub Links is the modern, open-source link attribution platform for short links and conversion tracking. Our platform powers 250M+ clicks and 12M+ links monthly, and is used by world-class engineering teams at Twilio, Zillow, Jobber, Vercel, Raycast, and more. Next.js – framework TypeScript – language Tailwind – CSS Prisma – ORM Upstash – redis Tinybird – analytics PlanetScale – database NextAuth.js – auth BoxyHQ – SAML/SSO Turborepo – monorepo Stripe – payments Resend – emails Vercel – deployments",
+  "category": "selfhost",
+  "categories": [
+    "selfhost",
+    "database",
+    "ui"
+  ],
+  "tags": [
+    "clickhouse",
+    "mysql",
+    "nextjs",
+    "planetscale",
+    "prisma",
+    "tailwind",
+    "tinybird",
+    "typescript",
+    "upstash",
+    "vercel"
+  ],
+  "addedAt": "2026-11-11T17:41:48.887Z",
+  "updatedAt": "2026-11-11T17:41:48.887Z",
+  "manualCategory": true
+}

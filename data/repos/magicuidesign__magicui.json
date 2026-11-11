@@ -1,0 +1,44 @@
+{
+  "id": "magicuidesign/magicui",
+  "owner": "magicuidesign",
+  "name": "magicui",
+  "fullName": "magicuidesign/magicui",
+  "url": "https://github.com/magicuidesign/magicui",
+  "description": "UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Source.",
+  "homepage": "https://magicui.design",
+  "stars": 23207,
+  "forks": 1243,
+  "openIssues": 14,
+  "language": "MDX",
+  "license": "MIT",
+  "topics": [
+    "components",
+    "framer-motion",
+    "nextjs",
+    "react",
+    "shadcn-ui",
+    "tailwindcss",
+    "typescript"
+  ],
+  "createdAt": "2023-06-26T19:17:10Z",
+  "pushedAt": "2026-11-09T15:21:22Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/166878038?v=4",
+  "readme": "Visit our contributing guide to learn how to contribute. It only takes ~5 minutes to add your own!",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "components",
+    "framer-motion",
+    "nextjs",
+    "react",
+    "shadcn-ui",
+    "tailwind",
+    "typescript",
+    "mdx"
+  ],
+  "addedAt": "2026-11-11T17:41:32.849Z",
+  "updatedAt": "2026-11-11T17:41:32.849Z"
+}

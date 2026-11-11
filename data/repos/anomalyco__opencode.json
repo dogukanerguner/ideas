@@ -1,0 +1,29 @@
+{
+  "id": "anomalyco/opencode",
+  "owner": "anomalyco",
+  "name": "opencode",
+  "fullName": "anomalyco/opencode",
+  "url": "https://github.com/anomalyco/opencode",
+  "description": "The open source coding agent.",
+  "homepage": "https://opencode.ai",
+  "stars": 226100,
+  "forks": 30558,
+  "openIssues": 4264,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2025-04-30T20:08:00Z",
+  "pushedAt": "2026-11-11T17:40:42Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/66570915?v=4",
+  "readme": "OpenCode is also available as a desktop application. Download it from opencode.ai/download. OpenCode includes two built-in agents you can switch between with the Tab key. build - Default, full-access agent for development work plan - Read-only agent for analysis and code exploration Denies file edits by default Asks permission before running bash commands Ideal for exploring unfamiliar codebases or planning changes",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding"
+  ],
+  "tags": [
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:27.663Z",
+  "updatedAt": "2026-11-11T17:41:27.663Z"
+}

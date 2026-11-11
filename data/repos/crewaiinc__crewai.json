@@ -1,0 +1,39 @@
+{
+  "id": "crewaiinc/crewai",
+  "owner": "crewAIInc",
+  "name": "crewAI",
+  "fullName": "crewAIInc/crewAI",
+  "url": "https://github.com/crewAIInc/crewAI",
+  "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "homepage": "https://crewai.com",
+  "stars": 60777,
+  "forks": 9152,
+  "openIssues": 1250,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "aiagentframework",
+    "llms"
+  ],
+  "createdAt": "2023-10-27T03:26:59Z",
+  "pushedAt": "2026-11-11T17:10:12Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/170677839?v=4",
+  "readme": "CrewAI is an open-source Python framework with high-level abstractions and low-level APIs for building production-ready multi-agent workflows. It gives developers autonomous agent collaboration through Crews and precise, event-driven control through Flows. CrewAI Crews: Optimize for autonomy and collaborative intelligence with role-based AI agents. CrewAI Flows: Build event-driven automations that combine precise workflow control, single LLM calls, and native support for Crews.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai-agents",
+    "ai",
+    "aiagentframework",
+    "llm",
+    "python"
+  ],
+  "addedAt": "2026-11-11T17:41:21.558Z",
+  "updatedAt": "2026-11-11T17:41:21.558Z"
+}

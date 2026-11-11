@@ -1,0 +1,48 @@
+{
+  "id": "drizzle-team/drizzle-orm",
+  "owner": "drizzle-team",
+  "name": "drizzle-orm",
+  "fullName": "drizzle-team/drizzle-orm",
+  "url": "https://github.com/drizzle-team/drizzle-orm",
+  "description": "ORM",
+  "homepage": "https://orm.drizzle.team",
+  "stars": 36271,
+  "forks": 1771,
+  "openIssues": 2056,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "bunjs",
+    "mysql",
+    "nodejs",
+    "orm",
+    "postgres",
+    "postgresql",
+    "sql",
+    "sqlite",
+    "turso",
+    "typescript"
+  ],
+  "createdAt": "2021-06-24T09:03:05Z",
+  "pushedAt": "2026-11-11T10:22:25Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/108468352?v=4",
+  "readme": "Headless ORM for NodeJS, TypeScript and JavaScript 🚀 Website • Documentation • Twitter • Discord Drizzle is a modern TypeScript ORM developers wanna use in their next project. It is lightweight at only ~7.4kb minified+gzipped, and it's tree shakeable with exactly 0 dependencies.",
+  "category": "database",
+  "categories": [
+    "database"
+  ],
+  "tags": [
+    "bunjs",
+    "mysql",
+    "node",
+    "orm",
+    "postgres",
+    "sql",
+    "sqlite",
+    "turso",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:40.620Z",
+  "updatedAt": "2026-11-11T17:41:40.620Z"
+}

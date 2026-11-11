@@ -1,0 +1,38 @@
+{
+  "id": "agno-agi/agno",
+  "owner": "agno-agi",
+  "name": "agno",
+  "fullName": "agno-agi/agno",
+  "url": "https://github.com/agno-agi/agno",
+  "description": "The self-driving agent platform",
+  "homepage": "https://docs.agno.com",
+  "stars": 43150,
+  "forks": 6282,
+  "openIssues": 1872,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "developer-tools",
+    "python"
+  ],
+  "createdAt": "2022-05-04T15:23:02Z",
+  "pushedAt": "2026-11-11T17:25:42Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/104874993?v=4",
+  "readme": "Agno is a self-managing agent platform. Build agents for your company, product, or customers. Run them as durable services on AgentOS. Put them to work automating company operations. Build agents with the Agno, Claude Agent, or Codex SDKs. Combine agents into teams and workflows. Run agents as durable services with built-in API and MCP. AgentOS handles authentication, role-based access, resume/replay, human approvals, scheduling, and durable execution. Automate company operations with Company OS. Give agents responsibilities, organize work into projects and tasks, and configure recurring routines. People set direction and review results; agents own and execute.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "ai-agents",
+    "ai",
+    "developer-tools",
+    "python"
+  ],
+  "addedAt": "2026-11-11T17:41:22.793Z",
+  "updatedAt": "2026-11-11T17:41:22.793Z"
+}

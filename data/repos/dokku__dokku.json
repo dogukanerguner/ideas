@@ -1,0 +1,51 @@
+{
+  "id": "dokku/dokku",
+  "owner": "dokku",
+  "name": "dokku",
+  "fullName": "dokku/dokku",
+  "url": "https://github.com/dokku/dokku",
+  "description": "A docker-powered PaaS that helps you build and manage the lifecycle of applications",
+  "homepage": "https://dokku.com",
+  "stars": 32226,
+  "forks": 2099,
+  "openIssues": 26,
+  "language": "Shell",
+  "license": "MIT",
+  "topics": [
+    "buildpack",
+    "containers",
+    "devops",
+    "docker",
+    "dokku",
+    "heroku",
+    "kubernetes",
+    "nomad",
+    "paas",
+    "self-hosted",
+    "selfhosted"
+  ],
+  "createdAt": "2013-06-08T10:26:57Z",
+  "pushedAt": "2026-11-10T20:47:24Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/13455795?v=4",
+  "readme": "Docker powered mini-Heroku. The smallest PaaS implementation you've ever seen. Become a sponsor and get your logo on our README on GitHub with a link to your site. [Become a sponsor] Support us with a monthly donation and help us continue our activities. [Become a backer]",
+  "category": "devops",
+  "categories": [
+    "devops"
+  ],
+  "tags": [
+    "buildpack",
+    "containers",
+    "devops",
+    "docker",
+    "dokku",
+    "heroku",
+    "kubernetes",
+    "nomad",
+    "paas",
+    "self-hosted",
+    "shell"
+  ],
+  "addedAt": "2026-11-11T17:41:44.957Z",
+  "updatedAt": "2026-11-11T17:41:44.957Z"
+}

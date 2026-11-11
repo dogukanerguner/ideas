@@ -1,0 +1,42 @@
+{
+  "id": "mantinedev/mantine",
+  "owner": "mantinedev",
+  "name": "mantine",
+  "fullName": "mantinedev/mantine",
+  "url": "https://github.com/mantinedev/mantine",
+  "description": "A fully featured React components library",
+  "homepage": "https://mantine.dev",
+  "stars": 31933,
+  "forks": 2412,
+  "openIssues": 42,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "dark-mode",
+    "dark-theme",
+    "hooks",
+    "react",
+    "typescript",
+    "uikit"
+  ],
+  "createdAt": "2021-01-07T14:02:19Z",
+  "pushedAt": "2026-11-11T17:01:30Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/79146003?v=4",
+  "readme": "Documentation Contribute Ask question or give feedback Changelog Follow on X Join Discord community @mantine/hooks – collection of 80+ hooks for state and UI management @mantine/core – core components library – 100+ components @mantine/form – forms management library @mantine/charts – recharts based charts library @mantine/notifications – a fully featured notifications system @mantine/spotlight – Ctrl + K command center for your application @mantine/code-highlight – code highlight built with highlight.js @mantine/tiptap – a Tiptap based rich text editor @mantine/dropzone – manages files drag 'n' drop to an area or entire screen @mantine/carousel – Carousel component @mantine/nprogress –…",
+  "category": "ui",
+  "categories": [
+    "ui",
+    "frontend"
+  ],
+  "tags": [
+    "dark-mode",
+    "dark-theme",
+    "hooks",
+    "react",
+    "typescript",
+    "uikit"
+  ],
+  "addedAt": "2026-11-11T17:41:33.446Z",
+  "updatedAt": "2026-11-11T17:41:33.446Z"
+}

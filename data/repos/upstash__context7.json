@@ -1,0 +1,38 @@
+{
+  "id": "upstash/context7",
+  "owner": "upstash",
+  "name": "context7",
+  "fullName": "upstash/context7",
+  "url": "https://github.com/upstash/context7",
+  "description": "Context7 Platform -- Up-to-date docs for AI agents",
+  "homepage": "https://context7.com",
+  "stars": 64610,
+  "forks": 3240,
+  "openIssues": 44,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "llm",
+    "mcp",
+    "mcp-server",
+    "vibe-coding"
+  ],
+  "createdAt": "2025-03-26T23:40:39Z",
+  "pushedAt": "2026-11-11T15:17:53Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/74989412?v=4",
+  "readme": "LLMs rely on outdated or generic information about the libraries you use. You get: ❌ Code examples are outdated and based on year-old training data ❌ Hallucinated APIs that don't even exist ❌ Generic answers for old package versions Context7 pulls up-to-date, version-specific documentation and code examples straight from the source — and gives them to your coding agent.",
+  "category": "mcp",
+  "categories": [
+    "mcp"
+  ],
+  "tags": [
+    "llm",
+    "mcp",
+    "vibe-coding",
+    "ai-agents",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:26.038Z",
+  "updatedAt": "2026-11-11T17:41:26.038Z"
+}

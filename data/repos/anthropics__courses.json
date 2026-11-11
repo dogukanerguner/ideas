@@ -1,0 +1,30 @@
+{
+  "id": "anthropics/courses",
+  "owner": "anthropics",
+  "name": "courses",
+  "fullName": "anthropics/courses",
+  "url": "https://github.com/anthropics/courses",
+  "description": "Anthropic's educational courses",
+  "homepage": null,
+  "stars": 23008,
+  "forks": 2556,
+  "openIssues": 94,
+  "language": "Jupyter Notebook",
+  "license": "Other",
+  "topics": [],
+  "createdAt": "2024-05-30T15:40:29Z",
+  "pushedAt": "2026-08-28T09:37:03Z",
+  "archived": true,
+  "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+  "readme": "Welcome to Anthropic's educational courses. This repository currently contains five courses. We suggest completing the courses in the following order: 1. Anthropic API fundamentals - teaches the essentials of working with the Claude SDK: getting an API key, working with model parameters, writing multimodal prompts, streaming responses, etc. 2. Prompt engineering interactive tutorial - a comprehensive step-by-step guide to key prompting techniques. [AWS Workshop version] 3. Real world prompting - learn how to incorporate prompting techniques into complex, real world prompts. [Google Vertex version] 4. Prompt evaluations - learn how to write production prompt evaluations to measure the…",
+  "category": "learning",
+  "categories": [
+    "learning"
+  ],
+  "tags": [
+    "claude",
+    "jupyter-notebook"
+  ],
+  "addedAt": "2026-11-11T17:41:57.426Z",
+  "updatedAt": "2026-11-11T17:41:57.426Z"
+}

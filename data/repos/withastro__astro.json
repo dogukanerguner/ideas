@@ -1,0 +1,52 @@
+{
+  "id": "withastro/astro",
+  "owner": "withastro",
+  "name": "astro",
+  "fullName": "withastro/astro",
+  "url": "https://github.com/withastro/astro",
+  "description": "The web framework for content-driven websites.",
+  "homepage": "https://astro.build",
+  "stars": 63897,
+  "forks": 3916,
+  "openIssues": 135,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [
+    "astro",
+    "blog",
+    "browser",
+    "components",
+    "hybrid",
+    "islands",
+    "node",
+    "server",
+    "static",
+    "static-site-generator",
+    "universal"
+  ],
+  "createdAt": "2021-03-15T17:19:47Z",
+  "pushedAt": "2026-11-11T17:34:21Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/44914786?v=4",
+  "readme": "The recommended way to install the latest version of Astro is by running the command below: Looking for quick examples? Open a starter project right in your browser. Having trouble? Get help in the official Astro Discord or via GitHub discussions. New contributors welcome! Check out our Contributors Guide for help getting started.",
+  "category": "frontend",
+  "categories": [
+    "frontend"
+  ],
+  "tags": [
+    "astro",
+    "blog",
+    "browser",
+    "components",
+    "hybrid",
+    "islands",
+    "node",
+    "server",
+    "static",
+    "static-site-generator",
+    "universal",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:37.671Z",
+  "updatedAt": "2026-11-11T17:41:37.671Z"
+}

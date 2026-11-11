@@ -1,0 +1,33 @@
+{
+  "id": "ggml-org/llama.cpp",
+  "owner": "ggml-org",
+  "name": "llama.cpp",
+  "fullName": "ggml-org/llama.cpp",
+  "url": "https://github.com/ggml-org/llama.cpp",
+  "description": "LLM inference in C/C++",
+  "homepage": "https://llama.app",
+  "stars": 134082,
+  "forks": 25405,
+  "openIssues": 2600,
+  "language": "C++",
+  "license": "MIT",
+  "topics": [
+    "ggml"
+  ],
+  "createdAt": "2023-03-10T18:58:00Z",
+  "pushedAt": "2026-11-11T17:40:16Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/134263123?v=4",
+  "readme": "ggml / ops / maintainer PRs%20sort%3Aupdated-desc) / dev stats / lib llama API / llama-server REST API Visit https://llama.app and follow the instructions Run with Docker - see our Docker documentation Download pre-built binaries from the releases page Build from source by cloning this repository - check out our build guide",
+  "category": "llm",
+  "categories": [
+    "llm"
+  ],
+  "tags": [
+    "ggml",
+    "llm",
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T17:41:28.200Z",
+  "updatedAt": "2026-11-11T17:41:28.200Z"
+}

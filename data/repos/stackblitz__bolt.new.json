@@ -1,0 +1,42 @@
+{
+  "id": "stackblitz/bolt.new",
+  "owner": "stackblitz",
+  "name": "bolt.new",
+  "fullName": "stackblitz/bolt.new",
+  "url": "https://github.com/stackblitz/bolt.new",
+  "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
+  "homepage": "https://bolt.new",
+  "stars": 16595,
+  "forks": 14842,
+  "openIssues": 8184,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "ai-playground",
+    "anthropic",
+    "chatbot",
+    "webcontainers-api"
+  ],
+  "createdAt": "2024-09-24T16:07:49Z",
+  "pushedAt": "2024-12-17T06:29:27Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/28635252?v=4",
+  "readme": "Bolt.new is an AI-powered web development agent that allows you to prompt, run, edit, and deploy full-stack applications directly from your browser—no local setup required. If you're here to build your own AI-powered web dev agent using the Bolt open source codebase, click here to get started!",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding",
+    "llm",
+    "devops"
+  ],
+  "tags": [
+    "ai-playground",
+    "anthropic",
+    "chatbot",
+    "webcontainers-api",
+    "claude",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:27.552Z",
+  "updatedAt": "2026-11-11T17:41:27.552Z",
+  "manualCategory": true
+}

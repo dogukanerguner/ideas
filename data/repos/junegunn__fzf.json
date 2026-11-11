@@ -1,0 +1,49 @@
+{
+  "id": "junegunn/fzf",
+  "owner": "junegunn",
+  "name": "fzf",
+  "fullName": "junegunn/fzf",
+  "url": "https://github.com/junegunn/fzf",
+  "description": ":cherry_blossom: A command-line fuzzy finder",
+  "homepage": "https://junegunn.github.io/fzf/",
+  "stars": 84159,
+  "forks": 3431,
+  "openIssues": 335,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "bash",
+    "cli",
+    "fish",
+    "fzf",
+    "go",
+    "neovim",
+    "tmux",
+    "unix",
+    "vim",
+    "zsh"
+  ],
+  "createdAt": "2013-10-23T16:04:23Z",
+  "pushedAt": "2026-11-11T10:27:32Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/700826?v=4",
+  "readme": "fzf is a general-purpose command-line fuzzy finder and an interactive terminal toolkit. Whether you're selecting files, browsing command history, previewing data, navigating complex datasets with fuzzy matching, or creating custom menus and workflows, fzf provides the building blocks to turn shell scripts into rich terminal applications.",
+  "category": "cli",
+  "categories": [
+    "cli"
+  ],
+  "tags": [
+    "bash",
+    "cli",
+    "fish",
+    "fzf",
+    "go",
+    "neovim",
+    "tmux",
+    "unix",
+    "vim",
+    "zsh"
+  ],
+  "addedAt": "2026-11-11T17:41:50.950Z",
+  "updatedAt": "2026-11-11T17:41:50.950Z"
+}

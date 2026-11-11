@@ -1,0 +1,36 @@
+{
+  "id": "vitest-dev/vitest",
+  "owner": "vitest-dev",
+  "name": "vitest",
+  "fullName": "vitest-dev/vitest",
+  "url": "https://github.com/vitest-dev/vitest",
+  "description": "Next generation testing framework powered by Vite.",
+  "homepage": "https://vitest.dev",
+  "stars": 17364,
+  "forks": 2149,
+  "openIssues": 365,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "test",
+    "testing-tools",
+    "vite"
+  ],
+  "createdAt": "2021-12-03T19:19:49Z",
+  "pushedAt": "2026-11-11T15:20:30Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/95747107?v=4",
+  "readme": "Vite's config, transformers, resolvers, and plugins. Use the same setup from your app! Jest Snapshot Chai built-in for assertions, with Jest expect compatible APIs Smart & instant watch mode, like HMR for tests! Native code coverage via v8 or istanbul. Jest-compatible mocking, stubbing, and spies. JSDOM and happy-dom for DOM and browser API mocking Browser Mode for running component tests in the browser Components testing (Vue, React, Svelte, Lit, Marko) Benchmarking support with Tinybench Projects support expect-type for type-level testing ESM first, top level await Out-of-box TypeScript / JSX support Filtering, timeouts, concurrent for suite and tests Sharding support Reporting Uncaught…",
+  "category": "testing",
+  "categories": [
+    "testing"
+  ],
+  "tags": [
+    "test",
+    "testing-tools",
+    "vite",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:54.362Z",
+  "updatedAt": "2026-11-11T17:41:54.362Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "openai/openai-node",
+  "owner": "openai",
+  "name": "openai-node",
+  "fullName": "openai/openai-node",
+  "url": "https://github.com/openai/openai-node",
+  "description": "Official JavaScript / TypeScript library for the OpenAI API",
+  "homepage": "https://www.npmjs.com/package/openai",
+  "stars": 11259,
+  "forks": 1635,
+  "openIssues": 13,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "nodejs",
+    "openai",
+    "typescript"
+  ],
+  "createdAt": "2021-12-14T22:32:58Z",
+  "pushedAt": "2026-11-10T21:29:42Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+  "readme": "This library provides convenient access to the OpenAI REST API from TypeScript or JavaScript. To learn how to use the OpenAI API, check out our API Reference and Documentation. The full API of this library can be found in api.md file along with many code examples.",
+  "category": "llm",
+  "categories": [
+    "llm"
+  ],
+  "tags": [
+    "node",
+    "openai",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:23.890Z",
+  "updatedAt": "2026-11-11T17:41:23.890Z"
+}

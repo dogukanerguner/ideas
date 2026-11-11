@@ -1,0 +1,37 @@
+{
+  "id": "expressjs/express",
+  "owner": "expressjs",
+  "name": "express",
+  "fullName": "expressjs/express",
+  "url": "https://github.com/expressjs/express",
+  "description": "Fast, unopinionated, minimalist web framework for node.",
+  "homepage": "https://expressjs.com",
+  "stars": 69628,
+  "forks": 25418,
+  "openIssues": 262,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [
+    "express",
+    "javascript",
+    "nodejs",
+    "server"
+  ],
+  "createdAt": "2009-06-26T18:56:01Z",
+  "pushedAt": "2026-11-02T20:15:26Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/5658226?v=4",
+  "readme": "![NPM Version][npm-url] ![NPM Downloads][npm-downloads-url] ![Linux Build][github-actions-ci-url] ![Test Coverage][coveralls-url] ![OpenSSF Scorecard Badge][ossf-scorecard-visualizer] Before installing, download and install Node.js. Node.js 18 or higher is required.",
+  "category": "backend",
+  "categories": [
+    "backend"
+  ],
+  "tags": [
+    "express",
+    "javascript",
+    "node",
+    "server"
+  ],
+  "addedAt": "2026-11-11T17:41:39.085Z",
+  "updatedAt": "2026-11-11T17:41:39.085Z"
+}

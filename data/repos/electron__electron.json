@@ -1,0 +1,49 @@
+{
+  "id": "electron/electron",
+  "owner": "electron",
+  "name": "electron",
+  "fullName": "electron/electron",
+  "url": "https://github.com/electron/electron",
+  "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+  "homepage": "https://electronjs.org",
+  "stars": 123857,
+  "forks": 17921,
+  "openIssues": 777,
+  "language": "C++",
+  "license": "MIT",
+  "topics": [
+    "c-plus-plus",
+    "chrome",
+    "css",
+    "electron",
+    "html",
+    "javascript",
+    "nodejs",
+    "v8",
+    "works-with-codespaces"
+  ],
+  "createdAt": "2013-04-12T01:47:36Z",
+  "pushedAt": "2026-11-11T15:49:59Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/13409222?v=4",
+  "readme": "The Electron framework lets you write cross-platform desktop applications using JavaScript, HTML and CSS. It is based on Node.js and Chromium and is used by the Visual Studio Code and many other apps. This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to coc@electronjs.org.",
+  "category": "mobile-desktop",
+  "categories": [
+    "mobile-desktop"
+  ],
+  "tags": [
+    "c-plus-plus",
+    "chrome",
+    "css",
+    "electron",
+    "html",
+    "javascript",
+    "node",
+    "v8",
+    "works-with-codespaces",
+    "desktop",
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T17:41:53.726Z",
+  "updatedAt": "2026-11-11T17:41:53.726Z"
+}

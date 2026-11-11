@@ -1,0 +1,49 @@
+{
+  "id": "streamlit/streamlit",
+  "owner": "streamlit",
+  "name": "streamlit",
+  "fullName": "streamlit/streamlit",
+  "url": "https://github.com/streamlit/streamlit",
+  "description": "Streamlit — A faster way to build and share data apps.",
+  "homepage": "https://streamlit.io",
+  "stars": 46311,
+  "forks": 4453,
+  "openIssues": 1193,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "data-analysis",
+    "data-science",
+    "data-visualization",
+    "deep-learning",
+    "developer-tools",
+    "machine-learning",
+    "python",
+    "streamlit"
+  ],
+  "createdAt": "2019-08-24T00:14:52Z",
+  "pushedAt": "2026-11-11T17:20:37Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/45109972?v=4",
+  "readme": "Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps. Once you’ve created an app, you can use our Community Cloud platform to deploy, manage, and share your app.",
+  "category": "frontend",
+  "categories": [
+    "frontend",
+    "devtools",
+    "learning"
+  ],
+  "tags": [
+    "data-analysis",
+    "data-science",
+    "data-visualization",
+    "deep-learning",
+    "developer-tools",
+    "machine-learning",
+    "python",
+    "streamlit",
+    "charts"
+  ],
+  "addedAt": "2026-11-11T17:41:59.234Z",
+  "updatedAt": "2026-11-11T17:41:59.234Z",
+  "manualCategory": true
+}

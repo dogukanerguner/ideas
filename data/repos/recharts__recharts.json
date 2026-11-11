@@ -1,0 +1,50 @@
+{
+  "id": "recharts/recharts",
+  "owner": "recharts",
+  "name": "recharts",
+  "fullName": "recharts/recharts",
+  "url": "https://github.com/recharts/recharts",
+  "description": "Redefined chart library built with React and D3",
+  "homepage": "https://recharts.github.io",
+  "stars": 27697,
+  "forks": 2049,
+  "openIssues": 475,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "chart",
+    "charting-library",
+    "components",
+    "d3",
+    "data-visualisation",
+    "javascript",
+    "react",
+    "recharts",
+    "typescript",
+    "ui"
+  ],
+  "createdAt": "2015-08-07T06:50:27Z",
+  "pushedAt": "2026-11-10T13:56:07Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/13690587?v=4",
+  "readme": "The main purpose of this library is to help you to write charts in React applications without any pain. Main principles of Recharts are: 1. Simply deploy with React components. 2. Native SVG support, lightweight with minimal dependencies. 3. Declarative components.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "chart",
+    "charting-library",
+    "components",
+    "d3",
+    "data-visualisation",
+    "javascript",
+    "react",
+    "recharts",
+    "typescript",
+    "ui",
+    "charts"
+  ],
+  "addedAt": "2026-11-11T17:41:34.319Z",
+  "updatedAt": "2026-11-11T17:41:34.319Z"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "react/react-native",
+  "owner": "react",
+  "name": "react-native",
+  "fullName": "react/react-native",
+  "url": "https://github.com/react/react-native",
+  "description": "A framework for building native applications using React",
+  "homepage": "https://reactnative.dev",
+  "stars": 126898,
+  "forks": 25492,
+  "openIssues": 1404,
+  "language": "C++",
+  "license": "MIT",
+  "topics": [
+    "android",
+    "app-framework",
+    "cross-platform",
+    "ios",
+    "mobile",
+    "mobile-development",
+    "react",
+    "react-native"
+  ],
+  "createdAt": "2015-01-09T18:10:16Z",
+  "pushedAt": "2026-11-11T17:35:01Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/102812?v=4",
+  "readme": "Learn once, write anywhere: Create native apps for Android, iOS, and more using React Getting Started · Learn the Basics · Showcase · Contribute · Community · Support React Native lets you build native apps using React. Written in JavaScript, rendered with native code.",
+  "category": "mobile-desktop",
+  "categories": [
+    "mobile-desktop"
+  ],
+  "tags": [
+    "android",
+    "app-framework",
+    "cross-platform",
+    "ios",
+    "mobile",
+    "mobile-development",
+    "react",
+    "react-native",
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T17:41:53.601Z",
+  "updatedAt": "2026-11-11T17:41:53.601Z"
+}

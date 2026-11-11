@@ -1,0 +1,29 @@
+{
+  "id": "openai/whisper",
+  "owner": "openai",
+  "name": "whisper",
+  "fullName": "openai/whisper",
+  "url": "https://github.com/openai/whisper",
+  "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "homepage": null,
+  "stars": 112459,
+  "forks": 13624,
+  "openIssues": 182,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2022-09-16T20:02:54Z",
+  "pushedAt": "2026-08-31T17:19:19Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+  "readme": "[[Blog]](https://openai.com/blog/whisper) [[Paper]](https://arxiv.org/abs/2212.04356) [[Model card]](https://github.com/openai/whisper/blob/main/model-card.md) [[Colab example]](https://colab.research.google.com/github/openai/whisper/blob/master/notebooks/LibriSpeech.ipynb)",
+  "category": "genmedia",
+  "categories": [
+    "genmedia"
+  ],
+  "tags": [
+    "python"
+  ],
+  "addedAt": "2026-11-11T17:41:57.953Z",
+  "updatedAt": "2026-11-11T17:41:57.953Z"
+}

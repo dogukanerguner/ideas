@@ -1,0 +1,46 @@
+{
+  "id": "better-auth/better-auth",
+  "owner": "better-auth",
+  "name": "better-auth",
+  "fullName": "better-auth/better-auth",
+  "url": "https://github.com/better-auth/better-auth",
+  "description": "The most comprehensive authentication framework",
+  "homepage": "https://better-auth.com",
+  "stars": 30712,
+  "forks": 3068,
+  "openIssues": 948,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "authentication",
+    "iam",
+    "oauth",
+    "oauth2",
+    "oidc",
+    "sso",
+    "stripe",
+    "typescript"
+  ],
+  "createdAt": "2024-05-19T21:40:04Z",
+  "pushedAt": "2026-11-11T17:19:05Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/163827765?v=4",
+  "readme": "Better Auth is a framework-agnostic authentication (and authorization) framework for TypeScript. It provides a comprehensive set of features out of the box and includes a plugin ecosystem that simplifies adding advanced functionalities with minimal code in a short amount of time. Whether you need 2FA, multi-tenant support, or other complex features, it lets you focus on building your actual application instead of reinventing the wheel.",
+  "category": "auth-payments",
+  "categories": [
+    "auth-payments"
+  ],
+  "tags": [
+    "authentication",
+    "iam",
+    "oauth",
+    "oauth2",
+    "oidc",
+    "sso",
+    "stripe",
+    "typescript",
+    "auth"
+  ],
+  "addedAt": "2026-11-11T17:41:42.426Z",
+  "updatedAt": "2026-11-11T17:41:42.426Z"
+}

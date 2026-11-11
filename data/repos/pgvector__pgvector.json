@@ -1,0 +1,34 @@
+{
+  "id": "pgvector/pgvector",
+  "owner": "pgvector",
+  "name": "pgvector",
+  "fullName": "pgvector/pgvector",
+  "url": "https://github.com/pgvector/pgvector",
+  "description": "Open-source vector similarity search for Postgres",
+  "homepage": null,
+  "stars": 23649,
+  "forks": 1389,
+  "openIssues": 18,
+  "language": "C",
+  "license": "Other",
+  "topics": [
+    "approximate-nearest-neighbor-search",
+    "nearest-neighbor-search"
+  ],
+  "createdAt": "2021-04-20T21:13:52Z",
+  "pushedAt": "2026-11-11T07:47:46Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/98363230?v=4",
+  "readme": "exact and approximate nearest neighbor search single-precision, half-precision, binary, and sparse vectors L2 distance, inner product, cosine distance, L1 distance, Hamming distance, and Jaccard distance any language with a Postgres client Plus ACID compliance, point-in-time recovery, JOINs, and all of the other great features of Postgres",
+  "category": "rag",
+  "categories": [
+    "rag",
+    "database"
+  ],
+  "tags": [
+    "nearest-neighbor-search",
+    "postgres"
+  ],
+  "addedAt": "2026-11-11T17:41:30.382Z",
+  "updatedAt": "2026-11-11T17:41:30.382Z"
+}

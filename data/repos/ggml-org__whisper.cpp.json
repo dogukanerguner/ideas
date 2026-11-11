@@ -1,0 +1,42 @@
+{
+  "id": "ggml-org/whisper.cpp",
+  "owner": "ggml-org",
+  "name": "whisper.cpp",
+  "fullName": "ggml-org/whisper.cpp",
+  "url": "https://github.com/ggml-org/whisper.cpp",
+  "description": "Port of OpenAI's Whisper model in C/C++",
+  "homepage": null,
+  "stars": 55098,
+  "forks": 6296,
+  "openIssues": 363,
+  "language": "C++",
+  "license": "MIT",
+  "topics": [
+    "inference",
+    "openai",
+    "speech-recognition",
+    "speech-to-text",
+    "transformer",
+    "whisper"
+  ],
+  "createdAt": "2022-09-25T18:26:37Z",
+  "pushedAt": "2026-11-10T12:09:38Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/134263123?v=4",
+  "readme": "High-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model: Plain C/C++ implementation without dependencies Apple Silicon first-class citizen - optimized via ARM NEON, Accelerate framework, Metal and Core ML AVX intrinsics support for x86 architectures VSX intrinsics support for POWER architectures Mixed F16 / F32 precision Integer quantization support Zero memory allocations at runtime Vulkan support Support for CPU-only inference Efficient GPU support for NVIDIA AMD ROCm GPU support AMD Ryzen AI NPU Support OpenVINO Support Huawei Ascend NPU Support Moore Threads GPU Support C-style API Voice Activity Detection (VAD)",
+  "category": "genmedia",
+  "categories": [
+    "genmedia"
+  ],
+  "tags": [
+    "inference",
+    "openai",
+    "speech-recognition",
+    "stt",
+    "transformer",
+    "whisper",
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T17:41:58.439Z",
+  "updatedAt": "2026-11-11T17:41:58.439Z"
+}

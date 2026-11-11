@@ -1,0 +1,48 @@
+{
+  "id": "vercel/chatbot",
+  "owner": "vercel",
+  "name": "chatbot",
+  "fullName": "vercel/chatbot",
+  "url": "https://github.com/vercel/chatbot",
+  "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+  "homepage": "https://chatbot.ai-sdk.dev",
+  "stars": 21045,
+  "forks": 6781,
+  "openIssues": 37,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [
+    "ai",
+    "chatgpt",
+    "nextjs",
+    "react",
+    "redis",
+    "shadcn-ui",
+    "vercel"
+  ],
+  "createdAt": "2023-05-19T16:36:23Z",
+  "pushedAt": "2026-11-03T18:02:17Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/14985020?v=4",
+  "readme": "Chatbot (formerly AI Chatbot) is a free, open-source template built with Next.js and the AI SDK that helps you quickly build powerful chatbot applications. Read Docs · Features · Model Providers · Deploy Your Own · Running locally Next.js App Router Advanced routing for seamless navigation and performance React Server Components (RSCs) and Server Actions for server-side rendering and increased performance AI SDK Unified API for generating text, structured objects, and tool calls with LLMs Hooks for building dynamic chat and generative user interfaces Supports OpenAI, Anthropic, Google, xAI, and other model providers via AI Gateway shadcn/ui Styling with Tailwind CSS Component primitives…",
+  "category": "starters",
+  "categories": [
+    "starters",
+    "llm",
+    "frontend"
+  ],
+  "tags": [
+    "ai",
+    "chatgpt",
+    "nextjs",
+    "react",
+    "redis",
+    "shadcn-ui",
+    "vercel",
+    "openai",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:44.308Z",
+  "updatedAt": "2026-11-11T17:41:44.308Z",
+  "manualCategory": true
+}

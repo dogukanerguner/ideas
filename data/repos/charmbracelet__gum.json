@@ -1,0 +1,34 @@
+{
+  "id": "charmbracelet/gum",
+  "owner": "charmbracelet",
+  "name": "gum",
+  "fullName": "charmbracelet/gum",
+  "url": "https://github.com/charmbracelet/gum",
+  "description": "A tool for glamorous shell scripts 🎀",
+  "homepage": null,
+  "stars": 24597,
+  "forks": 566,
+  "openIssues": 229,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "bash",
+    "shell"
+  ],
+  "createdAt": "2022-06-10T22:09:42Z",
+  "pushedAt": "2026-11-01T04:13:41Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/57376114?v=4",
+  "readme": "A tool for glamorous shell scripts. Leverage the power of Bubbles and Lip Gloss in your scripts and aliases without writing any Go code! Gum provides highly configurable, ready-to-use utilities to help you write useful shell scripts and dotfile aliases with just a few lines of code. Let's build a simple script to help you write Conventional Commits for your dotfiles.",
+  "category": "cli",
+  "categories": [
+    "cli"
+  ],
+  "tags": [
+    "bash",
+    "shell",
+    "go"
+  ],
+  "addedAt": "2026-11-11T17:41:52.147Z",
+  "updatedAt": "2026-11-11T17:41:52.147Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "duckdb/duckdb",
+  "owner": "duckdb",
+  "name": "duckdb",
+  "fullName": "duckdb/duckdb",
+  "url": "https://github.com/duckdb/duckdb",
+  "description": "DuckDB is a high-performance analytical database system",
+  "homepage": "http://www.duckdb.org",
+  "stars": 43000,
+  "forks": 4188,
+  "openIssues": 1193,
+  "language": "C++",
+  "license": "MIT",
+  "topics": [
+    "analytics",
+    "database",
+    "embedded-database",
+    "olap",
+    "sql"
+  ],
+  "createdAt": "2018-06-26T15:04:45Z",
+  "pushedAt": "2026-11-11T16:18:20Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/82039556?v=4",
+  "readme": "DuckDB is a high-performance analytical database system. It is designed to be fast, reliable, portable, and easy to use. DuckDB runs in-process inside your application, so there is no separate server to manage and no external dependencies. It can also read remote files, query other databases, and connect to other DuckDB instances when needed. It provides a rich SQL dialect with support far beyond basic SQL: arbitrary and nested correlated subqueries, window functions, collations, and complex types (arrays, structs, maps). Its friendly SQL extensions add syntax that makes queries shorter and easier to write.",
+  "category": "database",
+  "categories": [
+    "database"
+  ],
+  "tags": [
+    "analytics",
+    "database",
+    "embedded-database",
+    "olap",
+    "sql",
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T17:41:41.855Z",
+  "updatedAt": "2026-11-11T17:41:41.855Z"
+}

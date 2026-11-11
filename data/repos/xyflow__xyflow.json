@@ -1,0 +1,53 @@
+{
+  "id": "xyflow/xyflow",
+  "owner": "xyflow",
+  "name": "xyflow",
+  "fullName": "xyflow/xyflow",
+  "url": "https://github.com/xyflow/xyflow",
+  "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+  "homepage": "https://xyflow.com",
+  "stars": 38972,
+  "forks": 2575,
+  "openIssues": 139,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "flowchart",
+    "graph",
+    "javascript",
+    "node-based-ui",
+    "react",
+    "react-flow",
+    "svelte",
+    "svelte-flow",
+    "typescript",
+    "typescript-library",
+    "workflow"
+  ],
+  "createdAt": "2019-07-15T14:47:30Z",
+  "pushedAt": "2026-11-10T12:58:42Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/7106853?v=4",
+  "readme": "Powerful open source libraries for building node-based UIs with React or Svelte. Ready out-of-the-box and infinitely customizable. The xyflow repository is the home of four packages: React Flow 12 @xyflow/react packages/react React Flow 11 reactflow v11 branch Svelte Flow @xyflow/svelte packages/svelte Shared helper library @xyflow/system packages/system",
+  "category": "ui",
+  "categories": [
+    "ui",
+    "frontend"
+  ],
+  "tags": [
+    "flowchart",
+    "graph",
+    "javascript",
+    "node-based-ui",
+    "react",
+    "react-flow",
+    "svelte",
+    "svelte-flow",
+    "typescript",
+    "typescript-library",
+    "workflow"
+  ],
+  "addedAt": "2026-11-11T17:41:35.364Z",
+  "updatedAt": "2026-11-11T17:41:35.364Z",
+  "manualCategory": true
+}

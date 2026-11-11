@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/vscode",
+  "owner": "microsoft",
+  "name": "vscode",
+  "fullName": "microsoft/vscode",
+  "url": "https://github.com/microsoft/vscode",
+  "description": "Visual Studio Code",
+  "homepage": "https://code.visualstudio.com",
+  "stars": 195243,
+  "forks": 43787,
+  "openIssues": 21796,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "editor",
+    "electron",
+    "microsoft",
+    "typescript",
+    "visual-studio-code"
+  ],
+  "createdAt": "2015-09-03T20:23:38Z",
+  "pushedAt": "2026-11-11T17:41:18Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "readme": "This repository (\"Code - OSS\") is where we (Microsoft) develop the Visual Studio Code product together with the community. Not only do we work on code and issues here, but we also publish our roadmap, monthly iteration plans, and our endgame plans. This source code is available to everyone under the standard MIT license.",
+  "category": "devtools",
+  "categories": [
+    "devtools",
+    "mobile-desktop",
+    "automation"
+  ],
+  "tags": [
+    "editor",
+    "electron",
+    "microsoft",
+    "typescript",
+    "visual-studio-code",
+    "code-editor"
+  ],
+  "addedAt": "2026-11-11T17:41:52.673Z",
+  "updatedAt": "2026-11-11T17:41:52.673Z",
+  "manualCategory": true
+}

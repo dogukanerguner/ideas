@@ -1,0 +1,41 @@
+{
+  "id": "elysiajs/elysia",
+  "owner": "elysiajs",
+  "name": "elysia",
+  "fullName": "elysiajs/elysia",
+  "url": "https://github.com/elysiajs/elysia",
+  "description": "Ergonomic Framework for Humans",
+  "homepage": "https://elysiajs.com",
+  "stars": 19347,
+  "forks": 611,
+  "openIssues": 416,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "bun",
+    "framework",
+    "http",
+    "server",
+    "typescript",
+    "web"
+  ],
+  "createdAt": "2022-12-04T12:53:30Z",
+  "pushedAt": "2026-11-11T15:00:31Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/119793569?v=4",
+  "readme": "TypeScript with End-to-End Type Safety, type integrity, and exceptional developer experience. Supercharged by Bun.",
+  "category": "backend",
+  "categories": [
+    "backend"
+  ],
+  "tags": [
+    "bun",
+    "framework",
+    "http",
+    "server",
+    "typescript",
+    "web"
+  ],
+  "addedAt": "2026-11-11T17:41:39.101Z",
+  "updatedAt": "2026-11-11T17:41:39.101Z"
+}

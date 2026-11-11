@@ -1,0 +1,42 @@
+{
+  "id": "colinhacks/zod",
+  "owner": "colinhacks",
+  "name": "zod",
+  "fullName": "colinhacks/zod",
+  "url": "https://github.com/colinhacks/zod",
+  "description": "TypeScript-first schema validation with static type inference",
+  "homepage": "https://zod.dev",
+  "stars": 44325,
+  "forks": 2334,
+  "openIssues": 122,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "runtime-validation",
+    "schema-validation",
+    "static-types",
+    "type-inference",
+    "typescript"
+  ],
+  "createdAt": "2020-03-07T20:59:08Z",
+  "pushedAt": "2026-11-06T15:57:41Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/3084745?v=4",
+  "readme": "Zod is a TypeScript-first validation library. Define a schema and parse some data with it. You'll get back a strongly typed, validated result. Zero external dependencies Works in Node.js and all modern browsers Tiny: 2kb core bundle (gzipped) Immutable API: methods return a new instance Concise interface Works with TypeScript and plain JS Built-in JSON Schema conversion Extensive ecosystem",
+  "category": "frontend",
+  "categories": [
+    "frontend",
+    "llm",
+    "backend"
+  ],
+  "tags": [
+    "runtime-validation",
+    "schema-validation",
+    "static-types",
+    "type-inference",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:36.481Z",
+  "updatedAt": "2026-11-11T17:41:36.481Z",
+  "manualCategory": true
+}

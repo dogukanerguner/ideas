@@ -1,0 +1,48 @@
+{
+  "id": "react-hook-form/react-hook-form",
+  "owner": "react-hook-form",
+  "name": "react-hook-form",
+  "fullName": "react-hook-form/react-hook-form",
+  "url": "https://github.com/react-hook-form/react-hook-form",
+  "description": "📋 React Hooks for form state management and validation (Web + React Native)",
+  "homepage": "https://react-hook-form.com",
+  "stars": 44918,
+  "forks": 2524,
+  "openIssues": 8,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "dx",
+    "form-builder",
+    "forms",
+    "react-hooks",
+    "react-native",
+    "reactjs",
+    "typescript",
+    "ux",
+    "validation"
+  ],
+  "createdAt": "2019-03-05T23:47:10Z",
+  "pushedAt": "2026-11-11T10:23:16Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/53986236?v=4",
+  "readme": "Built with performance, UX and DX in mind Embraces native HTML form validation Out of the box integration with UI libraries Small size and no dependencies Supports Yup, Zod, AJV, Superstruct, Joi and others We’re incredibly grateful to these kind and generous sponsors for their support!",
+  "category": "frontend",
+  "categories": [
+    "frontend",
+    "mobile-desktop"
+  ],
+  "tags": [
+    "dx",
+    "form-builder",
+    "forms",
+    "react-hooks",
+    "react-native",
+    "react",
+    "typescript",
+    "ux",
+    "validation"
+  ],
+  "addedAt": "2026-11-11T17:41:36.672Z",
+  "updatedAt": "2026-11-11T17:41:36.672Z"
+}

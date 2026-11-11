@@ -1,0 +1,43 @@
+{
+  "id": "neovim/neovim",
+  "owner": "neovim",
+  "name": "neovim",
+  "fullName": "neovim/neovim",
+  "url": "https://github.com/neovim/neovim",
+  "description": "Vim-fork focused on extensibility and usability",
+  "homepage": "https://neovim.io",
+  "stars": 103546,
+  "forks": 7394,
+  "openIssues": 2006,
+  "language": "Vim Script",
+  "license": "Other",
+  "topics": [
+    "api",
+    "c",
+    "lua",
+    "neovim",
+    "nvim",
+    "text-editor",
+    "vim"
+  ],
+  "createdAt": "2014-01-31T13:39:22Z",
+  "pushedAt": "2026-11-11T17:24:43Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/6471485?v=4",
+  "readme": "Neovim is a project that seeks to aggressively refactor Vim in order to: Simplify maintenance and encourage contributions Split the work between multiple developers Enable [advanced UIs] without modifications to the core Maximize extensibility Modern GUIs API access from any language including C/C++, C#, Clojure, D, Elixir, Go, Haskell, Java/Kotlin, JavaScript/Node.js, Julia, Lisp, Lua, Perl, Python, Racket, Ruby, Rust Embedded, scriptable terminal emulator Asynchronous job control Shared data (shada) among multiple editor instances XDG base directories support Compatible with most Vim plugins, including Ruby and Python plugins",
+  "category": "cli",
+  "categories": [
+    "cli"
+  ],
+  "tags": [
+    "api",
+    "lua",
+    "neovim",
+    "nvim",
+    "text-editor",
+    "vim",
+    "vim-script"
+  ],
+  "addedAt": "2026-11-11T17:41:52.207Z",
+  "updatedAt": "2026-11-11T17:41:52.207Z"
+}

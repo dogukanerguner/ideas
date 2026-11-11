@@ -1,0 +1,43 @@
+{
+  "id": "modelcontextprotocol/inspector",
+  "owner": "modelcontextprotocol",
+  "name": "inspector",
+  "fullName": "modelcontextprotocol/inspector",
+  "url": "https://github.com/modelcontextprotocol/inspector",
+  "description": "Deterministic testing tools for MCP servers",
+  "homepage": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector",
+  "stars": 11273,
+  "forks": 1567,
+  "openIssues": 22,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [
+    "cli",
+    "debug",
+    "mcp",
+    "tool",
+    "tui",
+    "web"
+  ],
+  "createdAt": "2024-10-03T21:47:42Z",
+  "pushedAt": "2026-11-11T17:32:22Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/182288589?v=4",
+  "readme": "A developer tool for inspecting Model Context Protocol (MCP) servers. It ships as a single package, @modelcontextprotocol/inspector, that provides four ways to inspect a server: Web — a Vite + React + Mantine single-page app with a Node backend. CLI — a scriptable command-line client for automation, CI, and fast agent feedback loops. TUI — an interactive terminal UI built with Ink. mcpdo (experimental) — a connection CLI: connect once, then run many commands against the named connection through an implicit local daemon. See clients/mcpdo.",
+  "category": "mcp",
+  "categories": [
+    "mcp",
+    "cli"
+  ],
+  "tags": [
+    "cli",
+    "debug",
+    "mcp",
+    "tool",
+    "tui",
+    "web",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:25.181Z",
+  "updatedAt": "2026-11-11T17:41:25.181Z"
+}

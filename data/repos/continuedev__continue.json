@@ -1,0 +1,40 @@
+{
+  "id": "continuedev/continue",
+  "owner": "continuedev",
+  "name": "continue",
+  "fullName": "continuedev/continue",
+  "url": "https://github.com/continuedev/continue",
+  "description": "open-source coding agent",
+  "homepage": "https://continue.dev",
+  "stars": 36460,
+  "forks": 5558,
+  "openIssues": 865,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent",
+    "ai",
+    "cli",
+    "developer-tools",
+    "open-source"
+  ],
+  "createdAt": "2023-05-24T03:39:39Z",
+  "pushedAt": "2026-11-05T15:28:28Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/127876214?v=4",
+  "readme": "Note: The continuedev/continue repository is no longer actively maintained and is read-only for all users. Continue is a coding agent available as a CLI, VS Code extension, and JetBrains plugin. To learn how to configure Continue, how it works, and how to customize it, check out the Continue Docs.",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding",
+    "ai-agents"
+  ],
+  "tags": [
+    "ai-agents",
+    "ai",
+    "cli",
+    "developer-tools",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:27.061Z",
+  "updatedAt": "2026-11-11T17:41:27.061Z"
+}

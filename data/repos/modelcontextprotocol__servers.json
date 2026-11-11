@@ -1,0 +1,30 @@
+{
+  "id": "modelcontextprotocol/servers",
+  "owner": "modelcontextprotocol",
+  "name": "servers",
+  "fullName": "modelcontextprotocol/servers",
+  "url": "https://github.com/modelcontextprotocol/servers",
+  "description": "Model Context Protocol Reference Servers",
+  "homepage": "https://modelcontextprotocol.io",
+  "stars": 91928,
+  "forks": 11939,
+  "openIssues": 14,
+  "language": "TypeScript",
+  "license": "Other",
+  "topics": [],
+  "createdAt": "2024-11-19T01:10:17Z",
+  "pushedAt": "2026-11-11T07:07:16Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/182288589?v=4",
+  "readme": "This repository is a collection of reference implementations for the Model Context Protocol (MCP), as well as references to community-built servers and additional resources. [!IMPORTANT] If you are looking for a list of MCP servers, you can browse published servers on the MCP Registry. The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.",
+  "category": "mcp",
+  "categories": [
+    "mcp"
+  ],
+  "tags": [
+    "mcp",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:24.941Z",
+  "updatedAt": "2026-11-11T17:41:24.941Z"
+}

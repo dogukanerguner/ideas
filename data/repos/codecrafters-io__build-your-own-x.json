@@ -1,0 +1,42 @@
+{
+  "id": "codecrafters-io/build-your-own-x",
+  "owner": "codecrafters-io",
+  "name": "build-your-own-x",
+  "fullName": "codecrafters-io/build-your-own-x",
+  "url": "https://github.com/codecrafters-io/build-your-own-x",
+  "description": "Master programming by recreating your favorite technologies from scratch.",
+  "homepage": "https://codecrafters.io",
+  "stars": 561799,
+  "forks": 52565,
+  "openIssues": 696,
+  "language": "Markdown",
+  "license": null,
+  "topics": [
+    "awesome-list",
+    "free",
+    "programming",
+    "tutorial-code",
+    "tutorial-exercises",
+    "tutorials"
+  ],
+  "createdAt": "2018-05-09T12:03:18Z",
+  "pushedAt": "2026-11-08T16:38:15Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/58904235?v=4",
+  "readme": "This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch. 3D Renderer AI Model Augmented Reality BitTorrent Client Blockchain / Cryptocurrency Bot Command-Line Tool Database Docker Emulator / Virtual Machine Front-end Framework / Library Game Git Memory Allocator Network Stack Neural Network Operating System Physics Engine Processor Programming Language Regex Engine Search Engine Shell Template Engine Text Editor Visual Recognition System Voxel Engine Web Browser Web Server Uncategorized",
+  "category": "learning",
+  "categories": [
+    "learning"
+  ],
+  "tags": [
+    "awesome-list",
+    "free",
+    "programming",
+    "tutorial-code",
+    "tutorial-exercises",
+    "tutorials",
+    "markdown"
+  ],
+  "addedAt": "2026-11-11T17:41:55.689Z",
+  "updatedAt": "2026-11-11T17:41:55.689Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "openai/openai-cookbook",
+  "owner": "openai",
+  "name": "openai-cookbook",
+  "fullName": "openai/openai-cookbook",
+  "url": "https://github.com/openai/openai-cookbook",
+  "description": "Examples and guides for using the OpenAI API",
+  "homepage": "https://cookbook.openai.com",
+  "stars": 77049,
+  "forks": 13054,
+  "openIssues": 359,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "topics": [
+    "chatgpt",
+    "gpt-4",
+    "openai",
+    "openai-api"
+  ],
+  "createdAt": "2022-03-11T02:08:53Z",
+  "pushedAt": "2026-11-11T09:28:14Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+  "readme": "Example code and guides for accomplishing common tasks with the OpenAI API. To run these examples, you'll need an OpenAI account and associated API key (create a free account here). Set an environment variable called OPENAIAPIKEY with your API key. Alternatively, in most IDEs such as Visual Studio Code, you can create an .env file at the root of your repo containing OPENAIAPIKEY= , which will be picked up by the notebooks.",
+  "category": "learning",
+  "categories": [
+    "learning",
+    "llm"
+  ],
+  "tags": [
+    "chatgpt",
+    "gpt-4",
+    "openai",
+    "openai-api",
+    "jupyter-notebook"
+  ],
+  "addedAt": "2026-11-11T17:41:57.571Z",
+  "updatedAt": "2026-11-11T17:41:57.571Z",
+  "manualCategory": true
+}

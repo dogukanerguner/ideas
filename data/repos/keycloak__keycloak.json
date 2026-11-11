@@ -1,0 +1,36 @@
+{
+  "id": "keycloak/keycloak",
+  "owner": "keycloak",
+  "name": "keycloak",
+  "fullName": "keycloak/keycloak",
+  "url": "https://github.com/keycloak/keycloak",
+  "description": "Open Source Identity and Access Management For Modern Applications and Services",
+  "homepage": "https://www.keycloak.org",
+  "stars": 37821,
+  "forks": 9176,
+  "openIssues": 3547,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "topics": [
+    "keycloak",
+    "oidc",
+    "saml"
+  ],
+  "createdAt": "2013-07-02T13:38:51Z",
+  "pushedAt": "2026-11-11T17:04:48Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/4921466?v=4",
+  "readme": "Add authentication to applications and secure services with minimum effort. No need to deal with storing users or authenticating users. Keycloak provides user federation, strong authentication, user management, fine-grained authorization, and more. Documentation User Mailing List - Mailing list for help and general questions about Keycloak Join #keycloak for general questions, or #keycloak-dev on Slack for design and development discussions, by creating an account at https://slack.cncf.io/.",
+  "category": "auth-payments",
+  "categories": [
+    "auth-payments"
+  ],
+  "tags": [
+    "keycloak",
+    "oidc",
+    "saml",
+    "java"
+  ],
+  "addedAt": "2026-11-11T17:41:43.231Z",
+  "updatedAt": "2026-11-11T17:41:43.231Z"
+}

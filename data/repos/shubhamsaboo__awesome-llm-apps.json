@@ -1,0 +1,40 @@
+{
+  "id": "shubhamsaboo/awesome-llm-apps",
+  "owner": "Shubhamsaboo",
+  "name": "awesome-llm-apps",
+  "fullName": "Shubhamsaboo/awesome-llm-apps",
+  "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+  "homepage": "https://www.theunwindai.com",
+  "stars": 144424,
+  "forks": 21243,
+  "openIssues": 11,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "agents",
+    "llms",
+    "python",
+    "rag"
+  ],
+  "createdAt": "2024-04-29T05:30:25Z",
+  "pushedAt": "2026-11-11T07:04:33Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/31396011?v=4",
+  "readme": "100+ open-source AI agents, agent skills, and RAG apps. Hand-built, tested end-to-end, Apache-2.0. Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and other open-source models. Step-by-step tutorials on Unwind AI · Quick start · Browse all templates Give your coding agent new abilities. One command to install, plain English to use. Every skill ships real code and passes a security + eval CI gate. Works with Claude Code, Codex, Cursor, and other coding agents. Browse all skills →",
+  "category": "learning",
+  "categories": [
+    "learning",
+    "rag",
+    "ai-agents"
+  ],
+  "tags": [
+    "ai-agents",
+    "llm",
+    "python",
+    "rag"
+  ],
+  "addedAt": "2026-11-11T17:41:56.529Z",
+  "updatedAt": "2026-11-11T17:41:56.529Z",
+  "manualCategory": true
+}

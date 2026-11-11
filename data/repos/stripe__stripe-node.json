@@ -1,0 +1,34 @@
+{
+  "id": "stripe/stripe-node",
+  "owner": "stripe",
+  "name": "stripe-node",
+  "fullName": "stripe/stripe-node",
+  "url": "https://github.com/stripe/stripe-node",
+  "description": "Node.js library for the Stripe API.",
+  "homepage": "https://stripe.com",
+  "stars": 4563,
+  "forks": 948,
+  "openIssues": 50,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "stripe",
+    "stripe-sdk"
+  ],
+  "createdAt": "2011-09-28T00:28:33Z",
+  "pushedAt": "2026-11-11T17:25:33Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/856813?v=4",
+  "readme": "[!TIP] Want to chat live with Stripe engineers? Join us on our Discord server. The Stripe Node library provides convenient access to the Stripe API from applications written in server-side JavaScript. For collecting customer and payment information in the browser, use Stripe.js.",
+  "category": "auth-payments",
+  "categories": [
+    "auth-payments"
+  ],
+  "tags": [
+    "stripe",
+    "stripe-sdk",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:43.044Z",
+  "updatedAt": "2026-11-11T17:41:43.044Z"
+}

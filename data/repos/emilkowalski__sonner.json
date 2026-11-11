@@ -1,0 +1,36 @@
+{
+  "id": "emilkowalski/sonner",
+  "owner": "emilkowalski",
+  "name": "sonner",
+  "fullName": "emilkowalski/sonner",
+  "url": "https://github.com/emilkowalski/sonner",
+  "description": "An opinionated toast component for React.",
+  "homepage": "https://sonner.emilkowal.ski",
+  "stars": 13194,
+  "forks": 472,
+  "openIssues": 85,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "notifications",
+    "react",
+    "toast"
+  ],
+  "createdAt": "2023-02-23T11:01:18Z",
+  "pushedAt": "2026-08-10T11:13:03Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/36730035?v=4",
+  "readme": "Sonner is an opinionated toast component for React. You can read more about why and how it was built here. Alternatively you can use the /ask-sonner skill to do it for you and help you with any other Sonner-related questions. Add to your app, it will be the place where all your toasts will be rendered. After that you can use toast() from anywhere in your app.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "notifications",
+    "react",
+    "toast",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:35.497Z",
+  "updatedAt": "2026-11-11T17:41:35.497Z"
+}

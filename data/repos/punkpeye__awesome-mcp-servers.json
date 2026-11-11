@@ -1,0 +1,33 @@
+{
+  "id": "punkpeye/awesome-mcp-servers",
+  "owner": "punkpeye",
+  "name": "awesome-mcp-servers",
+  "fullName": "punkpeye/awesome-mcp-servers",
+  "url": "https://github.com/punkpeye/awesome-mcp-servers",
+  "description": "A collection of MCP servers.",
+  "homepage": "https://glama.ai/mcp/servers",
+  "stars": 97612,
+  "forks": 19720,
+  "openIssues": 4827,
+  "language": null,
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "mcp"
+  ],
+  "createdAt": "2024-11-30T04:49:10Z",
+  "pushedAt": "2026-11-06T17:59:03Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/108313943?v=4",
+  "readme": "[!IMPORTANT] ray.run – from idea to a production-grade MCP server in under a minute! 🦜 What is MCP? Clients Remote Servers Tutorials Community Legend Server Implementations Frameworks Tips & Tricks MCP is an open protocol that enables AI models to securely interact with local and remote resources through standardized server implementations. This list focuses on production-ready and experimental MCP servers that extend AI capabilities through file access, database connections, API integrations, and other contextual services.",
+  "category": "mcp",
+  "categories": [
+    "mcp"
+  ],
+  "tags": [
+    "ai",
+    "mcp"
+  ],
+  "addedAt": "2026-11-11T17:41:25.492Z",
+  "updatedAt": "2026-11-11T17:41:25.492Z"
+}

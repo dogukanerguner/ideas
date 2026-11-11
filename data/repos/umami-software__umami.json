@@ -1,0 +1,50 @@
+{
+  "id": "umami-software/umami",
+  "owner": "umami-software",
+  "name": "umami",
+  "fullName": "umami-software/umami",
+  "url": "https://github.com/umami-software/umami",
+  "description": "Umami is a privacy-first web and product analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place. No cookies, no surveillance, self-hosted or in the cloud.",
+  "homepage": "https://umami.is",
+  "stars": 40066,
+  "forks": 8525,
+  "openIssues": 155,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "analytics",
+    "audience-segmentation",
+    "charts",
+    "cohort-analysis",
+    "google-analytics",
+    "product-analytics",
+    "statistics",
+    "user-journey",
+    "web-analytics"
+  ],
+  "createdAt": "2020-07-17T07:59:00Z",
+  "pushedAt": "2026-11-11T17:05:00Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/105618662?v=4",
+  "readme": "Umami is a privacy-first analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place — no cookies, no surveillance, self-hosted or in the cloud. A server with Node.js version 18.18+. A PostgreSQL database version v12.14+. Optional: set API_URL to change the base URL used by internal UI API calls. Relative paths are served under BASE_PATH; absolute URLs are proxied through the local /api route. For example, APIURL=/internal-api or APIURL=https://api.example.com/api.",
+  "category": "selfhost",
+  "categories": [
+    "selfhost"
+  ],
+  "tags": [
+    "analytics",
+    "audience-segmentation",
+    "charts",
+    "cohort-analysis",
+    "google-analytics",
+    "product-analytics",
+    "statistics",
+    "user-journey",
+    "web-analytics",
+    "self-hosted",
+    "privacy",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:46.899Z",
+  "updatedAt": "2026-11-11T17:41:46.899Z"
+}

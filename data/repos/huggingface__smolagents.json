@@ -1,0 +1,30 @@
+{
+  "id": "huggingface/smolagents",
+  "owner": "huggingface",
+  "name": "smolagents",
+  "fullName": "huggingface/smolagents",
+  "url": "https://github.com/huggingface/smolagents",
+  "description": "🤗 smolagents: a barebones library for agents that think in code.",
+  "homepage": "https://huggingface.co/docs/smolagents",
+  "stars": 30316,
+  "forks": 3209,
+  "openIssues": 1073,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [],
+  "createdAt": "2024-12-05T11:28:04Z",
+  "pushedAt": "2026-11-10T18:34:27Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
+  "readme": "smolagents is a library that enables you to run powerful agents in a few lines of code. It offers: ✨ Simplicity: the logic for agents fits in ~1,000 lines of code (see agents.py). We kept abstractions to their minimal shape above raw code! 🧑‍💻 First-class support for Code Agents. Our CodeAgent writes its actions in code (as opposed to \"agents being used to write code\"). To make it secure, we support executing in sandboxed environments via Blaxel, E2B, Modal, or Docker.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "llm"
+  ],
+  "tags": [
+    "python"
+  ],
+  "addedAt": "2026-11-11T17:41:22.535Z",
+  "updatedAt": "2026-11-11T17:41:22.535Z"
+}

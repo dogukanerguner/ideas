@@ -1,0 +1,53 @@
+{
+  "id": "t3-oss/create-t3-app",
+  "owner": "t3-oss",
+  "name": "create-t3-app",
+  "fullName": "t3-oss/create-t3-app",
+  "url": "https://github.com/t3-oss/create-t3-app",
+  "description": "The best way to start a full-stack, typesafe Next.js app",
+  "homepage": "https://create.t3.gg",
+  "stars": 29228,
+  "forks": 1548,
+  "openIssues": 133,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "cli",
+    "create-t3-app",
+    "hacktoberfest",
+    "next-auth",
+    "nextjs",
+    "npx",
+    "prisma",
+    "t3",
+    "t3-stack",
+    "tailwindcss",
+    "trpc",
+    "typescript"
+  ],
+  "createdAt": "2022-05-24T13:31:01Z",
+  "pushedAt": "2025-12-13T10:39:23Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/108266839?v=4",
+  "readme": "![PRs-Welcome][contribute-url] ![NPM version][npm-url] ![Downloads][npm-url] The \"T3 Stack\" is a web development stack made by Theo focused on simplicity, modularity, and full-stack typesafety. It consists of: Kind of? create-t3-app is a CLI built by seasoned T3 Stack devs to streamline the setup of a modular T3 Stack app. This means each piece is optional, and the \"template\" is generated based on your specific needs.",
+  "category": "starters",
+  "categories": [
+    "starters"
+  ],
+  "tags": [
+    "cli",
+    "create-t3-app",
+    "next-auth",
+    "nextjs",
+    "npx",
+    "prisma",
+    "t3",
+    "t3-stack",
+    "tailwind",
+    "trpc",
+    "typescript",
+    "auth"
+  ],
+  "addedAt": "2026-11-11T17:41:43.763Z",
+  "updatedAt": "2026-11-11T17:41:43.763Z"
+}

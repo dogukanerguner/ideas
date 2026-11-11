@@ -1,0 +1,43 @@
+{
+  "id": "sharkdp/bat",
+  "owner": "sharkdp",
+  "name": "bat",
+  "fullName": "sharkdp/bat",
+  "url": "https://github.com/sharkdp/bat",
+  "description": "A cat(1) clone with wings.",
+  "homepage": null,
+  "stars": 61215,
+  "forks": 2310,
+  "openIssues": 566,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "cli",
+    "command-line",
+    "git",
+    "hacktoberfest",
+    "rust",
+    "syntax-highlighting",
+    "terminal",
+    "tool"
+  ],
+  "createdAt": "2018-04-21T10:52:23Z",
+  "pushedAt": "2026-11-10T05:54:40Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/4209276?v=4",
+  "readme": "bat supports syntax highlighting for a large number of programming and markup languages: bat communicates with git to show modifications with respect to the index (see left sidebar): You can use the -A/--show-all option to show and highlight non-printable characters:",
+  "category": "cli",
+  "categories": [
+    "cli"
+  ],
+  "tags": [
+    "cli",
+    "git",
+    "rust",
+    "syntax-highlighting",
+    "terminal",
+    "tool"
+  ],
+  "addedAt": "2026-11-11T17:41:51.136Z",
+  "updatedAt": "2026-11-11T17:41:51.136Z"
+}

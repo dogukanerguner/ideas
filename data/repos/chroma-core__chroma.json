@@ -1,0 +1,43 @@
+{
+  "id": "chroma-core/chroma",
+  "owner": "chroma-core",
+  "name": "chroma",
+  "fullName": "chroma-core/chroma",
+  "url": "https://github.com/chroma-core/chroma",
+  "description": "Search infrastructure for AI",
+  "homepage": "https://www.trychroma.com/",
+  "stars": 29674,
+  "forks": 2602,
+  "openIssues": 979,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "database",
+    "rust",
+    "rust-lang"
+  ],
+  "createdAt": "2022-10-05T17:58:44Z",
+  "pushedAt": "2026-11-07T04:52:06Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/105881770?v=4",
+  "readme": "Our hosted service, Chroma Cloud, powers serverless vector, hybrid, and full-text search. It's extremely fast, cost-effective, scalable and painless. Create a DB and try it out in under 30 seconds with $5 of free credits. Chroma is a rapidly developing project. We welcome PR contributors and ideas for how to improve the project. Join the conversation on Discord - #contributing channel Review the 🛣️ Roadmap and contribute your ideas Grab an issue and open a PR - Good first issue tag Read our contributing guide",
+  "category": "rag",
+  "categories": [
+    "rag",
+    "ai-agents",
+    "database"
+  ],
+  "tags": [
+    "ai-agents",
+    "ai",
+    "database",
+    "rust",
+    "rust-lang"
+  ],
+  "addedAt": "2026-11-11T17:41:30.243Z",
+  "updatedAt": "2026-11-11T17:41:30.243Z",
+  "manualCategory": true
+}

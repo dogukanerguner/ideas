@@ -1,0 +1,51 @@
+{
+  "id": "significant-gravitas/autogpt",
+  "owner": "Significant-Gravitas",
+  "name": "AutoGPT",
+  "fullName": "Significant-Gravitas/AutoGPT",
+  "url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+  "homepage": "https://agpt.co",
+  "stars": 187996,
+  "forks": 45877,
+  "openIssues": 714,
+  "language": "Python",
+  "license": "Other",
+  "topics": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "artificial-intelligence",
+    "autonomous-agents",
+    "claude",
+    "gpt",
+    "llama-api",
+    "llm",
+    "openai",
+    "python"
+  ],
+  "createdAt": "2023-03-16T09:21:07Z",
+  "pushedAt": "2026-11-11T17:41:06Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/130738209?v=4",
+  "readme": "Bring in specialists for content, sales, research, and recurring work. Brief them in plain English. Let Otto coordinate. Sign up for a trial · Watch the demo · Meet the Experts · Pricing · Self-host · Contribute Tell Otto what's on your plate. It brings in the right Experts, hands over the work, and keeps you up to date. Talk to a specialist directly when you want to get into the details.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "llm"
+  ],
+  "tags": [
+    "agentic-ai",
+    "ai-agents",
+    "ai",
+    "autonomous-agents",
+    "claude",
+    "gpt",
+    "llama-api",
+    "llm",
+    "openai",
+    "python"
+  ],
+  "addedAt": "2026-11-11T17:41:22.646Z",
+  "updatedAt": "2026-11-11T17:41:22.646Z"
+}

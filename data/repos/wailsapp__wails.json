@@ -1,0 +1,52 @@
+{
+  "id": "wailsapp/wails",
+  "owner": "wailsapp",
+  "name": "wails",
+  "fullName": "wailsapp/wails",
+  "url": "https://github.com/wailsapp/wails",
+  "description": "Create beautiful applications using Go",
+  "homepage": "https://wails.io",
+  "stars": 37050,
+  "forks": 1934,
+  "openIssues": 403,
+  "language": "Go",
+  "license": "MIT",
+  "topics": [
+    "angular",
+    "desktop-application",
+    "go",
+    "golang",
+    "javascript",
+    "linux",
+    "macos",
+    "react",
+    "svelte",
+    "vuejs",
+    "windows"
+  ],
+  "createdAt": "2018-12-15T23:14:06Z",
+  "pushedAt": "2026-11-10T00:16:26Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/39746503?v=4",
+  "readme": "The traditional method of providing web interfaces to Go programs is via a built-in web server. Wails offers a different approach: it provides the ability to wrap both Go code and a web frontend into a single binary. Tools are provided to make this easy for you by handling project creation, compilation and bundling. All you have to do is get creative!",
+  "category": "mobile-desktop",
+  "categories": [
+    "mobile-desktop",
+    "frontend"
+  ],
+  "tags": [
+    "angular",
+    "desktop-application",
+    "go",
+    "javascript",
+    "linux",
+    "macos",
+    "react",
+    "svelte",
+    "vue",
+    "windows",
+    "desktop"
+  ],
+  "addedAt": "2026-11-11T17:41:54.242Z",
+  "updatedAt": "2026-11-11T17:41:54.242Z"
+}

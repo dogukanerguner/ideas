@@ -1,0 +1,42 @@
+{
+  "id": "motiondivision/motion",
+  "owner": "motiondivision",
+  "name": "motion",
+  "fullName": "motiondivision/motion",
+  "url": "https://github.com/motiondivision/motion",
+  "description": "A modern animation library for React and JavaScript",
+  "homepage": "https://motion.dev",
+  "stars": 35072,
+  "forks": 1529,
+  "openIssues": 6,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "animation",
+    "animation-js",
+    "motion",
+    "react",
+    "reactanimations",
+    "spring"
+  ],
+  "createdAt": "2018-11-16T09:48:38Z",
+  "pushedAt": "2026-11-11T15:06:05Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/84441432?v=4",
+  "readme": "Simple API: First-class React, JavaScript, and Vue packages. Hybrid engine: Power of JavaScript combined with native browser APIs for 120fps, GPU-accelerated animations. Production-ready: TypeScript, extensive test suite, tree-shakable, tiny footprint. Batteries included: Gestures, springs, layout transitions, scroll-linked effects, timelines.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "animation",
+    "animation-js",
+    "motion",
+    "react",
+    "reactanimations",
+    "spring",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:32.861Z",
+  "updatedAt": "2026-11-11T17:41:32.861Z"
+}

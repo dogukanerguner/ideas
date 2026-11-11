@@ -1,0 +1,48 @@
+{
+  "id": "honojs/hono",
+  "owner": "honojs",
+  "name": "hono",
+  "fullName": "honojs/hono",
+  "url": "https://github.com/honojs/hono",
+  "description": "Web framework built on Web Standards",
+  "homepage": "https://hono.dev",
+  "stars": 32921,
+  "forks": 1474,
+  "openIssues": 397,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "aws-lambda",
+    "bun",
+    "cloudflare",
+    "cloudflare-workers",
+    "deno",
+    "npm",
+    "router",
+    "typescript",
+    "web-framework"
+  ],
+  "createdAt": "2021-12-14T20:05:30Z",
+  "pushedAt": "2026-11-11T08:50:10Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/98495527?v=4",
+  "readme": "Hono - means flame🔥 in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda, Lambda@Edge, and Node.js. Ultrafast 🚀 - The router RegExpRouter is really fast. Not using linear loops. Fast. Lightweight 🪶 - The hono/tiny preset is under 12kB. Hono has zero dependencies and uses only the Web Standard API. Multi-runtime 🌍 - Works on Cloudflare Workers, Fastly Compute, Deno, Bun, AWS Lambda, Lambda@Edge, or Node.js. The same code runs on all platforms. Batteries Included 🔋 - Hono has built-in middleware, custom middleware, and third-party middleware. Batteries…",
+  "category": "backend",
+  "categories": [
+    "backend",
+    "frontend"
+  ],
+  "tags": [
+    "aws-lambda",
+    "bun",
+    "cloudflare",
+    "cloudflare-workers",
+    "deno",
+    "npm",
+    "router",
+    "typescript",
+    "web-framework"
+  ],
+  "addedAt": "2026-11-11T17:41:38.520Z",
+  "updatedAt": "2026-11-11T17:41:38.520Z"
+}

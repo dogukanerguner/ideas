@@ -1,0 +1,39 @@
+{
+  "id": "nextjs/saas-starter",
+  "owner": "nextjs",
+  "name": "saas-starter",
+  "fullName": "nextjs/saas-starter",
+  "url": "https://github.com/nextjs/saas-starter",
+  "description": "Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.",
+  "homepage": "https://next-saas-start.vercel.app",
+  "stars": 16249,
+  "forks": 2750,
+  "openIssues": 57,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "nextjs",
+    "postgres",
+    "shadcn-ui",
+    "stripe"
+  ],
+  "createdAt": "2024-09-10T00:18:56Z",
+  "pushedAt": "2025-12-11T22:35:37Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/126103961?v=4",
+  "readme": "This is a starter template for building a SaaS application using Next.js with support for authentication, Stripe integration for payments, and a dashboard for logged-in users. Marketing landing page (/) with animated Terminal element Pricing page (/pricing) which connects to Stripe Checkout Dashboard pages with CRUD operations on users/teams Basic RBAC with Owner and Member roles Subscription management with Stripe Customer Portal Email/password authentication with JWTs stored to cookies Global middleware to protect logged-in routes Local middleware to protect Server Actions or validate Zod schemas Activity logging system for any user events",
+  "category": "starters",
+  "categories": [
+    "starters",
+    "auth-payments"
+  ],
+  "tags": [
+    "nextjs",
+    "postgres",
+    "shadcn-ui",
+    "stripe",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:44.000Z",
+  "updatedAt": "2026-11-11T17:41:44.000Z"
+}

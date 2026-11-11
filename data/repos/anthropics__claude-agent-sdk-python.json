@@ -1,0 +1,30 @@
+{
+  "id": "anthropics/claude-agent-sdk-python",
+  "owner": "anthropics",
+  "name": "claude-agent-sdk-python",
+  "fullName": "anthropics/claude-agent-sdk-python",
+  "url": "https://github.com/anthropics/claude-agent-sdk-python",
+  "description": "",
+  "homepage": null,
+  "stars": 8527,
+  "forks": 1411,
+  "openIssues": 621,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2025-06-11T21:33:43Z",
+  "pushedAt": "2026-11-10T02:30:39Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+  "readme": "Python SDK for Claude Agent. See the Claude Agent SDK documentation for more information. Note: The Claude Code CLI is automatically bundled with the package - no separate installation required! The SDK will use the bundled CLI by default. If you prefer to use a system-wide installation or a specific version, you can:",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents"
+  ],
+  "tags": [
+    "python",
+    "claude"
+  ],
+  "addedAt": "2026-11-11T17:41:24.113Z",
+  "updatedAt": "2026-11-11T17:41:24.113Z"
+}

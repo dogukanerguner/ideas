@@ -1,0 +1,37 @@
+{
+  "id": "electric-sql/pglite",
+  "owner": "electric-sql",
+  "name": "pglite",
+  "fullName": "electric-sql/pglite",
+  "url": "https://github.com/electric-sql/pglite",
+  "description": "Embeddable Postgres with real-time, reactive bindings.",
+  "homepage": "https://pglite.dev",
+  "stars": 16263,
+  "forks": 474,
+  "openIssues": 163,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [
+    "database",
+    "postgres",
+    "wasm"
+  ],
+  "createdAt": "2024-02-19T14:37:38Z",
+  "pushedAt": "2026-11-10T15:15:09Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/96433696?v=4",
+  "readme": "PGlite - the WASM build of Postgres from Electric . Build reactive, realtime, local-first apps directly on Postgres. PGlite is a WASM Postgres build packaged into a TypeScript client library that enables you to run Postgres in the browser, Node.js, Bun and Deno, with no need to install any other dependencies. It is only 3mb gzipped and has support for many Postgres extensions, including pgvector and PostGIS.",
+  "category": "database",
+  "categories": [
+    "database"
+  ],
+  "tags": [
+    "database",
+    "postgres",
+    "wasm",
+    "realtime",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:42.183Z",
+  "updatedAt": "2026-11-11T17:41:42.183Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "anthropics/anthropic-sdk-python",
+  "owner": "anthropics",
+  "name": "anthropic-sdk-python",
+  "fullName": "anthropics/anthropic-sdk-python",
+  "url": "https://github.com/anthropics/anthropic-sdk-python",
+  "description": "",
+  "homepage": null,
+  "stars": 4067,
+  "forks": 908,
+  "openIssues": 233,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [],
+  "createdAt": "2023-01-17T20:57:10Z",
+  "pushedAt": "2026-11-10T16:32:58Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+  "readme": "The Anthropic SDK for Python provides access to the Claude API from Python applications. Full documentation is available at platform.claude.com/docs/en/api/sdks/python. This project is licensed under the Apache License, Version 2.0. See the LICENSE file for details. Versions released before the change from the MIT License, and third-party contributions merged before it, remain under the MIT License. See LICENSE-MIT.",
+  "category": "llm",
+  "categories": [
+    "llm"
+  ],
+  "tags": [
+    "python",
+    "claude"
+  ],
+  "addedAt": "2026-11-11T17:41:24.622Z",
+  "updatedAt": "2026-11-11T17:41:24.622Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "comfy-org/comfyui",
+  "owner": "Comfy-Org",
+  "name": "ComfyUI",
+  "fullName": "Comfy-Org/ComfyUI",
+  "url": "https://github.com/Comfy-Org/ComfyUI",
+  "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+  "homepage": "https://www.comfy.org/",
+  "stars": 146341,
+  "forks": 17430,
+  "openIssues": 5512,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "topics": [
+    "ai",
+    "comfy",
+    "comfyui",
+    "python",
+    "pytorch",
+    "stable-diffusion"
+  ],
+  "createdAt": "2023-01-17T03:15:56Z",
+  "pushedAt": "2026-11-11T17:34:05Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/166579949?v=4",
+  "readme": "![Website][website-url] ![Dynamic JSON Badge][discord-url] ![Twitter][twitter-url] ![Matrix][matrix-url] ![][github-release-link] ![][github-release-link] ![][github-downloads-link] ![][github-downloads-link] ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models. It is by far the most optimized inference engine for diffusion models in the world with a focus on local consumer hardware. Can run even the biggest open source…",
+  "category": "genmedia",
+  "categories": [
+    "genmedia"
+  ],
+  "tags": [
+    "ai",
+    "comfy",
+    "comfyui",
+    "python",
+    "pytorch",
+    "stable-diffusion"
+  ],
+  "addedAt": "2026-11-11T17:41:58.128Z",
+  "updatedAt": "2026-11-11T17:41:58.128Z"
+}

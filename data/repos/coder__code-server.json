@@ -1,0 +1,46 @@
+{
+  "id": "coder/code-server",
+  "owner": "coder",
+  "name": "code-server",
+  "fullName": "coder/code-server",
+  "url": "https://github.com/coder/code-server",
+  "description": "VS Code in the browser",
+  "homepage": "https://coder.com",
+  "stars": 79834,
+  "forks": 6938,
+  "openIssues": 152,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "browser-ide",
+    "dev-tools",
+    "development-environment",
+    "ide",
+    "remote-work",
+    "vscode",
+    "vscode-remote"
+  ],
+  "createdAt": "2019-02-27T16:50:41Z",
+  "pushedAt": "2026-11-11T16:13:23Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/95932066?v=4",
+  "readme": "Code on any device with a consistent development environment Use cloud servers to speed up tests, compilations, downloads, and more Preserve battery life when you're on the go; all intensive tasks run on your server See requirements for minimum specs, as well as instructions on how to set up a Google VM on which you can install code-server.",
+  "category": "devops",
+  "categories": [
+    "devops",
+    "devtools"
+  ],
+  "tags": [
+    "browser-ide",
+    "dev-tools",
+    "development-environment",
+    "ide",
+    "remote-work",
+    "vscode",
+    "vscode-remote",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:45.858Z",
+  "updatedAt": "2026-11-11T17:41:45.858Z",
+  "manualCategory": true
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sindresorhus/awesome",
+  "owner": "sindresorhus",
+  "name": "awesome",
+  "fullName": "sindresorhus/awesome",
+  "url": "https://github.com/sindresorhus/awesome",
+  "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
+  "homepage": null,
+  "stars": 535206,
+  "forks": 38296,
+  "openIssues": 103,
+  "language": null,
+  "license": "CC0-1.0",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "lists",
+    "resources",
+    "unicorns"
+  ],
+  "createdAt": "2014-07-11T13:42:37Z",
+  "pushedAt": "2026-09-02T02:10:47Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/170270?v=4",
+  "readme": "What is an awesome list? Contribution guide Creating a list Twitter Subscribe (RSS) Just type awesome.re to go here. Check out my apps and follow me on Twitter . Platforms Programming Languages Front-End Development Back-End Development Computer Science Big Data Theory Books Editors Gaming Development Environment Entertainment Databases Media Learn Security Content Management Systems Hardware Business Work Networking Decentralized Systems Health and Social Science Events Testing Miscellaneous Related",
+  "category": "learning",
+  "categories": [
+    "learning"
+  ],
+  "tags": [
+    "awesome-list",
+    "resources",
+    "unicorns"
+  ],
+  "addedAt": "2026-11-11T17:41:55.384Z",
+  "updatedAt": "2026-11-11T17:41:55.384Z"
+}

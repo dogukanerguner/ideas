@@ -1,0 +1,45 @@
+{
+  "id": "yt-dlp/yt-dlp",
+  "owner": "yt-dlp",
+  "name": "yt-dlp",
+  "fullName": "yt-dlp/yt-dlp",
+  "url": "https://github.com/yt-dlp/yt-dlp",
+  "description": "A feature-rich command-line audio/video downloader",
+  "homepage": "https://discord.gg/H5MNcFW63r",
+  "stars": 206916,
+  "forks": 18216,
+  "openIssues": 2780,
+  "language": "Python",
+  "license": "Unlicense",
+  "topics": [
+    "cli",
+    "downloader",
+    "python",
+    "sponsorblock",
+    "youtube-dl",
+    "youtube-downloader",
+    "yt-dlp"
+  ],
+  "createdAt": "2020-10-26T04:22:55Z",
+  "pushedAt": "2026-11-04T07:16:27Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
+  "readme": "yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites. The project is a fork of youtube-dl based on the now inactive youtube-dlc. You can install yt-dlp using the binaries, pip or one using a third-party package manager. See the wiki for detailed instructions",
+  "category": "genmedia",
+  "categories": [
+    "genmedia",
+    "cli"
+  ],
+  "tags": [
+    "cli",
+    "downloader",
+    "python",
+    "sponsorblock",
+    "youtube-dl",
+    "youtube-downloader",
+    "yt-dlp"
+  ],
+  "addedAt": "2026-11-11T17:41:58.867Z",
+  "updatedAt": "2026-11-11T17:41:58.867Z",
+  "manualCategory": true
+}

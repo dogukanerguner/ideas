@@ -1,0 +1,40 @@
+{
+  "id": "vitejs/vite",
+  "owner": "vitejs",
+  "name": "vite",
+  "fullName": "vitejs/vite",
+  "url": "https://github.com/vitejs/vite",
+  "description": "Next generation frontend tooling. It's fast!",
+  "homepage": "http://vite.dev",
+  "stars": 83858,
+  "forks": 9790,
+  "openIssues": 808,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "build-tool",
+    "dev-server",
+    "frontend",
+    "hmr",
+    "vite"
+  ],
+  "createdAt": "2020-04-21T05:03:57Z",
+  "pushedAt": "2026-11-11T16:32:43Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/65625612?v=4",
+  "readme": "💡 Instant Server Start ⚡️ Lightning Fast HMR 🛠️ Rich Features 📦 Optimized Build 🔩 Universal Plugin Interface 🔑 Fully Typed APIs Vite (French word for \"quick\", pronounced /viːt/, like \"veet\") is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:",
+  "category": "frontend",
+  "categories": [
+    "frontend"
+  ],
+  "tags": [
+    "build-tool",
+    "dev-server",
+    "frontend",
+    "hmr",
+    "vite",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:38.393Z",
+  "updatedAt": "2026-11-11T17:41:38.393Z"
+}

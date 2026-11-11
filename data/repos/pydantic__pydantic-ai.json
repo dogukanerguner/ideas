@@ -1,0 +1,46 @@
+{
+  "id": "pydantic/pydantic-ai",
+  "owner": "pydantic",
+  "name": "pydantic-ai",
+  "fullName": "pydantic/pydantic-ai",
+  "url": "https://github.com/pydantic/pydantic-ai",
+  "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+  "homepage": "https://pydantic.dev/pydantic-ai",
+  "stars": 21141,
+  "forks": 3148,
+  "openIssues": 1965,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-framework",
+    "genai",
+    "harness",
+    "harness-engineering",
+    "llm",
+    "pydantic",
+    "python"
+  ],
+  "createdAt": "2024-06-21T15:55:04Z",
+  "pushedAt": "2026-11-11T17:40:32Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/110818415?v=4",
+  "readme": "Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end. Pydantic AI is the Python AI SDK: a typed, extensible agent loop with every model a string swap away, and another one to fall back to when a provider fails. The same agent runs everywhere you need it: behind a web frontend, in the terminal, on a voice call, on a durable background queue, in GitHub Actions, or as a plain object you call run() on. Image generation and embeddings come in the same box.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "genmedia"
+  ],
+  "tags": [
+    "agent-framework",
+    "genai",
+    "harness",
+    "harness-engineering",
+    "llm",
+    "pydantic",
+    "python",
+    "vector-db",
+    "realtime"
+  ],
+  "addedAt": "2026-11-11T17:41:22.807Z",
+  "updatedAt": "2026-11-11T17:41:22.807Z"
+}

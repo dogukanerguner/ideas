@@ -1,0 +1,53 @@
+{
+  "id": "calcom/cal.diy",
+  "owner": "calcom",
+  "name": "cal.diy",
+  "fullName": "calcom/cal.diy",
+  "url": "https://github.com/calcom/cal.diy",
+  "description": "Scheduling infrastructure for absolutely everyone.",
+  "homepage": "https://cal.diy",
+  "stars": 49937,
+  "forks": 15619,
+  "openIssues": 1630,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "next-auth",
+    "nextjs",
+    "open-source",
+    "postgresql",
+    "prisma",
+    "t3-stack",
+    "tailwindcss",
+    "trpc",
+    "turborepo",
+    "typescript",
+    "zod"
+  ],
+  "createdAt": "2021-03-22T13:47:42Z",
+  "pushedAt": "2026-11-11T00:43:43Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/79145102?v=4",
+  "readme": "[!WARNING] Use at your own risk. Cal.diy is the open source community edition of Cal.com and it is intended for users who want to self-host their own Cal.diy instance. It is strictly recommended for personal, non-production use. Please review all installation and configuration steps carefully. Self-hosting requires advanced knowledge of server administration, database management, and securing sensitive data. Proceed only if you are comfortable with these responsibilities.",
+  "category": "selfhost",
+  "categories": [
+    "selfhost",
+    "database",
+    "auth-payments"
+  ],
+  "tags": [
+    "next-auth",
+    "nextjs",
+    "postgres",
+    "prisma",
+    "t3-stack",
+    "tailwind",
+    "trpc",
+    "turborepo",
+    "typescript",
+    "zod",
+    "auth"
+  ],
+  "addedAt": "2026-11-11T17:41:47.955Z",
+  "updatedAt": "2026-11-11T17:41:47.955Z"
+}

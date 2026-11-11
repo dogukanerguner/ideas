@@ -1,0 +1,43 @@
+{
+  "id": "excalidraw/excalidraw",
+  "owner": "excalidraw",
+  "name": "excalidraw",
+  "fullName": "excalidraw/excalidraw",
+  "url": "https://github.com/excalidraw/excalidraw",
+  "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+  "homepage": "https://excalidraw.com",
+  "stars": 135504,
+  "forks": 16109,
+  "openIssues": 3517,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "canvas",
+    "collaboration",
+    "diagrams",
+    "drawing",
+    "hacktoberfest",
+    "productivity",
+    "whiteboard"
+  ],
+  "createdAt": "2020-01-02T01:04:43Z",
+  "pushedAt": "2026-11-11T12:53:18Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/59452120?v=4",
+  "readme": "An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted. Create beautiful hand-drawn like diagrams, wireframes, or whatever you like. 💯 Free & open-source. 🎨 Infinite, canvas-based whiteboard. ✍️ Hand-drawn like style. 🌓 Dark mode. 🏗️ Customizable. 📷 Image support. 😀 Shape libraries support. 🌐 Localization (i18n) support. 🖼️ Export to PNG, SVG & clipboard. 💾 Open format - export drawings as an .excalidraw json file. ⚒️ Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser... ➡️ Arrow-binding & labeled arrows. 🔙 Undo / Redo. 🔍 Zoom and panning support.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "canvas",
+    "collaboration",
+    "diagrams",
+    "drawing",
+    "productivity",
+    "whiteboard",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:34.747Z",
+  "updatedAt": "2026-11-11T17:41:34.747Z"
+}

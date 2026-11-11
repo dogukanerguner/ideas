@@ -1,0 +1,30 @@
+{
+  "id": "cline/cline",
+  "owner": "cline",
+  "name": "cline",
+  "fullName": "cline/cline",
+  "url": "https://github.com/cline/cline",
+  "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+  "homepage": "https://cline.bot",
+  "stars": 71524,
+  "forks": 7908,
+  "openIssues": 1750,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [],
+  "createdAt": "2024-07-06T07:28:10Z",
+  "pushedAt": "2026-11-11T13:48:56Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/184127137?v=4",
+  "readme": "Cline reads your project structure, understands the relationships between files, and makes coordinated changes across your codebase. It monitors linter and compiler errors as it works, fixing issues like missing imports, type mismatches, and syntax errors before you even see them. In VS Code and JetBrains, every edit shows up as a diff you can review, modify, or revert. All changes are tracked with checkpoints, so you can easily undo the agent's work.",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding"
+  ],
+  "tags": [
+    "cli",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:26.642Z",
+  "updatedAt": "2026-11-11T17:41:26.642Z"
+}

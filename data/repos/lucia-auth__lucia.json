@@ -1,0 +1,35 @@
+{
+  "id": "lucia-auth/lucia",
+  "owner": "lucia-auth",
+  "name": "lucia",
+  "fullName": "lucia-auth/lucia",
+  "url": "https://github.com/lucia-auth/lucia",
+  "description": "Authentication, simple and clean",
+  "homepage": "https://lucia-auth.com",
+  "stars": 10448,
+  "forks": 515,
+  "openIssues": 24,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "auth",
+    "oauth",
+    "typescript"
+  ],
+  "createdAt": "2022-07-18T14:53:24Z",
+  "pushedAt": "2026-08-08T13:42:42Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/124423533?v=4",
+  "readme": "Lucia was deprecated on March 2025. See code/auth_session.ts for a complete, single-file replacement for the NPM package. For a deep dive on everything auth, see the Auth Book: https://auth.pilcrowonpaper.com Website: lucia-auth.com Repository: github.com/lucia-auth/lucia Maintained by: Pilcrow (pilcrowonpaper.com) License: MIT (unless otherwise specified)",
+  "category": "auth-payments",
+  "categories": [
+    "auth-payments"
+  ],
+  "tags": [
+    "auth",
+    "oauth",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T17:41:42.188Z",
+  "updatedAt": "2026-11-11T17:41:42.188Z"
+}
