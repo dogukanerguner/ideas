@@ -1,0 +1,50 @@
+{
+  "id": "dogukanerguner/tasarim-standartlari-katalogu",
+  "owner": "dogukanerguner",
+  "name": "tasarim-standartlari-katalogu",
+  "fullName": "dogukanerguner/tasarim-standartlari-katalogu",
+  "url": "https://github.com/dogukanerguner/tasarim-standartlari-katalogu",
+  "description": "45 tasarım yaklaşımı: canlı örnek sayfalar + AI kod üretimi için makine tarafından okunabilir prompt katmanı.",
+  "homepage": "https://design.asveas.com",
+  "stars": 5,
+  "forks": 0,
+  "openIssues": 0,
+  "language": "HTML",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "design",
+    "design-thinking",
+    "designer",
+    "ui",
+    "ui-design",
+    "ui-kit",
+    "ui-ux",
+    "uikit",
+    "uiux"
+  ],
+  "createdAt": "2026-08-03T12:01:57Z",
+  "pushedAt": "2026-08-30T09:28:32Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/219527818?v=4",
+  "readme": "85 tasarım yaklaşımı — her biri hem çalışan canlı örnek, hem de AI kod üretiminde doğrudan kullanılabilir prompt ve kural seti. Klasik stil rehberleri insanlara anlatır; bu katalog aynı anda makinelere de anlatır. Her sayfa üç şeyi birden yapar: 1. Canlı örnek — stil, o stilin kendi diliyle kurulmuş gerçek bir sayfa olarak çalışır (statik görsel değil). 2. Prompt kaynağı — sayfanın altındaki blokta o stilin detaylı İngilizce üretim promptu, Türkçe brief'i, renk paleti, tipografisi, düzen/hareket kuralları ve kaçınılacaklar listesi bulunur; tek tıkla seçilip kopyalanır. 3. Makine katmanı — aynı bilgi ai/catalog.json ve stil başına ai/styles/*.md dosyalarında yapısal olarak da mevcuttur. Bir…",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "ai",
+    "design",
+    "design-thinking",
+    "designer",
+    "ui",
+    "ui-design",
+    "ui-kit",
+    "ui-ux",
+    "uikit",
+    "uiux",
+    "html"
+  ],
+  "addedAt": "2026-11-11T18:54:56.376Z",
+  "updatedAt": "2026-11-11T18:54:56.376Z"
+}
