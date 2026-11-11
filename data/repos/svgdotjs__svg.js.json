@@ -1,0 +1,37 @@
+{
+  "id": "svgdotjs/svg.js",
+  "owner": "svgdotjs",
+  "name": "svg.js",
+  "fullName": "svgdotjs/svg.js",
+  "url": "https://github.com/svgdotjs/svg.js",
+  "description": "The lightweight library for manipulating and animating SVG",
+  "homepage": "https://svgjs.dev",
+  "stars": 11912,
+  "forks": 1093,
+  "openIssues": 0,
+  "language": "JavaScript",
+  "license": "Other",
+  "topics": [
+    "animation",
+    "javascript",
+    "svg",
+    "svgjs"
+  ],
+  "createdAt": "2012-12-15T10:26:54Z",
+  "pushedAt": "2026-08-04T07:48:43Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/22855482?v=4",
+  "readme": "A lightweight library for manipulating and animating SVG, without any dependencies. https://cdnjs.com/libraries/svg.js https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js https://unpkg.com/@svgdotjs/svg.js",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "animation",
+    "javascript",
+    "svg",
+    "svgjs"
+  ],
+  "addedAt": "2026-11-11T19:04:32.923Z",
+  "updatedAt": "2026-11-11T19:04:32.923Z"
+}
