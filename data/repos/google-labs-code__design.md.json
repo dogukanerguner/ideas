@@ -1,0 +1,31 @@
+{
+  "id": "google-labs-code/design.md",
+  "owner": "google-labs-code",
+  "name": "design.md",
+  "fullName": "google-labs-code/design.md",
+  "url": "https://github.com/google-labs-code/design.md",
+  "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+  "homepage": "https://stitch.withgoogle.com/docs/design-md/specification",
+  "stars": 28820,
+  "forks": 2292,
+  "openIssues": 40,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "topics": [],
+  "createdAt": "2026-04-10T17:54:59Z",
+  "pushedAt": "2026-11-06T11:02:13Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/161364575?v=4",
+  "readme": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. A DESIGN.md file combines machine-readable design tokens (YAML front matter or interleaved YAML code blocks) with human-readable design rationale (markdown prose). Tokens give agents exact values. Prose tells them why those values exist and how to apply them.",
+  "category": "ui",
+  "categories": [
+    "ui",
+    "ai-agents"
+  ],
+  "tags": [
+    "design-system",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T18:41:53.752Z",
+  "updatedAt": "2026-11-11T18:41:53.752Z"
+}
