@@ -1,0 +1,41 @@
+{
+  "id": "pbakaus/impeccable",
+  "owner": "pbakaus",
+  "name": "impeccable",
+  "fullName": "pbakaus/impeccable",
+  "url": "https://github.com/pbakaus/impeccable",
+  "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+  "homepage": "https://impeccable.style",
+  "stars": 108169,
+  "forks": 6431,
+  "openIssues": 63,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "topics": [
+    "agent-skills",
+    "ai",
+    "anti-slop",
+    "design",
+    "slop"
+  ],
+  "createdAt": "2025-11-16T01:52:04Z",
+  "pushedAt": "2026-11-11T18:35:06Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+  "readme": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, and catch AI slop before it ships. Reload your coding tool, then run /impeccable init in your agent ($impeccable init on Codex). Works with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at impeccable.style/docs.",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding",
+    "ai-agents"
+  ],
+  "tags": [
+    "agent-skills",
+    "ai",
+    "anti-slop",
+    "design",
+    "slop",
+    "rust"
+  ],
+  "addedAt": "2026-11-11T18:35:39.690Z",
+  "updatedAt": "2026-11-11T18:35:39.690Z"
+}
