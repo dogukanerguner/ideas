@@ -1,0 +1,30 @@
+{
+  "id": "opentoonz/opentoonz",
+  "owner": "opentoonz",
+  "name": "opentoonz",
+  "fullName": "opentoonz/opentoonz",
+  "url": "https://github.com/opentoonz/opentoonz",
+  "description": "OpenToonz - An open-source full-featured 2D animation creation software",
+  "homepage": "https://opentoonz.github.io/",
+  "stars": 8173,
+  "forks": 939,
+  "openIssues": 233,
+  "language": "C++",
+  "license": "Other",
+  "topics": [],
+  "createdAt": "2016-03-18T17:55:48Z",
+  "pushedAt": "2026-11-10T14:05:18Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/15189838?v=4",
+  "readme": "OFFICIAL SOURCE ONLY: The only official websites for OpenToonz are opentoonz.github.io and this GitHub repository. To ensure your security, please avoid downloading OpenToonz from any other domain, as there are no other official mirrors or partner sites. OpenToonz is a 2D animation software published by DWANGO. It is based on **Toonz Studio Ghibli Version**, originally developed in Italy by Digital Video, Inc., and customized by Studio Ghibli over many years of production.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "animation",
+    "cpp"
+  ],
+  "addedAt": "2026-11-11T19:02:35.273Z",
+  "updatedAt": "2026-11-11T19:02:35.273Z"
+}
