@@ -1,0 +1,27 @@
+{
+  "id": "cloudai-x/threejs-skills",
+  "owner": "CloudAI-X",
+  "name": "threejs-skills",
+  "fullName": "CloudAI-X/threejs-skills",
+  "url": "https://github.com/CloudAI-X/threejs-skills",
+  "description": "",
+  "homepage": "https://x.com/cloudxdev",
+  "stars": 4135,
+  "forks": 473,
+  "openIssues": 0,
+  "language": null,
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-01-19T21:15:21Z",
+  "pushedAt": "2026-10-19T05:17:24Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/252792870?v=4",
+  "readme": "Skill files that give Claude Code current, verified knowledge of three.js, so the code it writes runs on the release you actually install. The skills target three.js r186 (three@0.186), React Three Fiber 9.8 with drei 10.7, and gltf-transform 4.5. Rendering examples use WebGLRenderer, directly or through React Three Fiber; the WebGPU and TSL section in every skill covers WebGPURenderer.",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [],
+  "addedAt": "2026-11-11T19:15:04.524Z",
+  "updatedAt": "2026-11-11T19:15:04.524Z"
+}
