@@ -1,0 +1,39 @@
+{
+  "id": "effekseer/effekseer",
+  "owner": "effekseer",
+  "name": "Effekseer",
+  "fullName": "effekseer/Effekseer",
+  "url": "https://github.com/effekseer/Effekseer",
+  "description": "",
+  "homepage": null,
+  "stars": 2063,
+  "forks": 329,
+  "openIssues": 89,
+  "language": "C",
+  "license": "MIT",
+  "topics": [
+    "directx",
+    "effekseer",
+    "game",
+    "opengl",
+    "particle-effects"
+  ],
+  "createdAt": "2013-10-19T05:47:35Z",
+  "pushedAt": "2026-10-30T14:06:47Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/5723431?v=4",
+  "readme": "This software is a particle effect editing tool. By incorporating runtimes and plug-ins, effects created in Effekseer can be played back in your application. Effekseer is intended to be used primarily for games, allowing the designer, not the programmer, to be in charge of editing particle effects.",
+  "category": "devtools",
+  "categories": [
+    "devtools"
+  ],
+  "tags": [
+    "directx",
+    "effekseer",
+    "game",
+    "opengl",
+    "particle-effects"
+  ],
+  "addedAt": "2026-11-11T19:00:32.930Z",
+  "updatedAt": "2026-11-11T19:00:32.930Z"
+}
