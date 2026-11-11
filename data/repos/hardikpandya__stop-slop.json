@@ -1,0 +1,27 @@
+{
+  "id": "hardikpandya/stop-slop",
+  "owner": "hardikpandya",
+  "name": "stop-slop",
+  "fullName": "hardikpandya/stop-slop",
+  "url": "https://github.com/hardikpandya/stop-slop",
+  "description": "A skill file for removing AI tells from prose",
+  "homepage": null,
+  "stars": 18857,
+  "forks": 1389,
+  "openIssues": 59,
+  "language": null,
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-01-11T12:00:59Z",
+  "pushedAt": "2026-03-17T18:50:39Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/591262?v=4",
+  "readme": "AI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them. Claude Projects: Upload SKILL.md and reference files to project knowledge. API calls: Include SKILL.md in your system prompt. Reference files load on demand.",
+  "category": "devtools",
+  "categories": [
+    "devtools"
+  ],
+  "tags": [],
+  "addedAt": "2026-11-11T18:41:16.311Z",
+  "updatedAt": "2026-11-11T18:41:16.311Z"
+}
