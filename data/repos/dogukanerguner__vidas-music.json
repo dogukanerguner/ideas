@@ -1,0 +1,29 @@
+{
+  "id": "dogukanerguner/vidas-music",
+  "owner": "dogukanerguner",
+  "name": "vidas-music",
+  "fullName": "dogukanerguner/vidas-music",
+  "url": "https://github.com/dogukanerguner/vidas-music",
+  "description": "vidas app — original music pack (Suno-generated originals, distributed by vidas)",
+  "homepage": null,
+  "stars": 1,
+  "forks": 0,
+  "openIssues": 0,
+  "language": "HTML",
+  "license": null,
+  "topics": [],
+  "createdAt": "2026-07-29T15:56:58Z",
+  "pushedAt": "2026-08-22T15:27:34Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/219527818?v=4",
+  "readme": "vidas app — original music pack (Suno-generated originals, distributed by vidas)",
+  "category": "genmedia",
+  "categories": [
+    "genmedia"
+  ],
+  "tags": [
+    "html"
+  ],
+  "addedAt": "2026-11-11T18:55:09.138Z",
+  "updatedAt": "2026-11-11T18:55:09.138Z"
+}
