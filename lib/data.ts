@@ -35,10 +35,18 @@ export function getRepo(owner: string, name: string): RepoV | undefined {
 
 export function toDoc(r: RepoV): Doc {
   return {
-    id: r.id, fullName: r.fullName, owner: r.owner, name: r.name, description: r.description, stars: r.stars,
+    id: r.id, fullName: r.fullName, owner: r.owner, name: r.name, description: richDescription(r), stars: r.stars,
     language: r.language, category: r.category, categories: r.categories, tags: r.tags, topics: r.topics,
     vibe: r.vibe, avatar: r.avatar, addedAt: r.addedAt,
   };
+}
+
+/** GitHub descriptions are sometimes empty or just the name ("Friction Graphics"): fall back to the README's first sentence */
+export function richDescription(r: Repo): string {
+  const d = r.description.trim();
+  if (d.length >= 40 || !r.readme) return d;
+  const first = r.readme.split(/(?<=[.!?])\s/)[0].slice(0, 160).trim();
+  return d ? `${d} · ${first}` : first;
 }
 
 let docsCache: Doc[] | null = null;
