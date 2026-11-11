@@ -1,0 +1,29 @@
+{
+  "id": "freemocap/freemocap",
+  "owner": "freemocap",
+  "name": "freemocap",
+  "fullName": "freemocap/freemocap",
+  "url": "https://github.com/freemocap/freemocap",
+  "description": "Free Motion Capture for Everyone 💀✨",
+  "homepage": "http://freemocap.org",
+  "stars": 10777,
+  "forks": 1028,
+  "openIssues": 190,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "topics": [],
+  "createdAt": "2021-04-12T23:04:35Z",
+  "pushedAt": "2026-11-11T17:44:09Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/97994512?v=4",
+  "readme": "0. Install uv https://github.com/astral-sh/uv?tab=readme-ov-file#installation 1. clone the repo git clone https://github.com/freemocap/freemocap 2. Change directory to the repo: cd freemocap 3. Change to the development branch: git switch development 4. Create virtual environment: uv venv 5. Activate virtual environment Windows: .venv/bin/activate Mac/Linux: source .venv/bin/activate 6. Install dependencies uv sync — installs skellytracker with NVIDIA GPU acceleration on Windows/Linux, or CPU-only on macOS, automatically No supported GPU on Windows/Linux? Force the CPU-only build instead: uv sync --no-default-groups --group cpu 0. Install Node.js https://nodejs.org/en/download/ 1. Change…",
+  "category": "devtools",
+  "categories": [
+    "devtools"
+  ],
+  "tags": [
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T19:00:17.834Z",
+  "updatedAt": "2026-11-11T19:00:17.834Z"
+}
