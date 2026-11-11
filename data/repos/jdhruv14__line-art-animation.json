@@ -1,0 +1,40 @@
+{
+  "id": "jdhruv14/line-art-animation",
+  "owner": "JDhruv14",
+  "name": "line-art-animation",
+  "fullName": "JDhruv14/line-art-animation",
+  "url": "https://github.com/JDhruv14/line-art-animation",
+  "description": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.",
+  "homepage": null,
+  "stars": 418,
+  "forks": 61,
+  "openIssues": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [
+    "claude-skill",
+    "line-art",
+    "svg-animation",
+    "typescript"
+  ],
+  "createdAt": "2026-11-10T09:25:25Z",
+  "pushedAt": "2026-11-10T09:25:38Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/112489039?v=4",
+  "readme": "A Claude skill and a small TypeScript library for animated line-art components: ink-on-paper figures that walk, ride and react, in scenes that run from day to night. Everything is drawn live in SVG, so it stays sharp at any size and responds to the pointer. or into .claude/skills/ inside a single project. Then ask for what you want, for example:",
+  "category": "ui",
+  "categories": [
+    "ui"
+  ],
+  "tags": [
+    "claude-skill",
+    "line-art",
+    "svg-animation",
+    "typescript",
+    "react",
+    "claude",
+    "animation"
+  ],
+  "addedAt": "2026-11-11T18:56:11.513Z",
+  "updatedAt": "2026-11-11T18:56:11.513Z"
+}
