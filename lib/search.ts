@@ -69,7 +69,7 @@ const SYN: Record<string, string[]> = {
   design: ["tasarim"], tasarim: ["design"], catalog: ["katalog"], katalog: ["catalog"], style: ["stil"], stil: ["style"], styles: ["stil"],
   music: ["muzik"], muzik: ["music"], game: ["oyun"], oyun: ["game"], sound: ["ses"], ses: ["audio", "voice"], arayuz: ["ui", "interface"],
   giris: ["login", "auth"], odeme: ["payment", "payments"], veritabani: ["database"], yapay: ["ai"], zeka: ["ai"], ajan: ["agent"],
-  terminal: ["cli", "tui", "shell"], ornek: ["examples"], examples: ["ornek"], prompt: ["prompts"], sablon: ["template"], template: ["sablon"],
+  ornek: ["examples"], examples: ["ornek"], prompt: ["prompts"], sablon: ["template"], template: ["sablon"],
 };
 
 export function tokenize(q: string): string[] {
