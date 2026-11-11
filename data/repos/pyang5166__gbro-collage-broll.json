@@ -1,0 +1,41 @@
+{
+  "id": "pyang5166/gbro-collage-broll",
+  "owner": "pyang5166",
+  "name": "gbro-collage-broll",
+  "fullName": "pyang5166/gbro-collage-broll",
+  "url": "https://github.com/pyang5166/gbro-collage-broll",
+  "description": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
+  "homepage": null,
+  "stars": 1895,
+  "forks": 167,
+  "openIssues": 4,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "agent-skill",
+    "broll",
+    "gemini",
+    "paper-collage",
+    "video-generation"
+  ],
+  "createdAt": "2026-07-15T12:45:47Z",
+  "pushedAt": "2026-07-15T12:50:50Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/176493563?v=4",
+  "readme": "Turn a ~5s voiceover line into a premium editorial paper-collage assemble-from-empty B-roll clip, powered by Gemini Omni Flash first/last-frame video generation. 视频生成脚本（scripts/generatevideo.py + scripts/uploadfile.py）已随 skill 自带，无需额外安装其他 skill。",
+  "category": "genmedia",
+  "categories": [
+    "genmedia",
+    "ai-agents"
+  ],
+  "tags": [
+    "agent-skill",
+    "broll",
+    "gemini",
+    "paper-collage",
+    "video-generation",
+    "python"
+  ],
+  "addedAt": "2026-11-11T19:10:09.317Z",
+  "updatedAt": "2026-11-11T19:10:09.317Z"
+}

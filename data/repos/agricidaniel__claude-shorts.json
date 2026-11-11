@@ -1,0 +1,43 @@
+{
+  "id": "agricidaniel/claude-shorts",
+  "owner": "AgriciDaniel",
+  "name": "claude-shorts",
+  "fullName": "AgriciDaniel/claude-shorts",
+  "url": "https://github.com/AgriciDaniel/claude-shorts",
+  "description": "Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping",
+  "homepage": "https://www.skool.com/ai-marketing-hub-pro/",
+  "stars": 377,
+  "forks": 77,
+  "openIssues": 4,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "ai-content",
+    "claude-code",
+    "claude-code-skill",
+    "content-creation",
+    "open-source"
+  ],
+  "createdAt": "2026-02-16T21:00:09Z",
+  "pushedAt": "2026-07-11T02:32:45Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
+  "readme": "Interactive longform-to-shortform video creator powered by Claude Code. Extracts viral-ready vertical clips from long videos using Claude as the intelligent orchestrator with Remotion-rendered premium animated captions. 1. Preflight - Validates input video, checks disk space, detects GPU 2. Transcribe - GPU-accelerated transcription with word-level timestamps (faster-whisper) 3. Detect Content - Auto-classifies: talking-head, screen recording, or podcast 4. Analyze - Claude reads the full transcript and scores 8-12 candidate segments 5. Present - Shows candidates in a formatted table with scores, hooks, and rationale 6. Approve - You pick segments, adjust timecodes, choose caption style and…",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding",
+    "llm"
+  ],
+  "tags": [
+    "ai",
+    "ai-content",
+    "claude-code",
+    "claude-code-skill",
+    "content-creation",
+    "claude",
+    "python"
+  ],
+  "addedAt": "2026-11-11T19:13:32.009Z",
+  "updatedAt": "2026-11-11T19:13:32.009Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "feitangyuan/onetake",
+  "owner": "feitangyuan",
+  "name": "onetake",
+  "fullName": "feitangyuan/onetake",
+  "url": "https://github.com/feitangyuan/onetake",
+  "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. Product launch films and feature demos, made with a coding agent.",
+  "homepage": "https://onetakemotion.com",
+  "stars": 4035,
+  "forks": 281,
+  "openIssues": 10,
+  "language": "Python",
+  "license": "Other",
+  "topics": [
+    "agent-skill",
+    "animation",
+    "canvas",
+    "claude-skill",
+    "launch-video",
+    "motion-graphics",
+    "video"
+  ],
+  "createdAt": "2026-09-26T05:35:17Z",
+  "pushedAt": "2026-11-05T03:52:15Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/251547459?v=4",
+  "readme": "Motion films that never cut to the next slide. A Claude Agent Skill that makes product launch films, teasers and feature demos where every beat grows out of the one before — one continuous take, not a stack of scenes. 一镜到底的连贯动效。 做产品发布片、预告片、功能演示：每一个画面都从上一个画面里长出来，是一整条连续的镜头，而不是一张张轮流出场的\"PPT\"。",
+  "category": "ui",
+  "categories": [
+    "ui",
+    "ai-coding",
+    "ai-agents"
+  ],
+  "tags": [
+    "agent-skill",
+    "animation",
+    "canvas",
+    "claude-skill",
+    "launch-video",
+    "motion-graphics",
+    "video",
+    "claude",
+    "python"
+  ],
+  "addedAt": "2026-11-11T19:09:40.372Z",
+  "updatedAt": "2026-11-11T19:09:40.372Z"
+}
