@@ -1,0 +1,47 @@
+{
+  "id": "voltagent/awesome-design-md",
+  "owner": "VoltAgent",
+  "name": "awesome-design-md",
+  "fullName": "VoltAgent/awesome-design-md",
+  "url": "https://github.com/VoltAgent/awesome-design-md",
+  "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+  "homepage": "https://getdesign.md/",
+  "stars": 126857,
+  "forks": 14026,
+  "openIssues": 304,
+  "language": null,
+  "license": "MIT",
+  "topics": [
+    "awesome-list",
+    "design-md",
+    "design-system",
+    "design-tokens",
+    "figma",
+    "landing-page",
+    "vibe-coding",
+    "vibe-design",
+    "vibecoding"
+  ],
+  "createdAt": "2026-03-31T16:37:01Z",
+  "pushedAt": "2026-10-28T15:45:40Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/201282378?v=4",
+  "readme": "Curated collection of DESIGN.md analysis by developer focused websites. Copy a DESIGN.md into your project, tell your AI agent “build me a page that looks like this,” and generate high-quality UI that stays visually consistent with the design language. Built with real design depth — including analyzed patterns, tokens, and rules — for high-quality UI generation, not surface-level outputs.",
+  "category": "learning",
+  "categories": [
+    "learning"
+  ],
+  "tags": [
+    "awesome-list",
+    "design-md",
+    "design-system",
+    "design-tokens",
+    "figma",
+    "landing-page",
+    "vibe-coding",
+    "vibe-design",
+    "vibecoding"
+  ],
+  "addedAt": "2026-11-11T18:41:29.968Z",
+  "updatedAt": "2026-11-11T18:41:29.968Z"
+}
