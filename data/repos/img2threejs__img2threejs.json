@@ -1,0 +1,53 @@
+{
+  "id": "img2threejs/img2threejs",
+  "owner": "img2threejs",
+  "name": "img2threejs",
+  "fullName": "img2threejs/img2threejs",
+  "url": "https://github.com/img2threejs/img2threejs",
+  "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+  "homepage": "https://img2threejs.io",
+  "stars": 21196,
+  "forks": 1788,
+  "openIssues": 120,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "topics": [
+    "3d",
+    "ai-agents",
+    "claude-code",
+    "computer-graphics",
+    "generative",
+    "image-to-3d",
+    "procedural-generation",
+    "threejs",
+    "typescript",
+    "webgl"
+  ],
+  "createdAt": "2026-07-15T02:58:39Z",
+  "pushedAt": "2026-11-05T08:38:00Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/309001690?v=4",
+  "readme": "Rebuild the object in a reference image as a code-only, procedural Three.js model. Quality-gated, animation-ready, and deliberately token-efficient — reconstruction-by-code, not photogrammetry, mesh extraction, or downloaded art packs. Reference images reconstructed in code as animation-ready Three.js models, running live in the browser.",
+  "category": "ui",
+  "categories": [
+    "ui",
+    "ai-agents"
+  ],
+  "tags": [
+    "3d",
+    "ai-agents",
+    "claude-code",
+    "computer-graphics",
+    "generative",
+    "image-to-3d",
+    "procedural-generation",
+    "threejs",
+    "typescript",
+    "webgl",
+    "claude",
+    "animation",
+    "python"
+  ],
+  "addedAt": "2026-11-11T18:14:17.741Z",
+  "updatedAt": "2026-11-11T18:14:17.741Z"
+}
