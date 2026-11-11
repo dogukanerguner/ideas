@@ -1,0 +1,29 @@
+{
+  "id": "lpengyang/motionclone",
+  "owner": "LPengYang",
+  "name": "MotionClone",
+  "fullName": "LPengYang/MotionClone",
+  "url": "https://github.com/LPengYang/MotionClone",
+  "description": "[ICLR 2025] Official implementation of MotionClone: Training-Free Motion Cloning for Controllable Video Generation",
+  "homepage": null,
+  "stars": 537,
+  "forks": 42,
+  "openIssues": 4,
+  "language": "Python",
+  "license": null,
+  "topics": [],
+  "createdAt": "2024-05-24T12:28:25Z",
+  "pushedAt": "2025-06-17T13:19:09Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/58554846?v=4",
+  "readme": "This repository is the official implementation of MotionClone. It is a training-free framework that enables motion cloning from a reference video for controllable video generation, without cumbersome video inversion processes. Click for the full abstract of MotionClone",
+  "category": "genmedia",
+  "categories": [
+    "genmedia"
+  ],
+  "tags": [
+    "python"
+  ],
+  "addedAt": "2026-11-11T19:13:39.442Z",
+  "updatedAt": "2026-11-11T19:13:39.442Z"
+}
