@@ -1,0 +1,31 @@
+{
+  "id": "jangles-byte/pythia",
+  "owner": "jangles-byte",
+  "name": "Pythia",
+  "fullName": "jangles-byte/Pythia",
+  "url": "https://github.com/jangles-byte/Pythia",
+  "description": "One local API call gives your agent the entire live state of the planet — every major world event at once, plus forecasts. 40+ free keyless feeds, runs entirely on Ollama. No cloud, no cost.  Keyless live feeds into one global view and forecasts what’s likely next. No cloud, no keys, no cost.  1d,1w,1m,1y predictions by Mirofish.",
+  "homepage": null,
+  "stars": 1203,
+  "forks": 211,
+  "openIssues": 9,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-06-27T02:45:12Z",
+  "pushedAt": "2026-09-06T15:31:48Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/267653011?v=4",
+  "readme": "PYTHIA fuses two open-source projects — MiroFish, a swarm-intelligence prediction engine, and Osiris, a live global-intelligence globe — into a single machine that ingests everything happening on Earth in real time and forecasts the future across the next 24 hours, week, month, and year.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "llm"
+  ],
+  "tags": [
+    "ollama",
+    "typescript"
+  ],
+  "addedAt": "2026-11-11T18:57:23.154Z",
+  "updatedAt": "2026-11-11T18:57:23.154Z"
+}
