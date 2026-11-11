@@ -23,7 +23,7 @@ const SYN: Record<string, string[]> = {
   agents: ["ai-agents", "agentic"],
   ui: ["components", "design-system", "react"],
   components: ["ui", "design-system"],
-  vector: ["vector-db", "embeddings", "rag"],
+  vector: ["vector-db", "vector-database", "vector-search", "embeddings", "rag"],
   embeddings: ["vector-db", "rag"],
   search: ["semantic-search", "search-engine", "full-text-search"],
   scrape: ["scraping", "crawler", "scraper"],
@@ -139,7 +139,12 @@ export function searchDocs(docs: Doc[], query: string, opts: { limit?: number; c
     for (const b of boost) score += termScore(p, b, false) * 0.8;
     if (score <= 0) continue;
     // reward documents that match more of the distinct query terms
-    if (tokens.length > 1) score *= 0.6 + (0.4 * matched) / tokens.length;
+    if (tokens.length > 1) {
+      const cov = matched / tokens.length;
+      score *= 0.25 + 0.75 * cov * cov;
+      const phrase = tokens.join(" ");
+      if (p._desc.includes(` ${phrase}`) || p._tags.has(tokens.join("-")) || p._name.includes(tokens.join("-"))) score += 14;
+    }
     score *= 0.7 + (d.vibe / 100) * 0.6;
     if (opts.category && d.category === opts.category) score *= 1.3;
     hits.push({ doc: d, score });
