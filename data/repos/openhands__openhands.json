@@ -6,9 +6,9 @@
   "url": "https://github.com/OpenHands/OpenHands",
   "description": "🙌 OpenHands: AI-Driven Development",
   "homepage": "https://openhands.dev",
-  "stars": 93238,
-  "forks": 12456,
-  "openIssues": 1167,
+  "stars": 93244,
+  "forks": 12457,
+  "openIssues": 1168,
   "language": "TypeScript",
   "license": "MIT",
   "topics": [
@@ -23,7 +23,7 @@
     "openai"
   ],
   "createdAt": "2024-03-13T03:33:31Z",
-  "pushedAt": "2026-11-11T17:33:40Z",
+  "pushedAt": "2026-11-11T17:50:42Z",
   "archived": false,
   "avatar": "https://avatars.githubusercontent.com/u/225919603?v=4",
   "readme": "The self-hosted developer control center for coding agents and automations. Run OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode, or any ACP-compatible agent across local, remote, and cloud backends. OpenHands Agent Canvas turns your coding agents into a self-hosted, always-on engineering team. It's a developer control center for starting conversations and automating everyday tasks — like generating reports that publish to Slack or automatically decomposing GitHub issues into tasks.",
@@ -46,6 +46,6 @@
     "typescript"
   ],
   "addedAt": "2026-11-11T17:41:23.942Z",
-  "updatedAt": "2026-11-11T17:41:23.942Z",
+  "updatedAt": "2026-11-11T19:08:42.154Z",
   "manualCategory": true
 }
