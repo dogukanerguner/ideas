@@ -98,7 +98,7 @@ function stem(t: string): string {
   return t.length > 4 && t.endsWith("s") && !t.endsWith("ss") ? t.slice(0, -1) : t;
 }
 
-type Prepared = Doc & { _name: string; _full: string; _desc: string; _tags: Set<string>; _tagStr: string };
+type Prepared = Doc & { _name: string; _full: string; _desc: string; _tags: Set<string>; _tagStr: string; _readme: string };
 const prepCache = new WeakMap<Doc, Prepared>();
 function prep(d: Doc): Prepared {
   let p = prepCache.get(d);
@@ -111,6 +111,7 @@ function prep(d: Doc): Prepared {
       _desc: ` ${fold(d.description).replace(/[^\p{L}\p{N}+#.-]+/gu, " ")} `,
       _tags: tags,
       _tagStr: ` ${[...tags].join(" ")} `,
+      _readme: d.readme ? ` ${fold(d.readme).replace(/[^\p{L}\p{N}+#.-]+/gu, " ")} ` : "",
     };
     prepCache.set(d, p);
   }
@@ -134,6 +135,7 @@ function termScore(p: Prepared, t: string, isLast: boolean): number {
   else if (t.length >= 6 && p._desc.includes(` ${t.slice(0, t.length - 2)}`)) sc += 1.5;
   if (t.length >= 7 && !p._name.includes(t) && p._name.includes(t.slice(0, t.length - 2))) sc += 2;
   if (p.language && p.language.toLowerCase() === t) sc += 3;
+  if (sc === 0 && t.length > 3 && p._readme.includes(` ${t}`)) sc += 1.2; // README mention: weak but real signal
   return sc;
 }
 

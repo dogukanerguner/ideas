@@ -48,6 +48,8 @@ export type Doc = {
   vibe: number;
   avatar: string;
   addedAt: string;
+  /** README excerpt — server-side search only, stripped from browser payloads */
+  readme?: string;
 };
 
 export type Category = {

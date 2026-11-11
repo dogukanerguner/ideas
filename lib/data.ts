@@ -37,7 +37,7 @@ export function toDoc(r: RepoV): Doc {
   return {
     id: r.id, fullName: r.fullName, owner: r.owner, name: r.name, description: richDescription(r), stars: r.stars,
     language: r.language, category: r.category, categories: r.categories, tags: r.tags, topics: r.topics,
-    vibe: r.vibe, avatar: r.avatar, addedAt: r.addedAt,
+    vibe: r.vibe, avatar: r.avatar, addedAt: r.addedAt, readme: r.readme,
   };
 }
 
