@@ -1,0 +1,29 @@
+{
+  "id": "cloudflare/security-audit-skill",
+  "owner": "cloudflare",
+  "name": "security-audit-skill",
+  "fullName": "cloudflare/security-audit-skill",
+  "url": "https://github.com/cloudflare/security-audit-skill",
+  "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+  "homepage": null,
+  "stars": 70156,
+  "forks": 4650,
+  "openIssues": 123,
+  "language": "JavaScript",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-06-18T14:08:44Z",
+  "pushedAt": "2026-09-14T19:29:02Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
+  "readme": "A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from.",
+  "category": "ai-coding",
+  "categories": [
+    "ai-coding"
+  ],
+  "tags": [
+    "javascript"
+  ],
+  "addedAt": "2026-11-11T19:16:33.534Z",
+  "updatedAt": "2026-11-11T19:16:33.534Z"
+}
