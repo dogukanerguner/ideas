@@ -67,7 +67,7 @@ const SYN: Record<string, string[]> = {
   rag: ["retrieval", "vector-db", "embeddings"],
   // English ↔ Turkish (folded), so either language finds repos described in the other
   design: ["tasarim"], tasarim: ["design"], catalog: ["katalog"], katalog: ["catalog"], style: ["stil"], stil: ["style"], styles: ["stil"],
-  music: ["muzik"], muzik: ["music"], game: ["oyun"], oyun: ["game"], sound: ["ses"], ses: ["audio", "voice", "speech"],
+  music: ["muzik"], muzik: ["music"], game: ["oyun"], sound: ["ses"], ses: ["audio", "voice", "speech"],
   seslendirme: ["tts", "text-to-speech", "speech", "voice"], konusma: ["speech", "voice"], klonlama: ["cloning", "clone"], metin: ["text"], transkript: ["transcription", "whisper"], arayuz: ["ui", "interface"],
   giris: ["login", "auth"], odeme: ["payment", "payments"], veritabani: ["database"], yapay: ["ai"], zeka: ["ai"], ajan: ["agent"],
   writing: ["prose", "text", "copy"], prose: ["writing", "text"], text: ["writing", "prose"], copy: ["writing", "copywriting"], yazi: ["writing", "text", "prose"],
@@ -77,7 +77,7 @@ const SYN: Record<string, string[]> = {
   harita: ["map", "maps"], takvim: ["calendar"], randevu: ["booking", "scheduling"], sohbet: ["chat"], veri: ["data"], tablo: ["table"], cizim: ["drawing", "canvas"],
   tuval: ["canvas"], ceviri: ["translation", "i18n"], altyazi: ["subtitles", "captions"], kurgu: ["video", "editing"], bildirim: ["notifications"], eposta: ["email"],
   sunucu: ["server"], komut: ["cli", "command"], belge: ["docs", "document"], dokuman: ["docs", "document"], arama: ["search"],
-  hafiza: ["memory"], tarayici: ["browser"], otomasyon: ["automation", "workflow"], tasarimci: ["design"], sablonlar: ["templates"], ozet: ["summary", "summarize"],
+  hafiza: ["memory"], ekran: ["screen", "display", "desktop"], keskin: ["sharpen", "upscale", "dlss"], keskinlestir: ["sharpen", "upscale", "dlss"], netlestir: ["sharpen", "upscale"], cozunurluk: ["resolution", "upscale"], oyun: ["game", "games"], tarayici: ["browser"], otomasyon: ["automation", "workflow"], tasarimci: ["design"], sablonlar: ["templates"], ozet: ["summary", "summarize"],
   fotograf: ["photo", "image"], foto: ["photo", "image"], resim: ["image"], gorsel: ["image", "visual"], videolar: ["video"],
   kisa: ["short", "shorts"], short: ["shorts", "shortform", "reels"], shorts: ["short", "shortform", "reels"], reels: ["shorts", "reel", "shortform"], reel: ["reels", "shorts"],
   animasyon: ["animation"], sunum: ["slides", "presentation"], slides: ["sunum", "presentation"], diyagram: ["diagram"], kod: ["code"],
