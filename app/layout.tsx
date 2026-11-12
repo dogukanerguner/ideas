@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import { Mark, Wordmark } from "@/components/brand/Logo";
 import GlobalPalette from "@/components/GlobalPalette";
 import { OpenPaletteButton } from "@/components/client";
 import { JsonLd } from "@/components/ui";
@@ -54,7 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <header className="topbar">
           <Link href="/" className="brand" aria-label="ideas home">
-            <span className="brand-mark">i</span> ideas <small>/ repo launcher</small>
+            <Mark size={24} /> <Wordmark height={17} /> <small>/ repo launcher</small>
           </Link>
           <nav className="nav" aria-label="Main">
             <Link href="/c" className="hide-sm">Browse</Link>
@@ -76,6 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="/openapi.json">OpenAPI</a>
             <Link href="/ai">MCP</Link>
             <a href="/sitemap.xml">Sitemap</a>
+            <Link href="/brand">Brand</Link>
             <a href={`https://github.com/${SITE.repo}`}>GitHub</a>
           </nav>
         </footer>

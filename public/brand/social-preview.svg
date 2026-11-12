@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs><radialGradient id="r" cx="0.5" cy="0" r="0.8"><stop offset="0" stop-color="#ff6363" stop-opacity=".22"/><stop offset="1" stop-color="#ff6363" stop-opacity="0"/></radialGradient>
+  <linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1b23"/><stop offset="1" stop-color="#12131a"/></linearGradient></defs>
+  <rect width="1280" height="640" fill="url(#b)"/><rect width="1280" height="640" fill="url(#r)"/>
+  <g transform="translate(250 190)"><svg viewBox="0 0 440 110" width="780" height="195">
+  <g transform="translate(0 5) scale(1.5625)">
+  
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0.7" y2="1"><stop offset="0" stop-color="#ff8a6b"/><stop offset="1" stop-color="#e2444f"/></linearGradient></defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14.5" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="1.5"/><path d="M8 12 Q8 6 14 6 H50" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+  <rect x="25.5" y="30" width="13" height="25" rx="6.5" fill="#1a0b0b"/>
+  <path d="M32 7 C33.47 14.35 35.15 16.03 42.5 17.5 C35.15 18.97 33.47 20.65 32 28 C30.53 20.65 28.85 18.97 21.5 17.5 C28.85 16.03 30.53 14.35 32 7Z" fill="#1a0b0b"/>
+</g>
+  <g transform="translate(128 0)"><svg viewBox="-8 2 300 110" width="300" height="110"><path d="M7 8 C8.68 16.4 10.6 18.32 19 20 C10.6 21.68 8.68 23.6 7 32 C5.32 23.6 3.4000000000000004 21.68 -5 20 C3.4000000000000004 18.32 5.32 16.4 7 8Z" fill="#ff6363"/><line x1="7" y1="47" x2="7" y2="93" fill="none" stroke="#f2f2f5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><circle cx="56" cy="70" r="23" fill="none" stroke="#f2f2f5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><line x1="79" y1="17" x2="79" y2="93" fill="none" stroke="#f2f2f5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><path d="M105 70 H151 A23 23 0 1 0 144.3 86.3" fill="none" stroke="#f2f2f5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><circle cx="200" cy="70" r="23" fill="none" stroke="#f2f2f5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><line x1="223" y1="47" x2="223" y2="93" fill="none" stroke="#f2f2f5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><path d="M283 54 C279 47 270 46 263 46 C253 46 248 52 249 58 C250 66 259 68 267 70 C277 72 285 75 285 83 C285 90 278 94 268 94 C259 94 251 91 247 85" fill="none" stroke="#f2f2f5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></svg></g>
+</svg></g>
+  <text x="640" y="470" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#f2f2f5" fill-opacity=".62">The repo launcher for vibecoders · ideas.asveas.com</text>
+</svg>

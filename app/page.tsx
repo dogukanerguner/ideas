@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Palette from "@/components/Palette";
+import IdiLive from "@/components/brand/IdiLive";
 import RepoRow from "@/components/RepoRow";
 import { CopyButton } from "@/components/client";
 import { CatIcon, JsonLd } from "@/components/ui";
@@ -29,7 +30,8 @@ export default function Home() {
         }}
       />
       <div className="wrap">
-        <section className="hero">
+        <section className="hero" style={{ position: "relative" }}>
+          <div className="hero-idi" aria-hidden><IdiLive pose="wave" size={150} /></div>
           <span className="kicker">
             <span className="dot" /> {repos.length} repos · updated {GENERATED_AT.slice(0, 10)}
           </span>
