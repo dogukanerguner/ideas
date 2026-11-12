@@ -6,8 +6,8 @@
   "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
   "description": "A starter kit for animating hand-painted cartoons with Claude: p5.js + p5.brush, the Clawd character, 31 acted emotions and a guide for the model",
   "homepage": null,
-  "stars": 2888,
-  "forks": 275,
+  "stars": 2908,
+  "forks": 280,
   "openIssues": 8,
   "language": "JavaScript",
   "license": "MIT",
@@ -26,5 +26,5 @@
     "javascript"
   ],
   "addedAt": "2026-11-11T19:10:33.029Z",
-  "updatedAt": "2026-11-11T19:10:33.029Z"
+  "updatedAt": "2026-11-12T09:18:51.255Z"
 }
