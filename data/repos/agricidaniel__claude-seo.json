@@ -1,0 +1,49 @@
+{
+  "id": "agricidaniel/claude-seo",
+  "owner": "AgriciDaniel",
+  "name": "claude-seo",
+  "fullName": "AgriciDaniel/claude-seo",
+  "url": "https://github.com/AgriciDaniel/claude-seo",
+  "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+  "homepage": "skool.com/ai-marketing-hub-pro",
+  "stars": 28349,
+  "forks": 3654,
+  "openIssues": 51,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai",
+    "ai-seo",
+    "claude-code",
+    "claude-code-skill",
+    "marketing-automation",
+    "open-source",
+    "seo"
+  ],
+  "createdAt": "2026-02-07T08:17:38Z",
+  "pushedAt": "2026-11-11T16:25:46Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
+  "readme": "Free, open-source SEO audits inside Claude Code . Rank higher in Google and get cited by AI search. Claude SEO is a free SEO plugin for Claude Code. Give it any website and it runs a full SEO audit in 10 to 15 minutes, then hands you a clear action plan, sorted by what matters most.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "llm",
+    "ai-coding"
+  ],
+  "tags": [
+    "ai",
+    "ai-seo",
+    "claude-code",
+    "claude-code-skill",
+    "marketing-automation",
+    "seo",
+    "claude",
+    "llm",
+    "ai-agents",
+    "pdf",
+    "python"
+  ],
+  "addedAt": "2026-11-12T06:35:20.335Z",
+  "updatedAt": "2026-11-12T06:35:20.335Z"
+}
