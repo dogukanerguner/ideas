@@ -1,0 +1,43 @@
+{
+  "id": "leonxlnx/earshot",
+  "owner": "Leonxlnx",
+  "name": "earshot",
+  "fullName": "Leonxlnx/earshot",
+  "url": "https://github.com/Leonxlnx/earshot",
+  "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+  "homepage": null,
+  "stars": 4536,
+  "forks": 290,
+  "openIssues": 4,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "audio",
+    "claude-code",
+    "mcp",
+    "sound-design"
+  ],
+  "createdAt": "2026-10-15T06:52:46Z",
+  "pushedAt": "2026-11-06T17:24:16Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/219127460?v=4",
+  "readme": "Watch the 0.4 launch film (35 s): its sound effects are takes from the earshot bank placed with the launch kit, plus the one CC0 recording it shows being re-made, over a licensed music track. Play every sound in the bank on the earshot site. AI coding agents can now write the code that renders a film, a product demo or a game. They still cannot hear what they made. They cannot tell a premium key press from a cheap one, notice that a hit lands 80 ms after the cut, or hear that the music swells in the wrong place.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "mcp",
+    "ai-coding"
+  ],
+  "tags": [
+    "ai-agents",
+    "audio",
+    "claude-code",
+    "mcp",
+    "sound-design",
+    "claude",
+    "python"
+  ],
+  "addedAt": "2026-11-12T04:16:47.451Z",
+  "updatedAt": "2026-11-12T04:16:47.451Z"
+}
