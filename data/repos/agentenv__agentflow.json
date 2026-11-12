@@ -1,0 +1,30 @@
+{
+  "id": "agentenv/agentflow",
+  "owner": "agentenv",
+  "name": "agentflow",
+  "fullName": "agentenv/agentflow",
+  "url": "https://github.com/agentenv/agentflow",
+  "description": "Orchestrate thousands of agents and harnesses as a graph programatically",
+  "homepage": null,
+  "stars": 1425,
+  "forks": 291,
+  "openIssues": 19,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-03-08T01:35:11Z",
+  "pushedAt": "2026-11-01T00:20:32Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/193458502?v=4",
+  "readme": "Orchestrate Codex, Claude, Kimi, and Pi agents in dependency graphs with parallel fanout, iterative cycles, and execution on local Docker, SSH, EC2, or ECS targets. Typed actor nodes, explicit agent profiles, credential-safe Docker preparation, and the Harbor Terminus 2 adapter are described in Actors and profiles.",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "ai-coding"
+  ],
+  "tags": [
+    "python"
+  ],
+  "addedAt": "2026-11-12T09:20:34.180Z",
+  "updatedAt": "2026-11-12T09:20:34.180Z"
+}
