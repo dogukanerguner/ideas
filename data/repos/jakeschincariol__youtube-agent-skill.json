@@ -1,0 +1,31 @@
+{
+  "id": "jakeschincariol/youtube-agent-skill",
+  "owner": "Jakeschincariol",
+  "name": "youtube-agent-skill",
+  "fullName": "Jakeschincariol/youtube-agent-skill",
+  "url": "https://github.com/Jakeschincariol/youtube-agent-skill",
+  "description": "Eleven Claude skills that run a YouTube channel: scripts off 21 hook formulas with a scored hook, title and thumbnail linted as one pairing, an edit decision list from your transcript, a retention reader that finds where viewers actually leave, a Shorts cutter, and a virality engine. Free, MIT.",
+  "homepage": null,
+  "stars": 5619,
+  "forks": 1616,
+  "openIssues": 118,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-09-16T13:32:05Z",
+  "pushedAt": "2026-09-16T13:32:08Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
+  "readme": "Eleven Claude skills that run a YouTube channel. Free, MIT, no signup, no API key, nothing to connect. One of them writes your script off 21 hook formulas and scores the hook before you waste a take on it. One lints the title and the thumbnail as a single pairing, because writing them separately is why half of your click surface says the same thing twice. One reads your audience-retention export and tells you the exact second people left and what you were saying when they did. One turns a transcript into an edit decision list. One finds the Shorts already hiding inside a long video. One goes and finds what is working in your niche and ranks it by how far each video beat its own channel, not…",
+  "category": "genmedia",
+  "categories": [
+    "genmedia",
+    "ai-agents"
+  ],
+  "tags": [
+    "claude",
+    "python"
+  ],
+  "addedAt": "2026-11-12T07:52:14.863Z",
+  "updatedAt": "2026-11-12T07:52:14.863Z"
+}
