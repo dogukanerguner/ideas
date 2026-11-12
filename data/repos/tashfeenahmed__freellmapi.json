@@ -1,0 +1,31 @@
+{
+  "id": "tashfeenahmed/freellmapi",
+  "owner": "tashfeenahmed",
+  "name": "freellmapi",
+  "fullName": "tashfeenahmed/freellmapi",
+  "url": "https://github.com/tashfeenahmed/freellmapi",
+  "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+  "homepage": "https://freellmapi.co",
+  "stars": 51026,
+  "forks": 7088,
+  "openIssues": 48,
+  "language": "TypeScript",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-04-21T13:38:59Z",
+  "pushedAt": "2026-11-12T12:47:52Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
+  "readme": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. One OpenAI-compatible endpoint. Aggregate free tiers from dozens of providers, plus custom OpenAI-compatible chat, embedding, image, and audio endpoints, behind a single /v1 API. Keys are stored encrypted. A router picks the best available model for each request, falls over to the next provider when one is rate-limited, and tracks per-key usage so you stay under every free-tier cap.",
+  "category": "llm",
+  "categories": [
+    "llm"
+  ],
+  "tags": [
+    "openai",
+    "llm",
+    "typescript"
+  ],
+  "addedAt": "2026-11-12T13:44:10.925Z",
+  "updatedAt": "2026-11-12T13:44:10.925Z"
+}
