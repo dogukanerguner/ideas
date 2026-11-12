@@ -1,0 +1,42 @@
+{
+  "id": "jakeschincariol/day-trader-skill",
+  "owner": "Jakeschincariol",
+  "name": "day-trader-skill",
+  "fullName": "Jakeschincariol/day-trader-skill",
+  "url": "https://github.com/Jakeschincariol/day-trader-skill",
+  "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+  "homepage": null,
+  "stars": 7139,
+  "forks": 1712,
+  "openIssues": 59,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [
+    "backtesting",
+    "claude",
+    "claude-skills",
+    "day-trading",
+    "stock-market"
+  ],
+  "createdAt": "2026-10-20T14:17:54Z",
+  "pushedAt": "2026-10-20T14:18:00Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/196724947?v=4",
+  "readme": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar. Free, MIT, no signup, no API key. The tools are plain Python that read free public data: Yahoo Finance charts, Nasdaq Trader's symbol lists, SEC EDGAR and the House Clerk.",
+  "category": "llm",
+  "categories": [
+    "llm",
+    "ui"
+  ],
+  "tags": [
+    "backtesting",
+    "claude",
+    "claude-skills",
+    "day-trading",
+    "stock-market",
+    "charts",
+    "python"
+  ],
+  "addedAt": "2026-11-12T04:15:57.162Z",
+  "updatedAt": "2026-11-12T04:15:57.162Z"
+}
