@@ -81,6 +81,8 @@ const SYN: Record<string, string[]> = {
   fotograf: ["photo", "image"], foto: ["photo", "image"], resim: ["image"], gorsel: ["image", "visual"], videolar: ["video"],
   kisa: ["short", "shorts"], short: ["shorts", "shortform", "reels"], shorts: ["short", "shortform", "reels"], reels: ["shorts", "reel", "shortform"], reel: ["reels", "shorts"],
   animasyon: ["animation"], sunum: ["slides", "presentation"], slides: ["sunum", "presentation"], diyagram: ["diagram"], kod: ["code"],
+  egit: ["train", "training"], egitmek: ["train", "training"], egitim: ["training", "train"], egiteyim: ["train", "training"], egitecegim: ["train", "training"], sifirdan: ["scratch", "simplest", "minimal"],
+  chatgpt: ["chat", "llm", "gpt", "chatgpt"], kendi: ["own"], kendim: ["own"], zekam: ["ai"], zekami: ["ai"], modelim: ["model", "llm"], modelimi: ["model", "llm"], dil: ["language", "llm"],
   ornek: ["examples"], examples: ["ornek"], prompt: ["prompts"], sablon: ["template"], template: ["sablon"],
 };
 
