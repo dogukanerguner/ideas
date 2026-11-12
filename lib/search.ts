@@ -228,6 +228,38 @@ export const NEEDS: Need[] = [
   { id: "learning", label: "Learn the stack", category: "learning", re: /\b(learn\w*|tutorials?|courses?|roadmaps?|beginners?|study|interview|prompt engineering)\b/i, terms: "learning guide awesome-list" },
 ];
 
+/** Turkish triggers for the same needs, matched against the folded query (ı→i, ş→s …), so
+    "küçük restoranlar için ödemeli stok takip uygulaması" builds a stack too. Prefix forms catch suffixes. */
+const TR_NEED: Record<string, RegExp> = {
+  starter: /\b(saas|girisim|baslangic sablon\w*|yan proje\w*|sablon\w*)/,
+  frontend: /\b(site\w*|web sitesi|web uygulama\w*|uygulama\w*|arayuz\w*|panel\w*|acilis sayfa\w*)/,
+  ui: /\b(arayuz\w*|tasarim\w*|bilesen\w*|animasyon\w*|grafik\w*|ikon\w*|guzel)/,
+  editor: /\b(beyaz tahta|tuval|diyagram\w*|metin editor\w*|not defter\w*|akis sema\w*)/,
+  backend: /\b(sunucu\w*|arka uc|webhook\w*|zamanlanmis|kuyruk\w*)/,
+  realtime: /\b(gercek zaman\w*|canli|anlik|cok oyunculu|ortak calis\w*)/,
+  database: /\b(veritaban\w*|veri taban\w*|stok\w*|envanter\w*|depo\w*|tablo\w*|kayit\w*)/,
+  auth: /\b(giris\w*|uye\w*|kullanici\w*|hesap\w*|oturum\w*|sifre\w*)/,
+  payments: /\b(odeme\w*|abonelik\w*|fatura\w*|satis\w*|sepet\w*|ucretli|fiyat\w*)/,
+  llm: /\b(yapay zek\w*|sohbet\w*|ozet\w*|metin uret\w*)/,
+  "local-llm": /\b(yerel model\w*|yerel yapay|cevrimdisi|kendi bilgisayar\w*)/,
+  agents: /\b(ajan\w*|asistan\w*|otonom)/,
+  rag: /\b(arama|ara\b|dokuman\w*|belge\w*|bilgi bankas\w*|hafiza\w*|vektor\w*)/,
+  scraping: /\b(veri cek\w*|kazi\w*|tara\w*)/,
+  media: /\b(video\w*|ses\w*|goruntu\w*|gorsel\w*|fotograf\w*|muzik\w*|seslendirme\w*|altyazi\w*)/,
+  mobile: /\b(mobil\w*|telefon uygulama\w*)/,
+  desktop: /\b(masaustu\w*)/,
+  deploy: /\b(yayinla\w*|barindir\w*|canliya)/,
+  analytics: /\b(analitik\w*|istatistik\w*|izleme\w*|hata takib\w*|metrik\w*)/,
+  cms: /\b(blog\w*|icerik\w*|makale\w*|haber\w*)/,
+  email: /\b(e-?posta\w*|bulten\w*|bildirim\w*|mail\w*)/,
+  scheduling: /\b(randevu\w*|rezervasyon\w*|takvim\w*)/,
+  automation: /\b(otomasyon\w*|otomatik\w*|is akis\w*|entegrasyon\w*|kodsuz)/,
+  testing: /\b(test\w*|kalite\w*)/,
+  cli: /\b(terminal\w*|komut satir\w*)/,
+  coding: /\b(kodlama\w*|kod yaz\w*|yazilim gelistir\w*)/,
+  learning: /\b(ogren\w*|egitim\w*|kurs\w*|mulakat\w*|yol harita\w*)/,
+};
+
 export type StackResult = {
   query: string;
   needs: { id: string; label: string; category: string; picks: Doc[] }[];
@@ -236,7 +268,8 @@ export type StackResult = {
 
 export function buildStack(docs: Doc[], query: string, perNeed = 3): StackResult {
   const q = query.trim();
-  const matched = NEEDS.filter((n) => n.re.test(q));
+  const fq = fold(q);
+  const matched = NEEDS.filter((n) => n.re.test(q) || Boolean(TR_NEED[n.id]?.test(fq)));
   // "saas" alone would trigger many needs; collapse duplicates by category+id order
   const used = new Set<string>();
   const needs = matched.map((n) => {
