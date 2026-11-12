@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import AddForm from "@/components/AddForm";
+import MyProposals from "@/components/MyProposals";
 
 export const metadata: Metadata = {
   title: "Add a GitHub repo — auto-categorized in a second",
@@ -17,6 +18,7 @@ export default async function AddPage({ searchParams }: P) {
     <main className="wrap wrap-wide">
       <nav className="crumbs"><Link href="/">ideas</Link> <span>/</span> <span>Add a repo</span></nav>
       <AddForm initialUrl={url} canPublish={canPublish} />
+      <MyProposals />
     </main>
   );
 }

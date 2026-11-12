@@ -8,10 +8,12 @@ permissions:
 concurrency: { group: catalog-write, cancel-in-progress: false }
 jobs:
   add:
-    # Owner/maintainer issues are added immediately; others after a maintainer applies the "approved" label.
+    # Owner/maintainer issues are added immediately (this includes web proposals from ideas.asveas.com/add that met the
+    # quality bar: they are opened by the site's token with label "auto"). Everything else, including web proposals labelled
+    # "pending", waits until a maintainer applies the "approved" label.
     if: >-
       contains(github.event.issue.labels.*.name, 'add-repo') && (
-        (github.event.action == 'opened' && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)) ||
+        (github.event.action == 'opened' && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) && !contains(github.event.issue.labels.*.name, 'pending')) ||
         (github.event.action == 'labeled' && github.event.label.name == 'approved')
       )
     runs-on: ubuntu-latest
@@ -44,7 +46,10 @@ jobs:
           {
             echo "Thanks! Here's what the classifier did:"; echo; echo '```'; echo "${ADDED:-nothing added}"; echo '```'
             if [ -n "$FAILED" ]; then echo; echo "Failed:"; echo '```'; echo "$FAILED"; echo '```'; fi
-            echo; echo "It will be live on https://ideas.asveas.com in about a minute."
+            echo; echo "It will be live on https://ideas.asveas.com in about a minute. Status: https://ideas.asveas.com/add/status/${ISSUE_NUMBER}"
           } > reply.md
           gh issue comment "$ISSUE_NUMBER" --body-file reply.md
-          if [ -n "$ADDED" ]; then gh issue close "$ISSUE_NUMBER"; fi
+          if [ -n "$ADDED" ]; then
+            gh issue edit "$ISSUE_NUMBER" --remove-label pending 2>/dev/null || true
+            gh issue close "$ISSUE_NUMBER"
+          fi

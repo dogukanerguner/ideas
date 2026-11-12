@@ -6,6 +6,7 @@ import { CATEGORIES, getCategory } from "@/lib/taxonomy";
 import { SITE } from "@/lib/site";
 import { Avatar, CatIcon, SearchIcon } from "./ui";
 import { CopyButton, toast } from "./client";
+import { rememberProposal } from "./MyProposals";
 
 type Analysis = { repo: Repo; exists: boolean; scores: Record<string, number> };
 
@@ -19,6 +20,8 @@ export default function AddForm({ initialUrl = "", canPublish }: { initialUrl?: 
   const [token, setToken] = useState("");
   const [published, setPublished] = useState<{ commit?: string; path: string } | null>(null);
   const [countdown, setCountdown] = useState(0);
+  const [proposed, setProposed] = useState<{ state: string; issue?: number; track?: string; page?: string; reasons?: string[]; duplicate?: boolean } | null>(null);
+  const [hp, setHp] = useState(""); // honeypot
   const ran = useRef(false);
 
   useEffect(() => {
@@ -35,7 +38,7 @@ export default function AddForm({ initialUrl = "", canPublish }: { initialUrl?: 
 
   async function analyze(u = url) {
     if (!u.trim()) return;
-    setBusy(true); setErr(""); setA(null); setPublished(null);
+    setBusy(true); setErr(""); setA(null); setPublished(null); setProposed(null);
     try {
       const res = await fetch(`/api/analyze?url=${encodeURIComponent(u.trim())}`);
       const j = await res.json();
@@ -56,6 +59,19 @@ export default function AddForm({ initialUrl = "", canPublish }: { initialUrl?: 
       if (!res.ok) throw new Error(j.error ?? "Publish failed");
       setPublished({ commit: j.commit, path: j.path }); setCountdown(75);
       toast("Committed — Vercel is deploying");
+    } catch (e) { setErr((e as Error).message); } finally { setBusy(false); }
+  }
+
+  async function propose() {
+    if (!a) return;
+    setBusy(true); setErr("");
+    try {
+      const res = await fetch("/api/propose", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ url: a.repo.url, category, note, website: hp }) });
+      const j = await res.json();
+      if (!res.ok) throw new Error(j.error ?? "Could not save your proposal");
+      setProposed(j);
+      if (j.issue) rememberProposal({ n: j.issue, repo: j.repo ?? a.repo.fullName, state: j.state });
+      toast(j.state === "publishing" ? "Saved — adding it now" : j.state === "live" ? "Already on ideas" : "Saved — waiting for review");
     } catch (e) { setErr((e as Error).message); } finally { setBusy(false); }
   }
 
@@ -140,11 +156,28 @@ export default function AddForm({ initialUrl = "", canPublish }: { initialUrl?: 
                     </div>
                   </>
                 )}
-                <p className="muted" style={{ fontSize: 12.5, margin: "12px 0 8px" }}>No key? Propose it — a GitHub Action adds it once approved:</p>
-                <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-                  <a className="btn" href={issueUrl} target="_blank" rel="noopener">Propose via GitHub issue ↗</a>
-                  <CopyButton className="btn" text={cli} label="Copy CLI command" msg="CLI command copied" />
-                </div>
+                {proposed ? (
+                  <div className="note" style={{ marginTop: canPublish ? 14 : 0 }}>
+                    {proposed.state === "live" ? (
+                      <><b>Already on ideas.</b> <a href={proposed.page} style={{ textDecoration: "underline" }}>Open its page</a></>
+                    ) : proposed.state === "publishing" ? (
+                      <><b>{proposed.duplicate ? "Someone already proposed it —" : "Saved."}</b> It meets the quality bar, so it&apos;s being added now (usually live in a couple of minutes). </>
+                    ) : (
+                      <><b>{proposed.duplicate ? "Already in the review queue." : "Saved."}</b> It&apos;s in the review queue{proposed.reasons?.length ? ` (${proposed.reasons.join("; ")})` : ""}. Nothing gets lost: you can follow it any time. </>
+                    )}
+                    {proposed.track && <a href={proposed.track} style={{ textDecoration: "underline" }}>Track proposal #{proposed.issue} →</a>}
+                  </div>
+                ) : (
+                  <>
+                    <p className="muted" style={{ fontSize: 12.5, margin: canPublish ? "14px 0 8px" : "0 0 8px" }}>{a.exists ? "This repo is already listed." : "Add it to ideas — no account needed. Repos with 50+ stars and activity in the last year go live automatically; others are reviewed."}</p>
+                    <input type="text" name="website" value={hp} onChange={(e) => setHp(e.target.value)} tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: -9999, width: 1, height: 1, opacity: 0 }} />
+                    <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                      {!a.exists && <button type="button" className="btn btn-accent" disabled={busy} onClick={propose}>{busy ? "Saving…" : "Add to ideas"}</button>}
+                      <a className="btn" href={issueUrl} target="_blank" rel="noopener">Propose via GitHub issue ↗</a>
+                      <CopyButton className="btn" text={cli} label="Copy CLI command" msg="CLI command copied" />
+                    </div>
+                  </>
+                )}
               </div>
             )}
           </>

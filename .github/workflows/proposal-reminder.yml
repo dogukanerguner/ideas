@@ -1,0 +1,23 @@
+name: Remind about waiting proposals
+# Web proposals that didn't meet the auto-add bar wait for the "approved" label. Nothing is dropped:
+# every week, proposals waiting 7+ days get one reminder comment (the repo owner is notified).
+on:
+  schedule: [{ cron: "0 7 * * 1" }]
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          cutoff=$(date -u -d '7 days ago' +%Y-%m-%dT%H:%M:%SZ)
+          gh issue list -R "$REPO" --state open --label pending --limit 200 --json number,createdAt,labels \
+            --jq ".[] | select(.createdAt < \"$cutoff\") | select([.labels[].name] | index(\"reminded\") | not) | .number" |
+          while read -r n; do
+            gh issue comment "$n" -R "$REPO" --body "⏳ This proposal has been waiting for a week. Add the \`approved\` label to publish it, or close it with the \`rejected\` label and a short reason (the submitter sees the reason on https://ideas.asveas.com/add/status/$n)."
+            gh issue edit "$n" -R "$REPO" --add-label reminded
+          done
