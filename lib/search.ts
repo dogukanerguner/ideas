@@ -72,6 +72,12 @@ const SYN: Record<string, string[]> = {
   giris: ["login", "auth"], odeme: ["payment", "payments"], veritabani: ["database"], yapay: ["ai"], zeka: ["ai"], ajan: ["agent"],
   writing: ["prose", "text", "copy"], prose: ["writing", "text"], text: ["writing", "prose"], copy: ["writing", "copywriting"], yazi: ["writing", "text", "prose"],
   tells: ["slop", "patterns"], slop: ["tells", "patterns"],
+  // common Turkish developer words → the English the catalog is written in
+  uygulama: ["app", "application"], kutuphane: ["library"], eklenti: ["plugin", "extension"], panel: ["dashboard", "admin"], grafik: ["chart", "charts"],
+  harita: ["map", "maps"], takvim: ["calendar"], randevu: ["booking", "scheduling"], sohbet: ["chat"], veri: ["data"], tablo: ["table"], cizim: ["drawing", "canvas"],
+  tuval: ["canvas"], ceviri: ["translation", "i18n"], altyazi: ["subtitles", "captions"], kurgu: ["video", "editing"], bildirim: ["notifications"], eposta: ["email"],
+  sunucu: ["server"], komut: ["cli", "command"], belge: ["docs", "document"], dokuman: ["docs", "document"], arama: ["search"],
+  hafiza: ["memory"], tarayici: ["browser"], otomasyon: ["automation", "workflow"], tasarimci: ["design"], sablonlar: ["templates"], ozet: ["summary", "summarize"],
   fotograf: ["photo", "image"], foto: ["photo", "image"], resim: ["image"], gorsel: ["image", "visual"], videolar: ["video"],
   kisa: ["short", "shorts"], short: ["shorts", "shortform", "reels"], shorts: ["short", "shortform", "reels"], reels: ["shorts", "reel", "shortform"], reel: ["reels", "shorts"],
   animasyon: ["animation"], sunum: ["slides", "presentation"], slides: ["sunum", "presentation"], diyagram: ["diagram"], kod: ["code"],
@@ -80,6 +86,8 @@ const SYN: Record<string, string[]> = {
 
 export function tokenize(q: string): string[] {
   return fold(q)
+    .replace(/\bbeyaz tahta\w*/g, "whiteboard") // one concept
+    .replace(/\bcizim tahta\w*/g, "whiteboard")
     .replace(/next\.js/g, "nextjs")
     .replace(/node\.js/g, "node")
     .split(/[^\p{L}\p{N}+#-]+/u)
