@@ -29,13 +29,13 @@ const hop = (ph: number) => Math.max(0, Math.sin(ph)); // 0..1 arc
 const bounce = (u: number) => Math.abs(Math.sin(u * Math.PI)); // 0..1..0
 
 /* pose → skeleton parameters at time lt */
-type Rig = {
+export type Rig = {
   y: number; lean: number; sq: number; armL: number; armR: number; elbowL: number; elbowR: number; legL: number; legR: number;
   eyes: number; lookX: number; lookY: number; mouth: NonNullable<IdiProps["mouth"]>; spark: NonNullable<IdiProps["spark"]>;
   sparkSpin: number; sparkScale: number; shake: number; sweat: number; spinY: number; extra?: "dots" | "zz" | "hearts" | "bang" | "notes";
 };
 
-function rig(pose: IdiPose, t: number, dir: number): Rig {
+export function rig(pose: IdiPose, t: number, dir: number): Rig {
   const blinkCycle = (t * 0.37 + 0.13) % 1;
   const blink = blinkCycle > 0.965 ? 0.08 : 1;
   const breathe = Math.sin(t * 2.4) * 0.025;

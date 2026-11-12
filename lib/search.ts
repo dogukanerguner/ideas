@@ -67,7 +67,8 @@ const SYN: Record<string, string[]> = {
   rag: ["retrieval", "vector-db", "embeddings"],
   // English ↔ Turkish (folded), so either language finds repos described in the other
   design: ["tasarim"], tasarim: ["design"], catalog: ["katalog"], katalog: ["catalog"], style: ["stil"], stil: ["style"], styles: ["stil"],
-  music: ["muzik"], muzik: ["music"], game: ["oyun"], oyun: ["game"], sound: ["ses"], ses: ["audio", "voice"], arayuz: ["ui", "interface"],
+  music: ["muzik"], muzik: ["music"], game: ["oyun"], oyun: ["game"], sound: ["ses"], ses: ["audio", "voice", "speech"],
+  seslendirme: ["tts", "text-to-speech", "speech", "voice"], konusma: ["speech", "voice"], klonlama: ["cloning", "clone"], metin: ["text"], transkript: ["transcription", "whisper"], arayuz: ["ui", "interface"],
   giris: ["login", "auth"], odeme: ["payment", "payments"], veritabani: ["database"], yapay: ["ai"], zeka: ["ai"], ajan: ["agent"],
   writing: ["prose", "text", "copy"], prose: ["writing", "text"], text: ["writing", "prose"], copy: ["writing", "copywriting"], yazi: ["writing", "text", "prose"],
   tells: ["slop", "patterns"], slop: ["tells", "patterns"],
