@@ -6,8 +6,8 @@
   "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
   "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
   "homepage": "https://skillry.dev/ai-videos/opus-5-5",
-  "stars": 15085,
-  "forks": 1592,
+  "stars": 15113,
+  "forks": 1597,
   "openIssues": 13,
   "language": null,
   "license": "MIT",
@@ -43,5 +43,5 @@
     "prompt-engineering"
   ],
   "addedAt": "2026-11-13T08:37:29.629Z",
-  "updatedAt": "2026-11-13T08:37:29.629Z"
+  "updatedAt": "2026-11-13T14:35:45.407Z"
 }
