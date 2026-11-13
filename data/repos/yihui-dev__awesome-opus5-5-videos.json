@@ -1,0 +1,47 @@
+{
+  "id": "yihui-dev/awesome-opus5-5-videos",
+  "owner": "yihui-dev",
+  "name": "awesome-opus5-5-videos",
+  "fullName": "yihui-dev/awesome-opus5-5-videos",
+  "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+  "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+  "homepage": "https://skillry.dev/ai-videos/opus-5-5",
+  "stars": 15085,
+  "forks": 1592,
+  "openIssues": 13,
+  "language": null,
+  "license": "MIT",
+  "topics": [
+    "ai-video",
+    "awesome",
+    "awesome-list",
+    "claude",
+    "claude-opus",
+    "creative-coding",
+    "motion-graphics",
+    "prompts",
+    "threejs"
+  ],
+  "createdAt": "2026-09-27T06:19:36Z",
+  "pushedAt": "2026-10-13T14:46:44Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/26054274?v=4",
+  "readme": "Viral videos people made with Claude Opus 5.5, each with the prompt the creator shared (or, where no prompt was published, their original post). Every video here was made by asking Claude Opus 5.5 to write the animation as code (HTML, Canvas, SVG, Three.js and friends). Pick one, copy its prompt, and try it with your own agent.",
+  "category": "learning",
+  "categories": [
+    "learning"
+  ],
+  "tags": [
+    "ai-video",
+    "awesome-list",
+    "claude",
+    "claude-opus",
+    "creative-coding",
+    "motion-graphics",
+    "prompts",
+    "threejs",
+    "prompt-engineering"
+  ],
+  "addedAt": "2026-11-13T08:37:29.629Z",
+  "updatedAt": "2026-11-13T08:37:29.629Z"
+}
