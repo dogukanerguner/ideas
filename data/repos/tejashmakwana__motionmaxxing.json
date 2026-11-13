@@ -6,7 +6,7 @@
   "url": "https://github.com/Tejashmakwana/motionmaxxing",
   "description": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
   "homepage": null,
-  "stars": 1574,
+  "stars": 1579,
   "forks": 159,
   "openIssues": 1,
   "language": "JavaScript",
@@ -44,5 +44,5 @@
     "javascript"
   ],
   "addedAt": "2026-11-13T08:43:09.237Z",
-  "updatedAt": "2026-11-13T08:43:09.237Z"
+  "updatedAt": "2026-11-13T14:36:12.901Z"
 }
