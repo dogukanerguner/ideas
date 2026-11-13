@@ -1,0 +1,29 @@
+{
+  "id": "jamesondh/chimera-vocal-synth",
+  "owner": "jamesondh",
+  "name": "chimera-vocal-synth",
+  "fullName": "jamesondh/chimera-vocal-synth",
+  "url": "https://github.com/jamesondh/chimera-vocal-synth",
+  "description": "the ultimate vocal synthesizer - sing, speak, beatbox, and more",
+  "homepage": "https://chimera-vocal-synth.vercel.app",
+  "stars": 2181,
+  "forks": 260,
+  "openIssues": 33,
+  "language": "Rust",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-11-05T19:10:42Z",
+  "pushedAt": "2026-11-12T17:55:53Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/4026659?v=4",
+  "readme": "A physical-modeling voice synthesizer in the browser. Every sound comes from a simulated airway (lungs, vocal folds or syrinx, a branched vocal tract, lips, nose), not from samples. The engine is Rust, compiled to WebAssembly for an AudioWorklet; the same code runs natively for tests and the chimera CLI.",
+  "category": "devtools",
+  "categories": [
+    "devtools"
+  ],
+  "tags": [
+    "rust"
+  ],
+  "addedAt": "2026-11-13T08:31:35.756Z",
+  "updatedAt": "2026-11-13T08:31:35.756Z"
+}
