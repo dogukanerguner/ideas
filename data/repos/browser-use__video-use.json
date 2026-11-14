@@ -1,0 +1,30 @@
+{
+  "id": "browser-use/video-use",
+  "owner": "browser-use",
+  "name": "video-use",
+  "fullName": "browser-use/video-use",
+  "url": "https://github.com/browser-use/video-use",
+  "description": "Edit videos with coding agents",
+  "homepage": "https://video-use.com",
+  "stars": 31051,
+  "forks": 3597,
+  "openIssues": 165,
+  "language": "Python",
+  "license": "MIT",
+  "topics": [],
+  "createdAt": "2026-04-12T01:34:42Z",
+  "pushedAt": "2026-10-08T22:17:01Z",
+  "archived": false,
+  "avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+  "readme": "Introducing video-use — edit videos with Claude Code. 100% open source. Drop raw footage in a folder, chat with Claude Code, get final.mp4 back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus. Cuts out filler words (umm, uh, false starts) and dead space between takes Auto color grades every segment (warm cinematic, neutral punch, or any custom ffmpeg chain) 30ms audio fades at every cut so you never hear a pop Burns subtitles in your style — 2-word UPPERCASE chunks by default, fully customizable Generates animation overlays via HyperFrames, Remotion, Manim, or PIL — spawned in parallel sub-agents, one per animation Self-evaluates…",
+  "category": "ai-agents",
+  "categories": [
+    "ai-agents",
+    "genmedia"
+  ],
+  "tags": [
+    "python"
+  ],
+  "addedAt": "2026-11-14T18:49:42.088Z",
+  "updatedAt": "2026-11-14T18:49:42.088Z"
+}
