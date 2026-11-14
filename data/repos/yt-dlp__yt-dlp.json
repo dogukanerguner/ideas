@@ -6,9 +6,9 @@
   "url": "https://github.com/yt-dlp/yt-dlp",
   "description": "A feature-rich command-line audio/video downloader",
   "homepage": "https://discord.gg/H5MNcFW63r",
-  "stars": 206916,
-  "forks": 18216,
-  "openIssues": 2780,
+  "stars": 207791,
+  "forks": 18317,
+  "openIssues": 2789,
   "language": "Python",
   "license": "Unlicense",
   "topics": [
@@ -40,6 +40,6 @@
     "yt-dlp"
   ],
   "addedAt": "2026-11-11T17:41:58.867Z",
-  "updatedAt": "2026-11-11T17:41:58.867Z",
+  "updatedAt": "2026-11-14T18:50:03.969Z",
   "manualCategory": true
 }
